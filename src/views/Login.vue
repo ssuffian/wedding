@@ -18,19 +18,17 @@
                           body-classes="px-lg-5 py-lg-5"
                           class="border-0">
                         <template>
-                            <form role="form">
-                                <base-input 
-                                            type="password"
-                                            v-model="password"
-                                            placeholder="Password"
-                                            @keyup.enter = "passwordCheck" 
-                                            addon-left-icon="ni ni-lock-circle-open">
-                                </base-input>
-                                <div>{{ passwordValidationString }}</div>
-                                <div class="text-center">
-                                    <base-button @click="passwordCheck" type="primary" class="my-4">Sign In</base-button>
-                                </div>
-                            </form>
+                              <base-input 
+                                          type="password"
+                                          v-model="password"
+                                          placeholder="Password"
+                                          @keyup.enter = "passwordCheck" 
+                                          addon-left-icon="ni ni-lock-circle-open">
+                              </base-input>
+                              <div>{{ passwordValidationString }}</div>
+                              <div class="text-center">
+                                  <base-button @click="passwordCheck" type="primary" class="my-4">Sign In</base-button>
+                              </div>
                         </template>
                     </card>
                 </div>

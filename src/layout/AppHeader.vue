@@ -3,12 +3,7 @@
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
-                <div class="col-6 collapse-brand">
-                    <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/">
-                        <img src="img/brand/blue.png">
-                    </a>
-                </div>
-                <div class="col-6 collapse-close">
+                <div class="col-12 collapse-close">
                     <close-button @click="closeMenu"></close-button>
                 </div>
             </div>
