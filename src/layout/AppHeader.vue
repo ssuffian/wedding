@@ -43,7 +43,7 @@
                     <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
-                  <i class="fa fa-cloud-download mr-2"></i>
+                  <i class="ni ni-send mr-2"></i>
                 </span>
                         <span class="nav-link-inner--text">RSVP</span>
                     </a>
