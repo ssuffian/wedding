@@ -128,7 +128,8 @@ $shape-colors: map-merge((
 
 $shapes-primary-colors: () !default;
 $shapes-primary-colors: map-merge((
-  "step-1-gradient-bg":         #281483,
+  "bg-color":                   #1daa57,//#53d391,
+  "step-1-gradient-bg":         #1daa57,//#281483,
   "step-2-gradient-bg":         #8f6ed5,
   "step-3-gradient-bg":         #d782d9,
   "span-1-bg":                  #53f,
@@ -140,8 +141,9 @@ $shapes-primary-colors: map-merge((
 
 $shapes-default-colors: () !default;
 $shapes-default-colors: map-merge((
-  "step-1-gradient-bg":         #7795f8,
-  "step-2-gradient-bg":         #6772e5,
+  "bg-color":                   #ffffff,//#1daa57,//#53d391,
+  "step-1-gradient-bg":         #ffffff,//#7795f8,
+  "step-2-gradient-bg":         #1daa57,//#53d391,
   "step-3-gradient-bg":         #555abf,
   "span-1-bg":                  #7795f8,
   "span-2-bg":                  #7b9aff,
@@ -674,7 +676,7 @@ $navbar-light-color:                rgba($black, .5);
 $navbar-light-hover-color:          rgba($black, .7);
 $navbar-light-active-color:         rgba($black, .9);
 $navbar-light-disabled-color:       rgba($black, .3);
-$navbar-light-toggler-icon-bg:      str-replace(url("data:image/svg+xml !default;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-light-toggler-icon-bg:      str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
 $navbar-light-toggler-border-color: transparent !default;
 
 

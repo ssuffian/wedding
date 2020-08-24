@@ -65,24 +65,23 @@
             }
 
             + .shape-container {
-                padding-top: 18rem;
-                padding-bottom: 19rem;
+                padding-top: 13rem;
             }
         }
     }
 
     .shape-skew {
-        transform: skewY(-8deg);
+        // transform: skewY(-8deg);
         transform-origin: 0;
 
         span {
-            transform: skew(8deg);
+            // transform: skew(8deg);
         }
     }
 
     // Color variations
     .shape-primary {
-        background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
+        background: linear-gradient(0deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
 
         :nth-child(1) {
             background: shapes-primary-color("span-1-bg");
@@ -106,7 +105,7 @@
     }
 
     .shape-default {
-        background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
+        background: linear-gradient(0deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
 
          :nth-child(1) {
             background: shapes-default-color("span-1-bg");
@@ -130,7 +129,7 @@
     }
 
     .shape-light {
-        background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);
+        background: linear-gradient(0deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);
 
          :nth-child(1) {
             background: shapes-light-color("span-1-bg");
@@ -154,7 +153,7 @@
     }
 
     .shape-dark {
-        background: linear-gradient(150deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
+        background: linear-gradient(0deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
 
          :nth-child(1) {
             background: shapes-dark-color("span-1-bg");
@@ -288,20 +287,21 @@
 
         // shape color variations
         &.shape-primary {
-            background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
+            background: shapes-primary-color("bg-color")
         }
 
         &.shape-default {
-            background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
+            background: shapes-default-color("bg-color")
+            // background: linear-gradient(0deg, shapes-default-color("step-1-gradient-bg") 35%, shapes-default-color("step-2-gradient-bg") 100%);
         }
 
         &.shape-light {
-            background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);
+            background: linear-gradient(0deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);
 
         }
 
         &.shape-dark {
-            background: linear-gradient(150deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
+            background: linear-gradient(0deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
         }
     }
 
