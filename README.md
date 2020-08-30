@@ -5,4 +5,4 @@
 heroku apps:create celebrateourweddingwithus
 heroku buildpacks:add heroku/nodejs -a celebrateourweddingwithus
 heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static -a celebrateourweddingwithus
-
+heroku config:set NODE_ENV=production -a celebrateourweddingwithus
