@@ -5,3 +5,6 @@
 
 # heroku deploy
 heroku apps:create laurelwoodwedding
+heroku buildpacks:add heroku/nodejs
+heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
+
