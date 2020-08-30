@@ -4,9 +4,10 @@
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build   --no-unsafe-inline",
     "lint": "vue-cli-service lint",
-    "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js",
+    "start": "vue-cli-service serve"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.4",
