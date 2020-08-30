@@ -1,6 +1,6 @@
 <template>
     <header class="header-global">
-        <base-nav class="navbar-main" transparent type="" effect="light" expand>
+        <base-nav class="navbar-main" type="" effect="default" transparent expand>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-12 collapse-close">
@@ -39,14 +39,13 @@
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-                <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener"
-                       class="btn btn-neutral btn-icon">
+                <li class="nav-item d-lg-block ml-lg-4">
+                    <router-link to="/rsvp" class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
                   <i class="ni ni-send mr-2"></i>
                 </span>
                         <span class="nav-link-inner--text">RSVP</span>
-                    </a>
+                    </router-link>
                 </li>
             </ul>
         </base-nav>

@@ -1,6 +1,6 @@
 .footer {
     background: $footer-bg;
-    padding: 3rem 0;
+    padding: 1rem 0;
     //color: $footer-color;
 
     .col-footer {
@@ -48,7 +48,7 @@
 .footer.has-cards {
     overflow: hidden;
     padding-top: 500px;
-    margin-top: -420px;
+    margin-top: -300px;
     position: relative;
     background: transparent;
     pointer-events: none;
@@ -58,10 +58,10 @@
         position: absolute;
         left: 0;
         right: 0;
-        top: 600px;
+        top: 470px;
         height: 2000px;
         background: theme-color("secondary");
-        transform: skew(0,-8deg);
+        transform: skew(0,-4deg);
     }
 
     .container {

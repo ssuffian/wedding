@@ -45,7 +45,6 @@ export default {
       passwordValidationString: ''
     }
   },
-  mounted() {console.log(localStorage.password)},
   methods: {
     passwordCheck() {
       if(this.password == "wedding") {
