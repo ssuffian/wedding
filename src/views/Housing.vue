@@ -16,10 +16,11 @@
                       <h2>Camp Laurelwood</h2>
                       <p>There are three options for staying at the camp.</p>
 
-                      <p><b>Bunkhouse:</b>Each bunkhouse can accommodate up to 7 people. While each bunkhouse has about a dozen bunk beds, all guests will have their own bottom bunk and are welcome to use their top bunk as a storage area. This means bunkhouses will only be at half capacity, or less, to give everyone as much space as possible. Each bunkhouse has electricity, cubby storage, closets to hang clothes, indoor bathroom stalls, and sinks, but not showers. Showers are located in a separate shower building, a short walk from each bunkhouse. To stay in a bunkhouse, the cost is $45 per person per night. Kids are free!
-                      This is the same cost if you prefer to bring your own tent and camp: $45 per person person night. You will be able to use the showers!</p>
+                      <p><b>Bunkhouse ($45pp/night):</b> Each bunkhouse can accommodate up to 6 people (COVID-considering...) and has about a dozen bunk beds. All guests will have their own bottom bunk and are welcome to use their top bunk as a storage area. This means bunkhouses will only be at half capacity, or less, to give everyone as much space as possible. Each bunkhouse has electricity, cubby storage, closets to hang clothes, indoor bathroom stalls, and sinks, but not showers. Showers are located in a separate shower building, a short walk from each bunkhouse. <b>Kids are free!</b></p>
+                      <p class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/neSfhTbFuGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                      <p>This is the same cost if you prefer to bring your own tent and camp: $45 per person per night. You will be able to use the showers!</p>
 
-                      <p><b>Private Cabins:</b> There are a limited number of private cabins, which have a few rooms, different-sized beds, and full bathrooms with showers. These are rustic, but not as rustic as bunkhouses. Becky and Steve will be staying in one of these. To stay in a private cabin, the cost is $60 per person per night. Kids are free!</p>
+                      <p><b>Private Cabins ($60pp/night):</b> There are a <i>very</i> limited number of private cabins, which have a few rooms, different-sized beds, and full bathrooms with showers. These are rustic, but not as rustic as bunkhouses. Becky and Steve will be staying in one of these. <b>Kids are free!</b></p>
 
                       <h2>Hotels Within 15 Minute Drive from Camp</h2>
 
