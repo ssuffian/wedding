@@ -171,7 +171,7 @@ const router = new Router({
 router.beforeEach((to, from, next) => {
   // if (to.meta.requiresAuth) {
   if (to.name !== 'login') {
-    if (localStorage.loggedIn === false) next('/login')
+    if (localStorage.loggedIn === false || to.name === null) next('/login')
     else next()
   } else next()
 })
