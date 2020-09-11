@@ -40,7 +40,7 @@
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item d-lg-block ml-lg-4">
-                    <router-link to="/rsvp" class="btn btn-neutral btn-icon">
+                    <router-link to="/rsvp-w" class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
                   <i class="ni ni-send mr-2"></i>
                 </span>

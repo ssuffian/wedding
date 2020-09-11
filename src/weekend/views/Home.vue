@@ -14,7 +14,7 @@
                                 </h1>
                         </div>
                         <div class="row justify-content-center">
-                                <p class="lead text">Becky Mer and Stephen Suffian</p>
+                                <p class="text">Becky Mer and Stephen Suffian</p>
                         </div>
                         <div class="row justify-content-center">
                                 <p class="text">Memorial Day Weekend 2021 (Saturday May 29 - Monday May 31, 2021)</p>

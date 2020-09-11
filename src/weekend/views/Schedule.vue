@@ -9,10 +9,6 @@
                     <div class="col px-0">
                       <p>Our wedding will be held on Sunday, May 30, 2021. Before and after the wedding, we invite you to celebrate with us for the entire weekend at Camp Laurelwood!</p>
 
-                      <h2>Friday May 28, 2021</h2>
-
-                      <p>Becky and Steve will be arriving at Camp Laurelwood on Friday. Although the festivities don’t officially start until Saturday, we understand that some guests may need to arrive on Friday for religious reasons or because of long-distance travel. If you observe Shabbat and need to arrive before sundown on Friday, or if you have a long journey from the west coast or abroad, you are welcome to arrive on Friday. We will host a casual Shabbat dinner for those staying overnight at the camp on Friday. (Fun fact: Friday is also the day after Becky’s graduation from grad school!)</p>
-
                       <h2>Saturday May 29, 2021</h2>
 
                       <p>Founded in 1937 on 140 magnificent wooded acres, Camp Laurelwood offers a ton of fun activities for us, rain or shine. We are still dreaming up the full schedule for Saturday, but it will look something like this:</p>
@@ -46,12 +42,6 @@
                       <h2>Monday May 31, 2021</h2>
 
                       <p>On the morning of Memorial Day, we will host a brunch at the camp. We are figuring out the exact timing and will update this page, but the timing will neither be very early nor very late.</p>
-                      <p>Camp Laurelwood has about 17 luxury mansions that can accomodate 200 families and their butlers...just kidding! There are actually 18 mansions.</p>
-
-                      <p>Let’s try that again: Camp Laurelwood is beautiful yet rustic, and staying overnight at camp may or may not be your cup of tea. Becky and Steve will happily be staying at camp, and you’re very invited to join, but the choice is yours where you want to stay.</p>
-
-                      <p>Here is more information about housing options at the camp, plus information on local hotels and B&Bs.</p>
-
                     </div>
                 </div>
             </section>

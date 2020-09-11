@@ -9,7 +9,7 @@
                     <div class="col px-0">
                       <p>Camp Laurelwood has about 17 luxury mansions that can accomodate 200 families and their butlers...just kidding! There are actually 18 mansions.</p>
 
-                      <p>Let’s try that again: Camp Laurelwood is beautiful yet rustic, and staying overnight at camp may or may not be your cup of tea. Becky and Steve will happily be staying at camp, and you’re very invited to join, but the choice is yours where you want to stay.</p>
+                      <p>Let’s try that again: Camp Laurelwood is beautiful yet rustic, and staying overnight at camp may or may not be your cup of tea. Becky and Steve will be staying at camp, and you’re very invited to join, but the choice is yours where you want to stay.</p>
 
                       <p>Here is more information about housing options at the camp, plus information on local hotels and B&Bs.</p>
 

@@ -7,21 +7,6 @@
                 </div>
                 <div class="container shape-container d-flex">
                     <div class="col px-0">
-                      <p>Camp Laurelwood has about 17 luxury mansions that can accomodate 200 families and their butlers...just kidding! There are actually 18 mansions.</p>
-
-                      <p>Let’s try that again: Camp Laurelwood is beautiful yet rustic, and staying overnight at camp may or may not be your cup of tea. Becky and Steve will happily be staying at camp, and you’re very invited to join, but the choice is yours where you want to stay.</p>
-
-                      <p>Here is more information about housing options at the camp, plus information on local hotels and B&Bs.</p>
-
-                      <h2>Camp Laurelwood</h2>
-                      <p>There are three options for staying at the camp.</p>
-
-                      <p><b>Bunkhouse ($45pp/night):</b> Each bunkhouse can accommodate up to 6 people (COVID-considering...) and has about a dozen bunk beds. All guests will have their own bottom bunk and are welcome to use their top bunk as a storage area. This means bunkhouses will only be at half capacity, or less, to give everyone as much space as possible. Each bunkhouse has electricity, cubby storage, closets to hang clothes, indoor bathroom stalls, and sinks, but not showers. Showers are located in a separate shower building, a short walk from each bunkhouse. <b>Kids are free!</b></p>
-                      <p class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/neSfhTbFuGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-                      <p>This is the same cost if you prefer to bring your own tent and camp: $45 per person per night. You will be able to use the showers!</p>
-
-                      <p><b>Private Cabins ($60pp/night):</b> There are a <i>very</i> limited number of private cabins, which have a few rooms, different-sized beds, and full bathrooms with showers. These are rustic, but not as rustic as bunkhouses. Becky and Steve will be staying in one of these. <b>Kids are free!</b></p>
-
                       <h2>Hotels Within 15 Minute Drive from Camp</h2>
 
                       <p>In addition to the closest hotels below, there are a number of hotels a bit further in nearby towns of Branford, Westbrook, and Old Saybrook. </p>

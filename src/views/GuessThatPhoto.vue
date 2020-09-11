@@ -7,15 +7,27 @@
                 </div>
                 <div class="container shape-container d-flex">
                   <flashcard
-                    front="Gardens"
+                    front="Where?"
                     imgFront="img/guess/warringtongardens.jpg"
-                    back="Warrington gardens!"
+                    back="West Philly - Warrington gardens!"
                     imgBack="img/guess/warringtongardens.jpg"
                     imgBackWidth="350"
                     imgFrontWidth="350"
                     headerFront="Guess that photo"
                     footerFront="Click to show answer"
-                    footerBack="Click to hide answer"
+                    footerBack="Becky and Steve spent a month this summer at an AirBnB in West Philly and helped water plants here."
+                    colorTextBack="black"
+                    ></flashcard>
+                  <flashcard
+                    front="Who?"
+                    imgFront="img/guess/beckyparents.jpg"
+                    back="Barbara and Benny Mer!"
+                    imgBack="img/guess/beckyparents.jpg"
+                    imgBackWidth="350"
+                    imgFrontWidth="350"
+                    headerFront="Guess that photo"
+                    footerFront="Click to show answer"
+                    footerBack="These are Becky's parents. They live in Rhode Island!"
                     colorTextBack="black"
                     ></flashcard>
                     <flashcard
