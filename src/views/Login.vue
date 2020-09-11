@@ -49,7 +49,14 @@ export default {
     passwordCheck() {
       if(this.password == "wedding") {
         localStorage.password = this.password;
-        this.$router.push('/')
+        localStorage.wholeWeekend = true
+        localStorage.loggedIn = true
+        this.$router.push('/home-w')
+      } else if(this.password === "ceremony") {
+        localStorage.password = this.password;
+        localStorage.wholeWeekend = false
+        localStorage.loggedIn = true
+        this.$router.push('/home-c')
       } else {
         this.passwordValidationString = "Incorrect Password."
       }

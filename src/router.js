@@ -2,16 +2,25 @@ import Vue from "vue";
 import App from './App.vue'
 import Router from "vue-router";
 
-import AppHeader from "./layout/AppHeader";
-import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
-
-import Home from "./views/Home.vue";
-import Schedule from "./views/Schedule.vue";
 import Travel from "./views/Travel.vue";
-import Housing from "./views/Housing.vue";
 import GuessThatPhoto from "./views/GuessThatPhoto.vue";
-import RSVP from "./views/RSVP.vue";
+
+// Weekend
+import AppHeader_W from "./weekend/layout/AppHeader";
+import AppFooter_W from "./weekend/layout/AppFooter";
+import Home_W from "./weekend/views/Home.vue";
+import Schedule_W from "./weekend/views/Schedule.vue";
+import Housing_W from "./weekend/views/Housing.vue";
+import RSVP_W from "./weekend/views/RSVP.vue";
+
+// Day-Of
+import AppHeader_C from "./dayof/layout/AppHeader";
+import AppFooter_C from "./dayof/layout/AppFooter";
+import Home_C from "./dayof/views/Home.vue";
+import Schedule_C from "./dayof/views/Schedule.vue";
+import Housing_C from "./dayof/views/Housing.vue";
+import RSVP_C from "./dayof/views/RSVP.vue";
 
 import Login from "./views/Login.vue";
 import Logout from "./views/Logout.vue";
@@ -22,60 +31,117 @@ const router = new Router({
   linkExactActiveClass: "active",
   routes: [
     {
-      path: "/",
+      path: "/home-w",
       name: "home",
       components: {
-        header: AppHeader,
-        default: Home,
-        footer: AppFooter
+        header: AppHeader_W,
+        default: Home_W,
+        footer: AppFooter_W
       },
       meta: {
         requiresFullAuth: true
       }
     },
     {
-      path: "/schedule",
+      path: "/schedule-w",
       name: "schedule",
       components: {
-        header: AppHeader,
-        default: Schedule,
-        footer: AppFooter
+        header: AppHeader_W,
+        default: Schedule_W,
+        footer: AppFooter_W
       }
     },
     {
-      path: "/travel",
+      path: "/travel-w",
       name: "travel",
       components: {
-        header: AppHeader,
+        header: AppHeader_W,
         default: Travel,
-        footer: AppFooter
+        footer: AppFooter_W
       }
     },
     {
-      path: "/housing",
+      path: "/housing-w",
       name: "housing",
       components: {
-        header: AppHeader,
-        default: Housing,
-        footer: AppFooter
+        header: AppHeader_W,
+        default: Housing_W,
+        footer: AppFooter_W
       }
     },
     {
-      path: "/guess-that-photo",
-      name: "guess-that-photo",
-      components: {
-        header: AppHeader,
-        default: GuessThatPhoto,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/rsvp",
+      path: "/rsvp-w",
       name: "rsvp",
       components: {
-        header: AppHeader,
-        default: RSVP,
-        footer: AppFooter
+        header: AppHeader_W,
+        default: RSVP_W,
+        footer: AppFooter_W
+      }
+    },
+    {
+      path: "/guess-that-photo-w",
+      name: "guess-that-photo",
+      components: {
+        header: AppHeader_W,
+        default: GuessThatPhoto,
+        footer: AppFooter_W
+      }
+    },
+    {
+      path: "/home-c",
+      name: "home",
+      components: {
+        header: AppHeader_C,
+        default: Home_C,
+        footer: AppFooter_C
+      },
+      meta: {
+        requiresFullAuth: true
+      }
+    },
+    {
+      path: "/schedule-c",
+      name: "schedule",
+      components: {
+        header: AppHeader_C,
+        default: Schedule_C,
+        footer: AppFooter_C
+      }
+    },
+    {
+      path: "/travel-c",
+      name: "travel",
+      components: {
+        header: AppHeader_C,
+        default: Travel,
+        footer: AppFooter_C
+      }
+    },
+    {
+      path: "/housing-c",
+      name: "housing",
+      components: {
+        header: AppHeader_C,
+        default: Housing_C,
+        footer: AppFooter_C
+      }
+    },
+    {
+      path: "/rsvp-c",
+      name: "rsvp",
+      components: {
+        header: AppHeader_C,
+        default: RSVP_C,
+        footer: AppFooter_C
+      }
+    },
+    {
+      path: "/guess-that-photo-c",
+      name: "guess-that-photo",
+      components: {
+        header: AppHeader_C,
+        default: GuessThatPhoto,
+        footer: AppFooter_C
       }
     },
     {
@@ -89,9 +155,7 @@ const router = new Router({
       path: "/logout",
       name: "logout",
       components: {
-        header: AppHeader,
         default: Logout,
-        footer: AppFooter
       }
     },
   ],
@@ -107,7 +171,7 @@ const router = new Router({
 router.beforeEach((to, from, next) => {
   // if (to.meta.requiresAuth) {
   if (to.name !== 'login') {
-    if (localStorage.password !== 'wedding') next('/login')
+    if (localStorage.loggedIn === false) next('/login')
     else next()
   } else next()
 })

@@ -10,22 +10,22 @@
 
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                 <li class="nav-item">
-                    <router-link to="/" class="nav-link">Home</router-link>
+                    <router-link to="/home-w" class="nav-link">Home</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/schedule" class="nav-link">Schedule</router-link>
+                    <router-link to="/schedule-w" class="nav-link">Schedule</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/travel" class="nav-link">Travel</router-link>
+                    <router-link to="/travel-w" class="nav-link">Travel</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/housing" class="nav-link">Housing</router-link>
+                    <router-link to="/housing-w" class="nav-link">Housing</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/guess-that-photo" class="nav-link">Guess That Photo</router-link>
+                    <router-link to="/guess-that-photo-w" class="nav-link">Guess That Photo</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/gifts-donations" class="nav-link">Gifts/Donations</router-link>
+                    <router-link to="/gifts-donations-w" class="nav-link">Gifts/Donations</router-link>
                 </li>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
