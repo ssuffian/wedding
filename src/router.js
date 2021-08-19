@@ -39,7 +39,7 @@ const router = new Router({
         footer: AppFooter_W
       },
       meta: {
-        requiresFullAuth: true
+        wholeWeekend: true
       }
     },
     {
@@ -49,7 +49,11 @@ const router = new Router({
         header: AppHeader_W,
         default: Schedule_W,
         footer: AppFooter_W
+      },
+      meta: {
+        wholeWeekend: true
       }
+
     },
     {
       path: "/travel-w",
@@ -58,7 +62,11 @@ const router = new Router({
         header: AppHeader_W,
         default: Travel,
         footer: AppFooter_W
+      },
+      meta: {
+        wholeWeekend: true
       }
+
     },
     {
       path: "/housing-w",
@@ -67,7 +75,11 @@ const router = new Router({
         header: AppHeader_W,
         default: Housing_W,
         footer: AppFooter_W
+      },
+      meta: {
+        wholeWeekend: true
       }
+
     },
     {
       path: "/rsvp-w",
@@ -76,7 +88,11 @@ const router = new Router({
         header: AppHeader_W,
         default: RSVP_W,
         footer: AppFooter_W
+      },
+      meta: {
+        wholeWeekend: true
       }
+
     },
     {
       path: "/guess-that-photo-w",
@@ -85,6 +101,9 @@ const router = new Router({
         header: AppHeader_W,
         default: GuessThatPhoto,
         footer: AppFooter_W
+      },
+      meta: {
+        wholeWeekend: true
       }
     },
     {
@@ -96,7 +115,7 @@ const router = new Router({
         footer: AppFooter_C
       },
       meta: {
-        requiresFullAuth: true
+        wholeWeekend: false
       }
     },
     {
@@ -106,7 +125,11 @@ const router = new Router({
         header: AppHeader_C,
         default: Schedule_C,
         footer: AppFooter_C
+      },
+      meta: {
+        wholeWeekend: false
       }
+
     },
     {
       path: "/travel-c",
@@ -115,7 +138,11 @@ const router = new Router({
         header: AppHeader_C,
         default: Travel,
         footer: AppFooter_C
+      },
+      meta: {
+        wholeWeekend: false
       }
+
     },
     {
       path: "/housing-c",
@@ -124,7 +151,11 @@ const router = new Router({
         header: AppHeader_C,
         default: Housing_C,
         footer: AppFooter_C
+      },
+      meta: {
+        wholeWeekend: false
       }
+
     },
     {
       path: "/rsvp-c",
@@ -133,7 +164,11 @@ const router = new Router({
         header: AppHeader_C,
         default: RSVP_C,
         footer: AppFooter_C
+      },
+      meta: {
+        wholeWeekend: false
       }
+
     },
     {
       path: "/guess-that-photo-c",
@@ -142,7 +177,11 @@ const router = new Router({
         header: AppHeader_C,
         default: GuessThatPhoto,
         footer: AppFooter_C
+      },
+      meta: {
+        wholeWeekend: false
       }
+
     },
     {
       path: "/login",
@@ -169,9 +208,10 @@ const router = new Router({
 });
 
 router.beforeEach((to, from, next) => {
-  // if (to.meta.requiresAuth) {
   if (to.name !== 'login') {
-    if (localStorage.loggedIn === false || to.name === null) next('/login')
+    if (localStorage.loggedIn !== "true" || to.name === null||(to.meta.wholeWeekend === true && localStorage.wholeWeekend === "false")) {
+        next('/login')
+    }
     else next()
   } else next()
 })
