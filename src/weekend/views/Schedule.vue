@@ -7,11 +7,11 @@
                 </div>
                 <div class="container shape-container d-flex">
                     <div class="col px-0">
-                      <p>Our wedding will be held on Sunday, May 30, 2021. Before and after the wedding, we invite you to celebrate with us for the entire weekend at Camp Laurelwood!</p>
+                      <p>Our wedding ceremony will be on <b>Sunday, May 29, 2022<b>. Before and after the wedding, we invite you to celebrate with us for the entire weekend at Camp Laurelwood!</p>
 
-                      <h2>Saturday May 29, 2021</h2>
+                      <h2>Saturday May 28, 2022</h2>
 
-                      <p>Founded in 1937 on 140 magnificent wooded acres, Camp Laurelwood offers a ton of fun activities for us, rain or shine. We are still dreaming up the full schedule for Saturday, but it will look something like this:</p>
+                      <p>Camp Laurelwood offers lots of fun activities, rain or shine. We are still dreaming up the full schedule for Saturday, but it will look something like this:</p>
                       <ul>
                         <li>Meals and snacks provided all day</li>
                         <li>Lake activities, like canoeing, kayaking, row boats, and swimming</li>
