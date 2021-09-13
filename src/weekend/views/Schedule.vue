@@ -7,7 +7,7 @@
                 </div>
                 <div class="container shape-container d-flex">
                     <div class="col px-0">
-                      <p>Our wedding ceremony will be on <b>Sunday, May 29, 2022<b>. Before and after the wedding, we invite you to celebrate with us for the entire weekend at Camp Laurelwood!</p>
+                      <p>Our wedding ceremony will be on <b>Sunday, May 29, 2022</b>. Before and after the wedding, we invite you to celebrate with us for the entire weekend at Camp Laurelwood!</p>
 
                       <h2>Saturday May 28, 2022</h2>
 

@@ -6,7 +6,7 @@ module.exports = {
     plugins: [
       new webpack.optimize.LimitChunkCountPlugin({
         maxChunks: 6
-      })
+      }),
     ]
   },
   pwa: {
@@ -16,9 +16,15 @@ module.exports = {
     appleMobileWebAppCapable: 'yes',
     appleMobileWebAppStatusBarStyle: '#172b4d'
   },
+
   css: {
     // Enable CSS source maps.
     sourceMap: process.env.NODE_ENV !== 'production'
   },
-  outputDir: 'dist/'
-};
+
+  outputDir: 'dist/',
+
+  transpileDependencies: [
+    'vuetify'
+  ]
+}
