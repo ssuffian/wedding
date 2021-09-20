@@ -1,10 +1,11 @@
 import Vue from "vue";
-import App from './App.vue'
+import App from "./App.vue";
 import Router from "vue-router";
 
 import Components from "./views/Components.vue";
 import Travel from "./views/Travel.vue";
 import GuessThatPhoto from "./views/GuessThatPhoto.vue";
+import Gifts from "./views/Gifts.vue";
 
 // Weekend
 import AppHeader_W from "./weekend/layout/AppHeader";
@@ -13,6 +14,7 @@ import Home_W from "./weekend/views/Home.vue";
 import Schedule_W from "./weekend/views/Schedule.vue";
 import Housing_W from "./weekend/views/Housing.vue";
 import RSVP_W from "./weekend/views/RSVP.vue";
+import FAQ_W from "./weekend/views/FAQ.vue";
 
 // Day-Of
 import AppHeader_C from "./dayof/layout/AppHeader";
@@ -32,7 +34,7 @@ const router = new Router({
   routes: [
     {
       path: "/home-w",
-      name: "home",
+      name: "home-w",
       components: {
         header: AppHeader_W,
         default: Home_W,
@@ -44,7 +46,7 @@ const router = new Router({
     },
     {
       path: "/schedule-w",
-      name: "schedule",
+      name: "schedule-w",
       components: {
         header: AppHeader_W,
         default: Schedule_W,
@@ -53,11 +55,10 @@ const router = new Router({
       meta: {
         wholeWeekend: true
       }
-
     },
     {
       path: "/travel-w",
-      name: "travel",
+      name: "travel-w",
       components: {
         header: AppHeader_W,
         default: Travel,
@@ -66,11 +67,10 @@ const router = new Router({
       meta: {
         wholeWeekend: true
       }
-
     },
     {
       path: "/housing-w",
-      name: "housing",
+      name: "housing-w",
       components: {
         header: AppHeader_W,
         default: Housing_W,
@@ -79,11 +79,10 @@ const router = new Router({
       meta: {
         wholeWeekend: true
       }
-
     },
     {
       path: "/rsvp-w",
-      name: "rsvp",
+      name: "rsvp-w",
       components: {
         header: AppHeader_W,
         default: RSVP_W,
@@ -92,14 +91,37 @@ const router = new Router({
       meta: {
         wholeWeekend: true
       }
-
+    },
+    {
+      path: "/faq-w",
+      name: "faq-w",
+      components: {
+        header: AppHeader_W,
+        default: FAQ_W,
+        footer: AppFooter_W
+      },
+      meta: {
+        wholeWeekend: true
+      }
     },
     {
       path: "/guess-that-photo-w",
-      name: "guess-that-photo",
+      name: "guess-that-photo-w",
       components: {
         header: AppHeader_W,
         default: GuessThatPhoto,
+        footer: AppFooter_W
+      },
+      meta: {
+        wholeWeekend: true
+      }
+    },
+    {
+      path: "/gifts-w",
+      name: "gifts-w",
+      components: {
+        header: AppHeader_W,
+        default: Gifts,
         footer: AppFooter_W
       },
       meta: {
@@ -129,7 +151,6 @@ const router = new Router({
       meta: {
         wholeWeekend: false
       }
-
     },
     {
       path: "/travel-c",
@@ -142,7 +163,6 @@ const router = new Router({
       meta: {
         wholeWeekend: false
       }
-
     },
     {
       path: "/housing-c",
@@ -155,7 +175,6 @@ const router = new Router({
       meta: {
         wholeWeekend: false
       }
-
     },
     {
       path: "/rsvp-c",
@@ -168,7 +187,6 @@ const router = new Router({
       meta: {
         wholeWeekend: false
       }
-
     },
     {
       path: "/guess-that-photo-c",
@@ -181,22 +199,21 @@ const router = new Router({
       meta: {
         wholeWeekend: false
       }
-
     },
     {
       path: "/login",
       name: "login",
       components: {
-        default: Login,
+        default: Login
       }
     },
     {
       path: "/logout",
       name: "logout",
       components: {
-        default: Logout,
+        default: Logout
       }
-    },
+    }
   ],
   scrollBehavior: to => {
     if (to.hash) {
@@ -208,11 +225,14 @@ const router = new Router({
 });
 
 router.beforeEach((to, from, next) => {
-  if (to.name !== 'login') {
-    if (localStorage.loggedIn !== "true" || to.name === null||(to.meta.wholeWeekend === true && localStorage.wholeWeekend === "false")) {
-        next('/login')
-    }
-    else next()
-  } else next()
-})
-export default router
+  if (to.name !== "login") {
+    if (
+      localStorage.loggedIn !== "true" ||
+      to.name === null ||
+      (to.meta.wholeWeekend === true && localStorage.wholeWeekend === "false")
+    ) {
+      next("/login");
+    } else next();
+  } else next();
+});
+export default router;

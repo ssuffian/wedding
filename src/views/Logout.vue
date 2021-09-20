@@ -1,16 +1,15 @@
 <template>
-    <section class="section section-shaped section-lg my-0">
-      Logout
-    </section>
+  <section class="section section-shaped section-lg my-0">
+    Logout
+  </section>
 </template>
 <script>
 export default {
-  name: 'logout',
+  name: "logout",
   mounted() {
-    localStorage.password = null
-    this.$router.push('/login')
-  },
+    localStorage.password = null;
+    this.$router.push("/login");
+  }
 };
 </script>
-<style>
-</style>
+<style></style>

@@ -1,53 +1,119 @@
 <template>
-    <div>
-        <div class="position-relative">
-            <!-- shape Hero -->
-            <section class="section-shaped my-0">
-                <div class="shape shape-style-1 shape-default shape-skew">
-                </div>
-                <div class="container shape-container d-flex">
-                  <flashcard
-                    front="Where?"
-                    imgFront="img/guess/warringtongardens.jpg"
-                    back="West Philly - Warrington gardens!"
-                    imgBack="img/guess/warringtongardens.jpg"
-                    imgBackWidth="350"
-                    imgFrontWidth="350"
-                    headerFront="Guess that photo"
-                    footerFront="Click to show answer"
-                    footerBack="Becky and Steve spent a month this summer at an AirBnB in West Philly and helped water plants here."
-                    colorTextBack="black"
-                    ></flashcard>
-                  <flashcard
-                    front="Who?"
-                    imgFront="img/guess/beckyparents.jpg"
-                    back="Barbara and Benny Mer!"
-                    imgBack="img/guess/beckyparents.jpg"
-                    imgBackWidth="350"
-                    imgFrontWidth="350"
-                    headerFront="Guess that photo"
-                    footerFront="Click to show answer"
-                    footerBack="These are Becky's parents. They live in Rhode Island!"
-                    colorTextBack="black"
-                    ></flashcard>
-                    <flashcard
-                      front="Hello"
-                      imgFront="https://vuejs.org/images/logo.png"
-                      back="Bye"
-                      imgBack="https://vuejs.org/images/logo.png"
-                      headerFront="Guess that photo"
-                      headerBack="This is the answer"
-                      colorTextBack="black"
-                      ></flashcard>
-
-                </div>
-            </section>
+  <div>
+    <div class="position-relative">
+      <!-- shape Hero -->
+      <section class="section-shaped my-0">
+        <div class="shape shape-style-1 shape-default shape-skew"></div>
+        <div class="container shape-container d-flex">
+          <v-container>
+            <v-row>
+              <v-col>
+                <flashcard
+                  front="Who wrote these messages?"
+                  imgFront="img/guess/warringtongardens.jpg"
+                  back="These were our first messages to each other!"
+                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="We met through an online dating app in 2017. Extra credit if you know which friend Steve was referencing seeing in San Francisco!"
+                  colorTextBack="black"
+                ></flashcard>
+                <flashcard
+                  front="Who lived here?"
+                  imgFront="img/guess/warringtongardens.jpg"
+                  back="We did, this was our first apartment!"
+                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="In 2019, we moved into our first apartment together in Cambridge, MA."
+                  colorTextBack="black"
+                ></flashcard> </v-col
+              ><v-col>
+                <flashcard
+                  front="Why is this park bench important?"
+                  imgFront="img/guess/warringtongardens.jpg"
+                  back="This is where we first met!"
+                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="For our first date in May 2017 in Berkeley, we met at this bench in Willard Park and went for a walk around the neighborhood."
+                  colorTextBack="black"
+                ></flashcard>
+                <flashcard
+                  front="Which beach is this (delete)?"
+                  imgFront="img/guess/warringtongardens.jpg"
+                  back="The Jersey Shore (near Atlantic City, far from Snookie and J-Wow)"
+                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="This photo shows the extent of our collective gymnastic abilities."
+                  colorTextBack="black"
+                ></flashcard> </v-col
+              ><v-col>
+                <flashcard
+                  front="What happened here?"
+                  imgFront="img/guess/warringtongardens.jpg"
+                  back="Becky and Steve got engaged here!"
+                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="The Isabella Stewart Gardner Museum is where we proposed to each other in December 2019."
+                  colorTextBack="black"
+                ></flashcard> </v-col
+              ><v-col>
+                <flashcard
+                  front="Who are they?"
+                  imgFront="img/guess/beckyparents.jpg"
+                  back="Barbara and Benny Mer!"
+                  imgBack="img/guess/beckyparents.jpg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="These are Becky's wonderful parents who live in Rhode Island."
+                  colorTextBack="black"
+                ></flashcard>
+                <flashcard
+                  front="Who are they?"
+                  imgFront="img/guess/beckyparents.jpg"
+                  back="Sue and Fred Suffian!"
+                  imgBack="img/guess/beckyparents.jpg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="These are Steve's wonderful parents who live in Pennsylvania."
+                  colorTextBack="black"
+                ></flashcard>
+                <flashcard
+                  front="Hello"
+                  imgFront="https://vuejs.org/images/logo.png"
+                  back="Bye"
+                  imgBack="https://vuejs.org/images/logo.png"
+                  headerFront="Guess that photo"
+                  headerBack="This is the answer"
+                  colorTextBack="black"
+                ></flashcard>
+              </v-col>
+            </v-row>
+          </v-container>
         </div>
+      </section>
     </div>
+  </div>
 </template>
 
 <script>
-
 import Flashcard from "./components/Flashcard";
 
 export default {

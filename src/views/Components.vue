@@ -1,17 +1,17 @@
 <template>
-    <div>
-        <hero></hero>
-        <basic-elements></basic-elements>
-        <inputs></inputs>
-        <custom-controls></custom-controls>
-        <navigation></navigation>
-        <javascript-components></javascript-components>
-        <icons></icons>
-        <examples></examples>
-        <download-section></download-section>
-        <carousel></carousel>
-        <flashcard></flashcard>
-    </div>
+  <div>
+    <hero></hero>
+    <basic-elements></basic-elements>
+    <inputs></inputs>
+    <custom-controls></custom-controls>
+    <navigation></navigation>
+    <javascript-components></javascript-components>
+    <icons></icons>
+    <examples></examples>
+    <download-section></download-section>
+    <carousel></carousel>
+    <flashcard></flashcard>
+  </div>
 </template>
 <script>
 import Hero from "./components/Hero";
