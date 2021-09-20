@@ -103,13 +103,9 @@ export default {
             // This function (`page`) will get called for each page of records.
             self.loading = false;
 
-            if (records.length === 0) {
-              console.log("No records found for " + rsvpEmail);
-            }
             records.forEach(function(record) {
               var thisRecord = record;
               if (thisRecord) {
-                console.log("Retrieved", thisRecord.get("Name"));
                 rsvps.push(record);
               }
             });
@@ -120,7 +116,6 @@ export default {
           },
           function done(err) {
             if (err) {
-              console.error(err);
               return;
             }
           }
