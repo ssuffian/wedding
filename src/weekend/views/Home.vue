@@ -6,8 +6,10 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
+          <div class="row justify-content-center">
+              <v-img src="img/pages/home.jpeg" max-width="800"></v-img>
+            </div>
             <div class="row justify-content-center">
-              <img src="img/pages/home.jpeg" class="img-fluid" />
               <h1 class="display-3  text">
                 <span>Celebrate our wedding with us!</span>
               </h1>
