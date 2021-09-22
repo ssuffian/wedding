@@ -193,7 +193,7 @@
                   <p>
                     To best manage our numbers, costs, catering, and COVID-19
                     mitigation measures, your invitation specifically states who
-                    is invited.
+                    is invited. But if we forgot someone in your immediate party (like invited 2 of your kids but not the 3rd!), then please contact us so we can correct the mistake.
                   </p>
                   <p>
                     Regarding kids, the entire weekend will be family-friendly,
