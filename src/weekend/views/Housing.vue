@@ -31,7 +31,7 @@
                 </li>
                 <li>
                   <b>BEDDING:</b> Cabins do not include pillows, sheets,
-                  sleeping bags, or towels. The RSVP form asks if you plan to
+                  sleeping bags, blankets, or towels. The RSVP form asks if you plan to
                   bring any of these items or if you’d like to request them. For
                   example, guests traveling by airplane may not be able to pack
                   all these items and can request to receive what they cannot
