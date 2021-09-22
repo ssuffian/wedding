@@ -29,7 +29,7 @@
                     ><b>St. James Infirmary</b></a
                   >
                   is a peer-based occupational health and safety clinic for sex
-                  workers in San Francisco, where Becky volunteered for 5 years.
+                  workers in San Francisco.
                   <a
                     href="https://www.stjamesinfirmary.org/wordpress/?page_id=3312"
                     target="_blank"
@@ -42,7 +42,6 @@
                   >
                   is a residential and educational program in Nyeri, Kenya for
                   young people who formerly lived and worked on the streets.
-                  Steve has been involved in their work for more than a decade.
                   The CYEC is financially supported through Zawadi Fund
                   International —
                   <a
@@ -70,11 +69,9 @@
                     target="_blank"
                     ><b>The Unrepresented Death Row Prisoner Project</b></a
                   >
-                  is a fund to support people under sentence of death in
+                 provides necessary items (stamps, hygiene products, clothing) for people under sentence of death in
                   California who are waiting for a lawyer to be appointed to
-                  their case. The fund supports many of Becky’s former clients
-                  and covers the costs of necessary items like stamps, hygiene
-                  products, and clothing.
+                  their case. 
                 </li>
                 <li>
                   <a
