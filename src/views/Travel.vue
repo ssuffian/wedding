@@ -58,7 +58,7 @@
                   <h2>Flying</h2>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  <p>Major airports near camp are:</p>
+                  <b>Major airports near camp are:</b>
 
                   <v-container>
                     <ul>
@@ -77,7 +77,7 @@
                     </ul>
                   </v-container>
 
-                  <p>Smaller airports closer to camp are:</p>
+                  <b>Smaller airports closer to camp are:</b>
 
                   <v-container>
                     <ul>

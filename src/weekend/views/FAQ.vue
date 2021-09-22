@@ -95,12 +95,8 @@
                 <b>Tell me about the food!</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  As a Jewish camp, Camp Laurelwood ensures that all food
-                  prepared on site is kosher. For guests staying in cabins, all
-                  your meals and snacks will be provided at camp (from Saturday
-                  lunch to Monday breakfast). For guests staying outside camp,
-                  the RSVP form asks which meals you plan to attend at camp. For
-                  more details about mealtimes, please visit the Schedule page.
+                  <p>As a Jewish camp, Camp Laurelwood ensures that all food prepared on site is kosher.</p> 
+                  <p>For guests staying in cabins, all your meals and snacks will be provided at camp (from Saturday lunch to Monday breakfast). For guests staying outside camp, the RSVP form asks which meals you plan to attend at camp. For more details about mealtimes, please visit the Schedule page.</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
@@ -143,19 +139,8 @@
                   <b>What’s the dress code?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  The dress code most of the weekend will be casual, with the
-                  exception of the wedding itself. The wedding dress code is on
-                  a spectrum, ranging from nice jeans & a nice shirt all the way
-                  to a suit. Yes, nice jeans are totally fine at the wedding!
-                  Blazers and ties are optional. Sundresses, cocktail dresses,
-                  and rompers are all great, but we don’t recommend super long
-                  dresses, in case the bottom gets dirty. Please wear whatever
-                  makes you feel comfortable and special. You’re also welcome to
-                  look funky and weird! For example, funny hats, colorful
-                  clothing, or other surprises. Make sure to wear practical
-                  shoes, since there will be lots of grass, gravel, and wooded
-                  trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets
-                  hot during the day, gets cold at night, or rains.
+                  <p>The dress code most of the weekend will be casual, with the exception of the wedding itself. The wedding dress code is on a spectrum, ranging from nice jeans & a nice shirt all the way to a suit. Yes, nice jeans are totally fine at the wedding!  Blazers and ties are optional. Sundresses, cocktail dresses, and rompers are all great, but we don’t recommend super long dresses, in case the bottom gets dirty. Please wear whatever makes you feel comfortable and special. You’re also welcome to look funky and weird! For example, funny hats, colorful clothing, or other surprises.</p> 
+                  <p>Make sure to wear practical shoes, since there will be lots of grass, gravel, and wooded trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets hot during the day, gets cold at night, or rains.</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
@@ -222,7 +207,7 @@
                   <b>Do I need to pay for specific camp activities?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  <b>Nope! All camp activities are free for all guests.</b>
+                  Nope! All camp activities are free for all guests.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
@@ -257,7 +242,7 @@
                         <a
                           href="https://portal.ct.gov/DEEP/State-Parks/Parks/Hammonasset-Beach-State-Park"
                           target="_blank"
-                          >Hammonasset Beach State Park</a
+                          ><b>Hammonasset Beach State Park</b></a
                         >
                         is Connecticut's largest shoreline park and a 17 min
                         drive from Camp Laurelwood. The park has over 2 miles of
@@ -267,36 +252,36 @@
                         <a
                           href="https://www.meigspointnaturecenter.org/"
                           target="_blank"
-                          >Meigs Point Nature Center</a
+                          ><b>Meigs Point Nature Center</b></a
                         >, which has a learning center and 10 themed gardens.
                       </li>
                       <li>
                         <a
                           href="https://madisonct.com/project/shop/"
                           target="_blank"
-                          >Downtown Madison</a
+                          ><b>Downtown Madison</b></a
                         >
                         and
                         <a
                           href="https://www.ctvisit.com/listings/town-guilford"
                           target="_blank"
-                          >downtown Guilford</a
+                          ><b>downtown Guilford</b></a
                         >
                         have restaurants and shopping, mostly located on Boston
                         Post Road. We recommend checking out
                         <a href="https://bishopsorchards.com/" target="_blank"
-                          >Bishop’s Orchards</a
+                          ><b>Bishop’s Orchards</b></a
                         >
                         (farm market, winery, and creamery) and
                         <a href="https://www.rjjulia.com/" target="_blank"
-                          >RJ Julia Independent Booksellers</a
+                          ><b>RJ Julia Independent Booksellers</b></a
                         >.
                       </li>
                       <li>
                         <a
                           href="https://shorelinegreenwaytrail.org/"
                           target="_blank"
-                          >The Shoreline Greenway Trail</a
+                          ><b>The Shoreline Greenway Trail</b></a
                         >
                         has hiking trails in Madison, Branford, and East Haven.
                         Each trail is about a mile of mostly off-road walking.
@@ -304,7 +289,7 @@
                       <li>
                         The
                         <a href="https://newenglandtrail.org/" target="_blank"
-                          >New England National Scenic Trail</a
+                          ><b>New England National Scenic Trail</b></a
                         >
                         runs through Guilford and Madison and has miles of
                         trails at varying elevations.
@@ -315,13 +300,13 @@
                         <a
                           href="https://www.stonycreekbeer.com/home"
                           target="_blank"
-                          >Stony Creek Brewery</a
+                          ><b>Stony Creek Brewery</b></a
                         >, boat tours of Thimble Islands, restaurants, and gift
                         shops.
                       </li>
                       <li>
                         <a href="https://www.infonewhaven.com/" target="_blank"
-                          >Downtown New Haven</a
+                          ><b>Downtown New Haven</b></a
                         >
                         is about 30 min drive from Camp Laurelwood and has
                         restaurants, museums, and shopping.
@@ -330,7 +315,7 @@
                         <a
                           href="https://www.dinosaurstatepark.org/"
                           target="_blank"
-                          >Dinosaur State Park</a
+                          ><b>Dinosaur State Park</b></a
                         >
                         is a 40 min drive from Camp Laurelwood. The museum
                         features a preserved Mesozoic flood plain, fossils, and

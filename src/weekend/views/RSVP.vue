@@ -6,26 +6,23 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
-            <v-img src="img/pages/rsvp.jpeg" max-height="300"></v-img><br />
-            <p>
+            <v-img style="float:left; margin-right:10px" src="img/pages/rsvp.jpeg"></v-img>
               <b>Ready to RSVP?</b> Please review our Schedule and Where to Stay
               pages. The RSVP form asks which camp meals you’ll be attending and
               whether you plan to stay overnight in cabins.
-            </p>
-            <p>
+              <br><br>
               <b>Not attending the wedding?</b> If you or anyone in your party
               are not able to attend, please complete the RSVP form to let us
               know.
-            </p>
-            <p>
+              <br><br>
               <b>Need to make changes after RSVPing?</b> After you submit the
               RSVP form, you can change your responses anytime by clicking the
               RSVP form again.
-            </p>
-            <p>
-              Search your reservation below to RSVP. Please RSVP by February 1,
-              2022. There is a separate form for each member of the party.
-            </p>
+            <br><br><br><br><br>
+            <br>
+            <b>Enter your email</b> below to RSVP. Please RSVP by February 1,
+              2022. There is a separate form for each member of your party.
+            <br><br>
 
             <v-toolbar>
               <v-text-field

@@ -26,8 +26,7 @@
                   plus some single-beds. All beds have twin-size mattresses.
                 </li>
                 <li>
-                  <b>COST:</b> The cost to stay in a cabin is $50 per person per
-                  night. Kids under 5 years old stay for free!
+                  <b>COST:</b> The cost to stay in a cabin is <b>$50 per person per night</b>. Kids under 5 years old stay for free!
                 </li>
                 <li>
                   <b>BEDDING:</b> Cabins do not include pillows, sheets,

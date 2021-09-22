@@ -46,12 +46,11 @@
                   >
                   is a residential and educational program in Nyeri, Kenya for
                   young people who formerly lived and worked on the streets.
-                  The CYEC is financially supported through Zawadi Fund
-                  International —
+                  Zawadi Fund International financially supports the CYEC.
                   <a
                     href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=TXZWPRK86RH8Y"
                     target="_blank"
-                    >click here to donate.</a
+                    >Click here to donate.</a
                   >
                 </li>
                 <li>

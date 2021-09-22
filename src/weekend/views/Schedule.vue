@@ -14,7 +14,7 @@
               locations, etc.).
             </p>
             <h2>Saturday May 28, 2022</h2>
-            <p><b>1 PM: Wedding weekend begins!</b></p>
+            <b>1 PM: Wedding weekend begins!</b>
             <p>Saturday will likely include:</p>
             <v-container>
               <ul>
@@ -23,7 +23,7 @@
                 <li>Lake activities, like canoeing and swimming</li>
                 <li>Hammocks and swing sets</li>
                 <li>Gaga courts and other games & sports</li>
-                <li>Welcome Dinner at camp</li>
+                <li><b>Welcome Dinner</b> at camp</li>
                 <li>
                   Family-friendly Talent Show in the evening featuring you, our
                   guests!
@@ -46,10 +46,9 @@
               </ul>
             </v-container>
 
-            <p>
-              The wedding ceremony will begin mid-afternoon. The wedding will
+            <b>
+              The wedding ceremony will begin mid-afternoon.</b> The wedding will
               include:
-            </p>
             <v-container
               ><ul>
                 <li>
@@ -67,10 +66,8 @@
             </p>
 
             <h2>Monday May 30, 2022</h2>
-            <p>
               Monday will include a <b>goodbye breakfast</b> at camp, which will
               conclude <b>at 11am.</b>
-            </p>
           </div>
         </div>
       </section>

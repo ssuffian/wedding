@@ -21,19 +21,6 @@
                   colorTextBack="black"
                 ></flashcard>
                 <flashcard
-                  front="What is this?"
-                  imgFront="img/guess/apartment.jpeg"
-                  back="Our first apartment!"
-                  imgBack="img/guess/apartment.jpeg"
-                  imgBackWidth="350"
-                  imgFrontWidth="350"
-                  headerFront="Guess that photo"
-                  footerFront="Click to show answer"
-                  footerBack="In 2019, we moved into our first apartment together in Cambridge, MA."
-                  colorTextBack="black"
-                ></flashcard> 
-                </v-col ><v-col>
-                <flashcard
                   front="Who is this?"
                   imgFront="img/guess/beckyparents.jpg"
                   back="Barbara and Benny Mer!"
@@ -45,6 +32,20 @@
                   footerBack="These are Becky's wonderful parents who live in Rhode Island."
                   colorTextBack="black"
                 ></flashcard>
+                <br><br>
+                </v-col ><v-col>
+                <flashcard
+                  front="What is this?"
+                  imgFront="img/guess/apartment.jpeg"
+                  back="Our first apartment!"
+                  imgBack="img/guess/apartment.jpeg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="In 2019, we moved into our first apartment together in Cambridge, MA."
+                  colorTextBack="black"
+                ></flashcard> 
                 <flashcard
                   front="Who is this?"
                   imgFront="img/guess/steve_parents.jpeg"
@@ -58,7 +59,6 @@
                   colorTextBack="black"
                 ></flashcard>
                 </v-col ><v-col>
-                <br><br>
                 <flashcard
                   front="What happened here?"
                   imgFront="img/guess/isabella.jpeg"
@@ -68,7 +68,7 @@
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
                   footerFront="Click to show answer"
-                  footerBack="The Isabella Stewart Gardner Museum is where we proposed to each other in December 2019."
+                  footerBack="The Isabella Stewart Gardner Museum in Boston is where we proposed to each other in December 2019."
                   colorTextBack="black"
                 ></flashcard> 
                 <flashcard
