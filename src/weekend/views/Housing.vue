@@ -34,7 +34,7 @@
                   sleeping bags, blankets, or towels. The RSVP form asks if you plan to
                   bring any of these items or if you’d like to request them. For
                   example, guests traveling by airplane may not be able to pack
-                  all these items and can request to receive what they cannot
+                  all these items and can request what they cannot
                   bring.
                 </li>
                 <li>
@@ -65,6 +65,7 @@
             to see an interactive map of Camp Laurelwood. The video belows shows
             a typical cabin:
             <p class="text-center">
+              <br>
               <iframe
                 width="560"
                 height="315"
@@ -82,10 +83,10 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
-            <h4>
-              Here are the closest hotels and B&Bs (each about a 15 min drive to
+            <b>
+              Closest hotels and B&Bs (each about a 15 min drive to
               camp):
-            </h4>
+            </b>
             <v-container
               ><ul>
                 <li>
@@ -133,21 +134,23 @@
               </ul>
             </v-container>
 
-            <h4>More than 15 min drive from camp:</h4>
-            <p>
-              The nearby towns of Branford, Westbrook, Old Saybrook, and Essex
-              have a number of hotels, resorts, motels, and B&Bs.
-            </p>
-            <p>
+            <b>More than 15 min drive from camp:</b>
+            <v-container>
+            <ul>
+              <li>The nearby towns of Branford, Westbrook, Old Saybrook, and Essex
+              have a number of hotels, resorts, motels, and B&Bs.</li>
+            <li>
               New Haven is a 30 min drive from camp and has a number of options.
               (Yale’s graduation will not be on our wedding weekend, which helps
               with room availability).
-            </p>
-            <p>
+            </li>
+            <li>
               There are some local options on
               <a href="https://www.airbnb.com/" target="_blank">Airbnb</a> and
               <a href="https://www.vrbo.com/" target="_blank">Vrbo</a>.
-            </p>
+            </li>
+            </ul>
+            </v-container>
             </v-expansion-panel-content>
           </v-expansion-panel>
           </v-expansion-panels>

@@ -14,7 +14,7 @@
 
             <p>
               Camp Laurelwood Address:
-              <a href="https://goo.gl/maps/TuhEgqfbGQAS7iqZ6" target="_blank"
+              <a href="https://goo.gl/maps/B2bvfrwipdtnTEDt6" target="_blank"
                 >463 Summer Hill Road, Madison, CT 06443</a
               >
             </p>
@@ -63,7 +63,7 @@
                   <v-container>
                     <ul>
                       <li>
-                        New York LaGuardia Airport (LGA): 2 hour drive ($200
+                        New York LaGuardia Airport (LGA): 2 hour drive (~$200
                         Uber/Lyft)
                       </li>
                       <li>
@@ -77,7 +77,7 @@
                     </ul>
                   </v-container>
 
-                  <p>Smaller airports near camp are:</p>
+                  <p>Smaller airports closer to camp are:</p>
 
                   <v-container>
                     <ul>
@@ -125,7 +125,7 @@
                     >
                   </p>
 
-                  <h3>Option 1: Travel to Madison Station</h3>
+                  <b>Option 1: Travel to Madison Station</b>
 
                   <p>
                     Take either Amtrak or the MTA Metro-North Railroad New Haven
@@ -136,7 +136,7 @@
                     It is a 10 minute drive from Camp Laurelwood.
                   </p>
 
-                  <h3>Option 2: Travel Only by Amtrak</h3>
+                  <b>Option 2: Travel Only by Amtrak</b>
                   <p>The closest Amtrak stations to Camp Laurelwood are:</p>
                   <v-container>
                     <ul>
@@ -146,7 +146,7 @@
                     </ul>
                   </v-container>
 
-                  <h3>Option 3: Travel Only by MTA Metro-North Railroad</h3>
+                  <b>Option 3: Travel Only by MTA Metro-North Railroad</b>
                   <p>
                     The closest Metro-North stations are New Haven Union Station
                     and New Haven State Street Station. Both stations are on the
