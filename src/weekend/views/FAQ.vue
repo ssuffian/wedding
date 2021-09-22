@@ -33,7 +33,7 @@
                         before the wedding, guests over the age of 12 must have
                         received 1 dose of a single-dose vaccine or 2 doses of a
                         two-dose vaccine. We do not make this decision lightly, but we feel a responsibility to protect our guests, vendors, and camp
-                        employees from unnecessary risk, especially individuals with suppressed immune systems due to medical conditions and children who are unable to be vaccinated at this time.
+                        employees from unnecessary risk, especially those with suppressed immune systems due to medical conditions and children who are unable to be vaccinated at this time.
                       </li>
                       <li>
                         The RSVP form asks for all guests’ vaccination status.
@@ -85,7 +85,7 @@
                 </b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  No, we will not live-stream our wedding ceremony. However, we
+                  No, we will not livestream our wedding ceremony. But we
                   will take some video, which can be shared with guests after
                   the wedding.
                 </v-expansion-panel-content>
@@ -108,11 +108,11 @@
                   <b>What are accessibility supports at the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Camp Laurelwood sits on 140 acres, and we understand some
-                  guests will need support to reach events throughout the camp.
+                  Camp Laurelwood is on 140 acres, and we understand some
+                  guests will need support to reach events.
                   We will rent several golf carts the entire weekend, and we
                   will do our best to arrange golf cart rides for guests who
-                  need support to get around camp. The RSVP form asks for
+                  need support getting around. The RSVP form asks for
                   guests’ accessibility needs, including golf carts.
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -133,7 +133,7 @@
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Yes, the camp has free parking. Overnight guests can drive
-                  directly up to cabins and remain parked there. Daytime guests
+                  up directly to cabins and remain parked there. Daytime guests
                   should park in the main parking lot at the entrance of camp
                   (or on the nearby field, if the lot is full).
                 </v-expansion-panel-content>
@@ -154,9 +154,8 @@
                   look funky and weird! For example, funny hats, colorful
                   clothing, or other surprises. Make sure to wear practical
                   shoes, since there will be lots of grass, gravel, and wooded
-                  trails. While packing, look up the weather in Madison, CT to
-                  better prepare for what to wear. Bring layers, in case it gets
-                  hot during the day, cold at night, or rains.
+                  trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets
+                  hot during the day, gets cold at night, or rains.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
@@ -184,20 +183,20 @@
                       </li>
                     </ul>
                   </v-container>
-                  Need bedding or towels? The RSVP form asks if you plan to
+                  The RSVP form asks if you plan to
                   bring bedding and/or towels, or if you will need any of these
                   items. For example, guests traveling by airplane may not be
-                  able to pack bedding or towels and can request to receive what
+                  able to pack bedding or towels and can request what
                   they cannot bring.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  <b>Is there wifi at camp?</b>
+                  <b>Is there WiFi at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Only a few facilities at camp offer wifi, and the cabins do
-                  not have wifi. Plan for limited service, but we can connect in
+                  Only a few facilities at camp have WiFi, and the cabins do
+                  not have WiFi. Plan for limited service, but we can connect in
                   person! Luckily, our friends and family are pretty awesome.
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -220,7 +219,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  <b>Do I need to pay for individual camp activities?</b>
+                  <b>Do I need to pay for specific camp activities?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <b>Nope! All camp activities are free for all guests.</b>
@@ -231,10 +230,10 @@
                   <b>Can I stay in my own tent at the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Yes, but the camp does not prefer this, and it will still cost
+                  Maybe. The camp does not prefer this, and it will still cost
                   you $50 per person per night (the same cost as a cabin).
                   Please consider staying in a cabin instead. But if you’re
-                  super interested in camping, please contact us.
+                  super interested in camping, contact us.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
@@ -262,7 +261,7 @@
                         >
                         is Connecticut's largest shoreline park and a 17 min
                         drive from Camp Laurelwood. The park has over 2 miles of
-                        beach for swimming in the Atlantic Ocean, picnicking,
+                        beach for swimming, picnicking,
                         walking trails, or strolling along the boardwalk. The
                         park includes
                         <a
@@ -348,8 +347,8 @@
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   No, we are not reserving room blocks. If you’d like to stay in
-                  a local hotel or B&B, please book wherever you’d like. Our
-                  Where to Stay page lists some local options.
+                  a local hotel or B&B, please book wherever you’d like. The
+                  "Where to Stay" page lists some local options.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
