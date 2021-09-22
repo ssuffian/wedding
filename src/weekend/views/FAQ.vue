@@ -32,10 +32,8 @@
                         wedding weekend. This means that, at least 2 weeks
                         before the wedding, guests over the age of 12 must have
                         received 1 dose of a single-dose vaccine or 2 doses of a
-                        two-dose vaccine. This policy is absolutely not
-                        personal; this is in the interest of ensuring the health
-                        and well-being of all guests, vendors, and camp
-                        employees.
+                        two-dose vaccine. We do not make this decision lightly, but we feel a responsibility to protect our guests, vendors, and camp
+                        employees from unnecessary risk, especially individuals with suppressed immune systems due to medical conditions and children who are unable to be vaccinated at this time.
                       </li>
                       <li>
                         The RSVP form asks for all guests’ vaccination status.
@@ -47,7 +45,7 @@
                       <li>
                         Attending a big wedding during a pandemic can be a
                         difficult and emotional decision for many guests. We
-                        absolutely understand and do not take it personally if
+                        absolutely understand (and we don't take it personally) if
                         guests cannot attend.
                       </li>
                     </ul></v-container
@@ -67,12 +65,12 @@
                         and/or boosters.
                       </li>
                       <li>
-                        We may require all guests to be tested before the
+                        We may require guests to be tested before the
                         wedding and/or upon entry.
                       </li>
                       <li>We may hold all wedding events outdoors.</li>
                       <li>
-                        If we hold any indoor events, we may require all guests
+                        If we hold indoor events, we may require guests
                         to wear a mask.
                       </li>
                     </ul></v-container
