@@ -31,46 +31,8 @@
                   footerFront="Click to show answer"
                   footerBack="In 2019, we moved into our first apartment together in Cambridge, MA."
                   colorTextBack="black"
-                ></flashcard> </v-col
-              ><v-col>
-                <flashcard
-                  front="Why is this park bench important?"
-                  imgFront="img/guess/bench.jpeg"
-                  back="Where we first met!"
-                  imgBack="img/guess/bench.jpeg"
-                  imgBackWidth="350"
-                  imgFrontWidth="350"
-                  headerFront="Guess that photo"
-                  footerFront="Click to show answer"
-                  footerBack="For our first date in May 2017 in Berkeley, we met at this bench in Willard Park and went for a walk around the neighborhood."
-                  colorTextBack="black"
-                ></flashcard>
-                <flashcard
-                  front="Which beach is this?"
-                  imgFront="img/guess/beach.png"
-                  back="The Jersey Shore (near Atlantic City, far from Snookie and J-Wow)"
-                  imgBack="img/guess/beach.png"
-                  imgBackWidth="350"
-                  imgFrontWidth="350"
-                  headerFront="Guess that photo"
-                  footerFront="Click to show answer"
-                  footerBack="This photo shows the extent of our collective gymnastic abilities."
-                  colorTextBack="black"
-                ></flashcard> </v-col
-              ><v-col>
-                <flashcard
-                  front="What happened here?"
-                  imgFront="img/guess/warringtongardens.jpg"
-                  back="Our proposal!"
-                  imgBack="img/guess/warringtongardens.jpg"
-                  imgBackWidth="350"
-                  imgFrontWidth="350"
-                  headerFront="Guess that photo"
-                  footerFront="Click to show answer"
-                  footerBack="The Isabella Stewart Gardner Museum is where we proposed to each other in December 2019."
-                  colorTextBack="black"
-                ></flashcard> </v-col
-              ><v-col>
+                ></flashcard> 
+                </v-col ><v-col>
                 <flashcard
                   front="Who is this?"
                   imgFront="img/guess/beckyparents.jpg"
@@ -95,16 +57,45 @@
                   footerBack="These are Steve's wonderful parents who live in Pennsylvania."
                   colorTextBack="black"
                 ></flashcard>
+                </v-col ><v-col>
                 <flashcard
-                  front="Hello"
-                  imgFront="https://vuejs.org/images/logo.png"
-                  back="Bye"
-                  imgBack="https://vuejs.org/images/logo.png"
+                  front="What happened here?"
+                  imgFront="img/guess/isabella.jpeg"
+                  back="Our proposal!"
+                  imgBack="img/guess/isabella.jpeg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
                   headerFront="Guess that photo"
-                  headerBack="This is the answer"
+                  footerFront="Click to show answer"
+                  footerBack="The Isabella Stewart Gardner Museum is where we proposed to each other in December 2019."
+                  colorTextBack="black"
+                ></flashcard> 
+                <flashcard
+                  front="Why is this park bench important?"
+                  imgFront="img/guess/bench.jpeg"
+                  back="Where we first met!"
+                  imgBack="img/guess/bench.jpeg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="For our first date in May 2017 in Berkeley, we met at this bench in Willard Park and went for a walk around the neighborhood."
                   colorTextBack="black"
                 ></flashcard>
-              </v-col>
+              </v-col> <v-col>
+                <flashcard
+                  front="Where is this?"
+                  imgFront="img/guess/beach.png"
+                  back="The Jersey Shore (near Atlantic City)!"
+                  imgBack="img/guess/beach.png"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="This photo shows the extent of our collective gymnastic abilities."
+                  colorTextBack="black"
+                ></flashcard> 
+                </v-col>
             </v-row>
           </v-container>
         </div>
