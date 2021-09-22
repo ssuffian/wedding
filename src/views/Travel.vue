@@ -6,7 +6,7 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
-            <v-img src="img/pages/travel.png" max-height="300"></v-img><br />
+            <v-img src="img/pages/travel.jpeg" max-height="300"></v-img><br />
             <p>
               We are inviting many of you to travel from all over the world to
               attend our wedding. Thank you for considering making the journey!

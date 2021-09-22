@@ -6,7 +6,7 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
-            <v-img src="img/pages/gifts.png" max-height="300"></v-img><br />
+            <v-img src="img/pages/gifts.jpeg" max-height="300"></v-img><br />
             <p>
               We are very privileged to have everything we need & more for our
               future together. We also recognize that many guests are taking on
