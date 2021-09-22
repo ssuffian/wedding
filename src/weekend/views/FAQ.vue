@@ -9,8 +9,8 @@
             <v-expansion-panels>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  What will be the COVID-19 mitigation measures during the
-                  wedding weekend?
+                  <b>What will be the COVID-19 mitigation measures during the
+                  wedding weekend?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>
@@ -81,8 +81,10 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
+                <b>
                   Will there be a virtual ceremony for people who cannot attend
                   in-person?
+                </b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   No, we will not live-stream our wedding ceremony. However, we
@@ -92,7 +94,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Tell me about the food!
+                <b>Tell me about the food!</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   As a Jewish camp, Camp Laurelwood ensures that all food
@@ -105,7 +107,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  What are accessibility supports at the camp?
+                  <b>What are accessibility supports at the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Camp Laurelwood sits on 140 acres, and we understand some
@@ -118,8 +120,8 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  If I'm not staying at camp, can I still participate in camp
-                  activities and meals?
+                  <b>If I'm not staying at camp, can I still participate in camp
+                  activities and meals?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Yes! For any guests not staying overnight in cabins, you are
@@ -129,7 +131,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Is there parking at camp?
+                  <b>Is there parking at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Yes, the camp has free parking. Overnight guests can drive
@@ -140,7 +142,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  What’s the dress code?
+                  <b>What’s the dress code?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   The dress code most of the weekend will be casual, with the
@@ -161,7 +163,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  I’m staying in a cabin. What should I pack?
+                  <b>I’m staying in a cabin. What should I pack?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Here’s a suggested packing list:
@@ -193,7 +195,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Is there wifi at camp?
+                  <b>Is there wifi at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Only a few facilities at camp offer wifi, and the cabins do
@@ -203,7 +205,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Can I bring my kids, a date, or a friend?
+                  <b>Can I bring my kids, a date, or a friend?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>
@@ -220,15 +222,15 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Do I need to pay for individual camp activities?
+                  <b>Do I need to pay for individual camp activities?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Nope! All camp activities are free for all guests.
+                  <b>Nope! All camp activities are free for all guests.</b>
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Can I stay in my own tent at the camp?
+                  <b>Can I stay in my own tent at the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Yes, but the camp does not prefer this, and it will still cost
@@ -239,7 +241,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Are pets allowed at the camp?
+                  <b>Are pets allowed at the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Unfortunately, the camp does not allow pets.
@@ -247,8 +249,8 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  What are some other fun activities in the area, outside the
-                  camp?
+                  <b>What are some other fun activities in the area, outside the
+                  camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Here are some local activities outside Camp Laurelwood:
@@ -344,7 +346,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Are there room blocks at certain hotels?
+                  <b>Are there room blocks at certain hotels?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   No, we are not reserving room blocks. If you’d like to stay in
@@ -354,7 +356,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Will there be a shuttle to/from the camp?
+                  <b>Will there be a shuttle to/from the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   We are not planning to have a shuttle to/from the camp.
@@ -364,7 +366,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  Are Becky or Steve changing their last names?
+                  <b>Are Becky or Steve changing their last names?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Nope! After they’re married, they’ll still be Becky Mer and
