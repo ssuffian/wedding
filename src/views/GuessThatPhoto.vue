@@ -17,7 +17,7 @@
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
                   footerFront="Click to show answer"
-                  footerBack="We met through an online dating app in 2017. Extra credit if you know which friend Steve was referencing seeing in San Francisco!"
+                  footerBack="We met through a dating app in 2017. Extra credit if you know which friend Steve was referencing seeing in San Francisco!"
                   colorTextBack="black"
                 ></flashcard>
                 <flashcard
@@ -55,7 +55,7 @@
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
                   footerFront="Click to show answer"
-                  footerBack="These are Steve's wonderful parents who live in Pennsylvania."
+                  footerBack="These are Steve's wonderful parents who live in Pennsylvania (with their adorable dog, Sophie!)."
                   colorTextBack="black"
                 ></flashcard>
                 </v-col ><v-col>
@@ -87,7 +87,7 @@
                 <flashcard
                   front="Where is this?"
                   imgFront="img/guess/beach.png"
-                  back="The Jersey Shore (near Atlantic City)!"
+                  back="The Jersey Shore, near Atlantic City!"
                   imgBack="img/guess/beach.png"
                   imgBackWidth="350"
                   imgFrontWidth="350"

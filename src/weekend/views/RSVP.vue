@@ -7,28 +7,26 @@
         <div class="container shape-container d-flex">
           <div class="col px-0">
             <v-img style="float:left; margin-right:10px" src="img/pages/rsvp.jpeg"></v-img>
-              <b>Ready to RSVP?</b> Please review our Schedule and Where to Stay
+              <b>Ready to RSVP?</b> Please review our "Schedule" and "Where to Stay"
               pages. The RSVP form asks which camp meals you’ll be attending and
               whether you plan to stay overnight in cabins.
               <br><br>
               <b>Not attending the wedding?</b> If you or anyone in your party
-              are not able to attend, please complete the RSVP form to let us
+              are not able to attend, please RSVP to let us
               know.
               <br><br>
-              <b>Need to make changes after RSVPing?</b> After you submit the
-              RSVP form, you can change your responses anytime by clicking the
-              RSVP form again.
+              <b>Need to make changes after RSVPing?</b> After you RSVP, you can change your responses anytime by re-entering your email address below.
             <br><br><br><br><br>
             <br>
             <b>Enter your email</b> below to RSVP. Please RSVP by February 1,
-              2022. There is a separate form for each member of your party.
+              2022. There is a separate RSVP form for each member of your party.
             <br><br>
 
             <v-toolbar>
               <v-text-field
                 v-on:keyup.enter="getRSVP"
                 v-model="rsvpEmail"
-                label="Enter the e-mail we used to send you the RSVP"
+                label="Enter the e-mail where we sent your invitation"
               ></v-text-field>
               <v-btn
                 class="mx-2"

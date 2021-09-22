@@ -28,8 +28,8 @@
                   <v-container
                     ><ul>
                       <li>
-                        Any guest age 12+ must be fully vaccinated to attend our
-                        wedding weekend. This means that, at least 2 weeks
+                        <b>Any guest age 12+ must be fully vaccinated to attend our
+                        wedding weekend.</b> This means that, at least 2 weeks
                         before the wedding, guests over the age of 12 must have
                         received 1 dose of a single-dose vaccine or 2 doses of a
                         two-dose vaccine. We do not make this decision lightly, but we feel a responsibility to protect our guests, vendors, and camp
@@ -193,7 +193,7 @@
                   <p>
                     To best manage our numbers, costs, catering, and COVID-19
                     mitigation measures, your invitation specifically states who
-                    is invited.
+                    is invited. But if we forgot someone in your immediate party (like invited 2 of your kids but not the 3rd!), then please contact us so we can correct the mistake.
                   </p>
                   <p>
                     Regarding kids, the entire weekend will be family-friendly,
