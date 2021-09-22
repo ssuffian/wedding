@@ -58,6 +58,7 @@
                   colorTextBack="black"
                 ></flashcard>
                 </v-col ><v-col>
+                <br><br>
                 <flashcard
                   front="What happened here?"
                   imgFront="img/guess/isabella.jpeg"

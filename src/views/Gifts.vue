@@ -6,6 +6,7 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
+            <v-img src="img/pages/gifts.png" max-height="300"></v-img><br />
             <p>
               We are very privileged to have everything we need & more for our
               future together. We also recognize that many guests are taking on
@@ -22,6 +23,9 @@
             </p>
             <v-container>
               <ul>
+                <li>
+                <a href="https://www.why-not-prosper.org/" target="_blank"><b>Why Not Prosper</b></a> is a grassroots organization supporting formerly incarcerated women in Philadelphia. <a href="https://www.why-not-prosper.org/donate.html" target="_blank">Click here to donate</a>.
+                </li>
                 <li>
                   <a
                     href="https://www.stjamesinfirmary.org/wordpress/"
@@ -74,14 +78,7 @@
                   their case. 
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/thefridgeon52nd/?hl=en"
-                    target="_blank"
-                    ><b>The People’s Fridge</b></a
-                  >
-                  is a community fridge project in West Philadelphia that fights
-                  food insecurity and food waste by providing food to those in
-                  need. They accept donations via Venmo @thepeoplesfridge215.
+                <a href="https://sogoreate-landtrust.org/" target="_blank"><b>The Sogorea Te’ Land Trust</b></a> is an urban Indigenous women-led land trust centered in Huchiun, in unceded Lisjan (Ohlone) territory, now known as the East Bay in the San Francisco Bay Area. <a href="https://sogoreate-landtrust.org/" target="_blank">Click here to donate</a>.
                 </li>
               </ul>
             </v-container>
