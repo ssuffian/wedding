@@ -7,7 +7,7 @@
         <div class="container shape-container d-flex">
           <div class="col px-0">
             <div class="row justify-content-center">
-              <img src="img/beckysteve.jpg" class="img-fluid" />
+              <img src="img/pages/home.jpeg" class="img-fluid" />
               <h1 class="display-3  text">
                 <span>Celebrate our wedding with us!</span>
               </h1>
@@ -17,7 +17,7 @@
             </div>
             <div class="row justify-content-center">
               <p class="text">
-                Memorial Day Weekend 2021
+                Memorial Day Weekend 2022
               </p>
             </div>
             <div class="row justify-content-center">
