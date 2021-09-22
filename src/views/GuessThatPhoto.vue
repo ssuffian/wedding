@@ -72,7 +72,7 @@
                 ></flashcard> </v-col
               ><v-col>
                 <flashcard
-                  front="Who are they?"
+                  front="Who is this?"
                   imgFront="img/guess/beckyparents.jpg"
                   back="Barbara and Benny Mer!"
                   imgBack="img/guess/beckyparents.jpg"
@@ -84,7 +84,7 @@
                   colorTextBack="black"
                 ></flashcard>
                 <flashcard
-                  front="Who are they?"
+                  front="Who is this?"
                   imgFront="img/guess/beckyparents.jpg"
                   back="Sue and Fred Suffian!"
                   imgBack="img/guess/beckyparents.jpg"
