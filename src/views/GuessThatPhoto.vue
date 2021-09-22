@@ -9,9 +9,9 @@
             <v-row>
               <v-col>
                 <flashcard
-                  front="Who wrote these messages?"
+                  front="What are these messages?"
                   imgFront="img/guess/warringtongardens.jpg"
-                  back="These were our first messages to each other!"
+                  back="Our first messages to each other!"
                   imgBack="img/guess/warringtongardens.jpg"
                   imgBackWidth="350"
                   imgFrontWidth="350"
@@ -21,9 +21,9 @@
                   colorTextBack="black"
                 ></flashcard>
                 <flashcard
-                  front="Who lived here?"
+                  front="What is this?"
                   imgFront="img/guess/warringtongardens.jpg"
-                  back="We did, this was our first apartment!"
+                  back="Our first apartment!"
                   imgBack="img/guess/warringtongardens.jpg"
                   imgBackWidth="350"
                   imgFrontWidth="350"
@@ -36,7 +36,7 @@
                 <flashcard
                   front="Why is this park bench important?"
                   imgFront="img/guess/warringtongardens.jpg"
-                  back="This is where we first met!"
+                  back="Where we first met!"
                   imgBack="img/guess/warringtongardens.jpg"
                   imgBackWidth="350"
                   imgFrontWidth="350"
@@ -61,7 +61,7 @@
                 <flashcard
                   front="What happened here?"
                   imgFront="img/guess/warringtongardens.jpg"
-                  back="Becky and Steve got engaged here!"
+                  back="Our proposal!"
                   imgBack="img/guess/warringtongardens.jpg"
                   imgBackWidth="350"
                   imgFrontWidth="350"
