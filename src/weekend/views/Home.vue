@@ -24,15 +24,14 @@
             <div class="row justify-content-center">
               <p class="text">
                 <a href="https://www.camplaurelwood.org/" target="_blank"
-                  >Camp Laurelwood</a
+                  ><b>Camp Laurelwood</b></a
                 >
-                in Madison, Connecticut
               </p>
             </div>
             <div class="row justify-content-center">
               <p class="text">
-                <a href="https://goo.gl/maps/TuhEgqfbGQAS7iqZ6" target="_blank"
-                  >463 Summer Hill Road, Madison, CT 06443</a
+                <a href="https://goo.gl/maps/B2bvfrwipdtnTEDt6" target="_blank"
+                  ><b>463 Summer Hill Road, Madison, Connecticut 06443</b></a
                 >
               </p>
             </div>

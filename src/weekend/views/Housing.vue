@@ -7,11 +7,12 @@
         <div class="container shape-container d-flex">
           <div class="col px-0">
             <v-img src="img/pages/housing.jpeg" max-height="300"></v-img><br />
-            <p>
-              There are two options for where to stay during the wedding
-              weekend:
-            </p>
-            <h2>Option 1: Stay at Camp Laurelwood</h2>
+          <v-expansion-panels>
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              <h2>Option 1: Stay at Camp Laurelwood</h2>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
             <p>
               Becky and Steve will happily be staying at camp the entire
               weekend. You’re all invited to join, but staying in rustic cabins
@@ -73,7 +74,13 @@
                 allowfullscreen
               ></iframe>
             </p>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel>
+            <v-expansion-panel-header>
             <h2>Option 2: Stay Locally in Hotels, B&Bs, etc.</h2>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
 
             <h4>
               Here are the closest hotels and B&Bs (each about a 15 min drive to
@@ -141,6 +148,9 @@
               <a href="https://www.airbnb.com/" target="_blank">Airbnb</a> and
               <a href="https://www.vrbo.com/" target="_blank">Vrbo</a>.
             </p>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
           </div>
         </div>
       </section>
