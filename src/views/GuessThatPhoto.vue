@@ -10,9 +10,9 @@
               <v-col>
                 <flashcard
                   front="What are these messages?"
-                  imgFront="img/guess/warringtongardens.jpg"
+                  imgFront="img/guess/messages.jpeg"
                   back="Our first messages to each other!"
-                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBack="img/guess/messages.jpeg"
                   imgBackWidth="350"
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
@@ -22,9 +22,9 @@
                 ></flashcard>
                 <flashcard
                   front="What is this?"
-                  imgFront="img/guess/warringtongardens.jpg"
+                  imgFront="img/guess/apartment.jpeg"
                   back="Our first apartment!"
-                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBack="img/guess/apartment.jpeg"
                   imgBackWidth="350"
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
@@ -35,9 +35,9 @@
               ><v-col>
                 <flashcard
                   front="Why is this park bench important?"
-                  imgFront="img/guess/warringtongardens.jpg"
+                  imgFront="img/guess/bench.jpeg"
                   back="Where we first met!"
-                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBack="img/guess/bench.jpeg"
                   imgBackWidth="350"
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
@@ -46,10 +46,10 @@
                   colorTextBack="black"
                 ></flashcard>
                 <flashcard
-                  front="Which beach is this (delete)?"
-                  imgFront="img/guess/warringtongardens.jpg"
+                  front="Which beach is this?"
+                  imgFront="img/guess/beach.png"
                   back="The Jersey Shore (near Atlantic City, far from Snookie and J-Wow)"
-                  imgBack="img/guess/warringtongardens.jpg"
+                  imgBack="img/guess/beach.png"
                   imgBackWidth="350"
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
@@ -85,9 +85,9 @@
                 ></flashcard>
                 <flashcard
                   front="Who are they?"
-                  imgFront="img/guess/beckyparents.jpg"
+                  imgFront="img/guess/steve_parents.jpeg"
                   back="Sue and Fred Suffian!"
-                  imgBack="img/guess/beckyparents.jpg"
+                  imgBack="img/guess/steve_parents.jpeg"
                   imgBackWidth="350"
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
