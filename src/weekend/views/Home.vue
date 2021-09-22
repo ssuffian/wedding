@@ -17,8 +17,12 @@
             </div>
             <div class="row justify-content-center">
               <p class="text">
-                Memorial Day Weekend 2021 (Saturday May 28 - Monday May 30,
-                2022)
+                Memorial Day Weekend 2021
+              </p>
+            </div>
+            <div class="row justify-content-center">
+              <p class="text">
+                Saturday May 28 - Monday May 30, 2022
               </p>
             </div>
             <div class="row justify-content-center">

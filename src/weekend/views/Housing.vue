@@ -22,12 +22,12 @@
             <v-container>
               <ul>
                 <li>
-                  <b>COST:</b> The cost to stay in a cabin is $50 per person per
-                  night. Kids under 5 years old stay for free!
-                </li>
-                <li>
                   <b>BEDS:</b> Each cabin has about a dozen wooden bunk beds,
                   plus some single-beds. All beds have twin-size mattresses.
+                </li>
+                <li>
+                  <b>COST:</b> The cost to stay in a cabin is $50 per person per
+                  night. Kids under 5 years old stay for free!
                 </li>
                 <li>
                   <b>BEDDING:</b> Cabins do not include pillows, sheets,
@@ -54,6 +54,9 @@
                 <li>
                   <b>PARKING:</b> Overnight guests can drive directly up to
                   cabins and remain parked there.
+                </li>
+                <li>
+                <b>RSVP:</b> In the RSVP form, you can sign up to stay in a cabin—and name other guests you’d like to stay with. The RSVP form also asks about your preferences, such as staying in a cabin with kids or not. Becky & Steve will make cabin arrangements based on everyone’s preferences, then send you directions for how to pay, which will confirm your reservation.
                 </li>
               </ul>
             </v-container>

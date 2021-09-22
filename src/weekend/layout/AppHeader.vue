@@ -34,7 +34,7 @@
         </li>
         <li class="nav-item">
           <router-link to="/faq-w" class="nav-link"
-            >FAQ/Covid-19 Info</router-link
+            >FAQ/Covid-19</router-link
           >
         </li>
         <!--
