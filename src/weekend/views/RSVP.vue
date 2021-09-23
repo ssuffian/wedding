@@ -45,10 +45,13 @@
               <div v-if="rsvps.length === 0 && loading === false">
                 No RSVPS found for: '{{ rsvpEmail }}'
               </div>
-              <div v-for="(rsvp, key) in rsvps" v-bind:key="key">
-                <a :href="rsvp.fields['Edit Url']" target="_blank">{{
-                  rsvp.fields["Name"]
-                }}</a>
+              <div v-else>
+              Please make sure to complete an RSVP form for each guest in your immediate party.
+                  <div v-for="(rsvp, key) in rsvps" v-bind:key="key">
+                    <a :href="rsvp.fields['Edit Url']" target="_blank">{{
+                      rsvp.fields["Name"]
+                    }}</a>
+                  </div>
               </div>
             </div>
           </div>
