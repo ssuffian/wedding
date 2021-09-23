@@ -7,7 +7,7 @@
         <div class="container shape-container d-flex">
           <div class="col px-0">
           <div class="row justify-content-center">
-              <v-img src="img/pages/home.jpeg" max-width="800"></v-img>
+              <v-img src="img/pages/home.jpeg" max-height="500"></v-img>
             </div>
             <div class="row justify-content-center">
               <h1 class="display-3  text">

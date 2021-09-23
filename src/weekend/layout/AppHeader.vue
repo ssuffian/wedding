@@ -1,11 +1,6 @@
 <template>
-  <header class="header-global">
-    <base-nav class="navbar-main" type="" effect="default" transparent expand>
-      <div class="row" slot="content-header" slot-scope="{ closeMenu }">
-        <div class="col-12 collapse-close">
-          <close-button @click="closeMenu"></close-button>
-        </div>
-      </div>
+  <header class="shape-container d-flex nav-padding">
+    <base-nav class="navbar-main" type=""  transparent expand>
 
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
         <li class="nav-item">
@@ -49,14 +44,12 @@
                     <router-link to="/logout" class="dropdown-item">Logout</router-link>
                 </base-dropdown>
                 -->
-      </ul>
-      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
         <li class="nav-item d-lg-block ml-lg-4">
-          <router-link to="/rsvp-w" class="btn btn-neutral btn-icon">
+          <router-link to="/rsvp-w">
             <span class="btn-inner--icon">
               <i class="ni ni-send mr-2"></i>
             </span>
-            <span class="nav-link-inner--text">RSVP</span>
+            <span class="nav-link-inner--text"><b>RSVP</b></span>
           </router-link>
         </li>
       </ul>
@@ -76,4 +69,8 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+.nav-padding{
+    padding-right: 10rem;
+}
+</style>

@@ -31,10 +31,11 @@
         :id="contentId"
         v-click-outside="closeMenu"
       >
+        <button style="float:right" @click="closeThisMenu">X</button>
         <div class="navbar-collapse-header">
-          <slot name="content-header" :close-menu="closeMenu"></slot>
+          <slot name="content-header"></slot>
         </div>
-        <slot :close-menu="closeMenu"></slot>
+        <slot></slot>
       </div>
     </div>
   </nav>
@@ -96,9 +97,10 @@ export default {
     onTitleClick(evt) {
       this.$emit("title-click", evt);
     },
-    closeMenu() {
+    closeThisMenu() {
       this.toggled = false;
-    }
+    },
+    closeMenu() {}//Something wrong with this }
   }
 };
 </script>
