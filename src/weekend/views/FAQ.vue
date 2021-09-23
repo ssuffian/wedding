@@ -108,8 +108,8 @@
                   guests will need support to reach events.
                   We will rent several golf carts the entire weekend, and we
                   will do our best to arrange golf cart rides for guests who
-                  need support getting around. The RSVP form asks for
-                  guests’ accessibility needs, including golf carts.
+                  need support getting around. The RSVP form asks about
+                  guests’ accessibility needs.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
