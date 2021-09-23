@@ -14,7 +14,7 @@
               locations, etc.).
             </p>
             <h2>Saturday May 28, 2022</h2>
-            <b>1 PM: Wedding weekend begins!</b>
+            <b>1 PM: Wedding weekend begins!</b><br><br>
             <p>Saturday will likely include:</p>
             <v-container>
               <ul>

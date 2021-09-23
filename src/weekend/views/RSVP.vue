@@ -77,6 +77,7 @@ export default {
 
   methods: {
     getRSVP(email) {
+
       var Airtable = require("airtable");
       var base = new Airtable({ apiKey: "keywYtoZwrZCEIjju" }).base(
         "app6RU8GISA8nj0um"
