@@ -97,20 +97,13 @@
             </p>
 
             <p>
-              If you feel it’s important to give us a physical gift, we’d like
-              to prioritize second-hand items instead of our guests buying new
-              items. We’ve
-              <a href="" target="_blank"
-                ><b>created a second-hand registry here</b></a
-              >
-              for guests who have certain items they don’t use anymore and would
-              like to gift. We’ve also
+              If you feel it’s important to give us a physical gift, we’ve
               <a
                 href="https://www.zola.com/registry/celebratewithus"
                 target="_blank"
-                ><b>created a registry here</b></a
+                ><b>created a registry</b></a
               >
-              for new items and gift cards.
+              for new items and gift cards. We'd also like to prioritize second-hand gifts. If you see a registry item similar to something you have but aren't using, and would like to give as a second-hand gift, feel free to email us directly.  
             </p>
 
             <p>Thank you so much!</p>
