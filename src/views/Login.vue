@@ -58,7 +58,7 @@ export default {
         localStorage.wholeWeekend = true;
         localStorage.loggedIn = true;
         this.$router.push("/home-w");
-      } else if (this.password === "ceremony") {
+      } else if (this.password === "beckysteve") {
         localStorage.password = this.password;
         localStorage.wholeWeekend = false;
         localStorage.loggedIn = true;
