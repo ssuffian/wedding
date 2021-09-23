@@ -19,7 +19,7 @@
                     measures are a personal and emotional topic for many people.
                     We also recognize that pandemic conditions, CDC guidelines,
                     and state regulations will likely change between now and
-                    then. We don’t know what May 2022 will bring, but we will
+                    our wedding. We don’t know what May 2022 will bring, but we will
                     monitor updates closely and keep this website updated.
                   </p>
 
@@ -44,7 +44,7 @@
                       </li>
                       <li>
                         Attending a big wedding during a pandemic can be a
-                        difficult and emotional decision for many guests. We
+                        difficult and emotional decision. We
                         absolutely understand (and we don't take it personally) if
                         guests cannot attend.
                       </li>
@@ -57,8 +57,8 @@
                   <v-container
                     ><ul>
                       <li>
-                        If younger ages are approved for vaccination, we may
-                        require guests under age 12 to be fully vaccinated.
+                        If vaccinations are authorized for younger ages, we may
+                        require younger guests to be fully vaccinated.
                       </li>
                       <li>
                         We may require guests to show proof of vaccination
@@ -66,7 +66,7 @@
                       </li>
                       <li>
                         We may require guests to be tested before the
-                        wedding and/or upon entry.
+                        wedding and/or upon arrival.
                       </li>
                       <li>We may hold all wedding events outdoors.</li>
                       <li>
@@ -108,8 +108,8 @@
                   guests will need support to reach events.
                   We will rent several golf carts the entire weekend, and we
                   will do our best to arrange golf cart rides for guests who
-                  need support getting around. The RSVP form asks for
-                  guests’ accessibility needs, including golf carts.
+                  need support getting around. The RSVP form asks about
+                  guests’ accessibility needs.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>

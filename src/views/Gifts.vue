@@ -82,7 +82,7 @@
                   >
                 </li>
                 <li>
-                <a href="https://sogoreate-landtrust.org/" target="_blank"><b>The Sogorea Te’ Land Trust</b></a> is an urban Indigenous women-led land trust centered in Huchiun, in unceded Lisjan (Ohlone) territory, now known as the East Bay in the San Francisco Bay Area. <a href="https://sogoreate-landtrust.org/" target="_blank">Click here to donate</a>.
+                <a href="https://sogoreate-landtrust.org/" target="_blank"><b>The Sogorea Te’ Land Trust</b></a> is an urban Indigenous women-led land trust centered in Huchiun, in unceded Lisjan (Ohlone) territory, now known as the East Bay in the San Francisco Bay Area. <a href="https://sogoreate-landtrust.org/donate/" target="_blank">Click here to donate</a>.
                 </li>
               </ul>
             </v-container>
