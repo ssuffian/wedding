@@ -352,8 +352,7 @@
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Nope! After they’re married, they’ll still be Becky Mer and
-                  Stephen Suffian. But if any guests would like to take this as
-                  an opportunity to change their last name, we’d be honored.
+                  Stephen Suffian. 
                 </v-expansion-panel-content>
               </v-expansion-panel>
             </v-expansion-panels>
