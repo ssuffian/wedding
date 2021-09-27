@@ -16,6 +16,7 @@
           {{ title }}
         </a>
       </slot>
+      <span class="toggle-text">Click for Menu --></span>
       <navbar-toggle-button
         :toggled="toggled"
         :target="contentId"
@@ -24,14 +25,13 @@
       </navbar-toggle-button>
 
       <slot name="container-after"></slot>
-
       <div
         class="collapse navbar-collapse"
         :class="{ show: toggled }"
         :id="contentId"
         v-click-outside="closeMenu"
       >
-        <button style="float:right" @click="closeThisMenu">X</button>
+        <button style="float:right" class="toggle-text" @click="closeThisMenu">X</button>
         <div class="navbar-collapse-header">
           <slot name="content-header"></slot>
         </div>
@@ -104,4 +104,10 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+@media (min-width:992px) {
+    .toggle-text {
+        display: none;
+    }
+}
+</style>
