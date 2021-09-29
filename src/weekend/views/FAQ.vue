@@ -43,6 +43,9 @@
                         hundreds of guests.
                       </li>
                       <li>
+                      All camp staff and vendors will be fully vaccinated.
+                      </li>
+                      <li>
                         Attending a big wedding during a pandemic can be a
                         difficult and emotional decision. We
                         absolutely understand (and we don't take it personally) if
@@ -180,8 +183,8 @@
                   <b>Is there WiFi at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Only a few facilities at camp have WiFi, and the cabins do
-                  not have WiFi. Plan for limited service, but we can connect in
+                  The camp has ample cell phone service. Only a few facilities at camp have WiFi, and the cabins do
+                  not have WiFi. But we can connect in
                   person! Luckily, our friends and family are pretty awesome.
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -215,10 +218,10 @@
                   <b>Can I stay in my own tent at the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Maybe. The camp does not prefer this, and it will still cost
+                  Yes, but it will still cost
                   you $50 per person per night (the same cost as a cabin).
                   Please consider staying in a cabin instead. But if you’re
-                  super interested in camping, contact us.
+                  super interested in pitching a tent, contact us.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
