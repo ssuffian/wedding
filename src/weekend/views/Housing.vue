@@ -97,7 +97,7 @@
                     target="_blank"
                     >Beech Tree Cottages</a
                   >
-                  is a collection of 8 seasonal cottages.
+                  is a collection of 8 seasonal cottages, and they're not yet taking 2022 bookings, to our knowledge.
                 </li>
                 <li>
                   <a
