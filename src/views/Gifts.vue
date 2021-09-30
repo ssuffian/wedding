@@ -18,8 +18,7 @@
               For those interested in giving in other ways, we would be honored
               if our wedding could play a small role in supporting the important
               work of community organizations and social justice movements. If
-              you would like to make a donation in honor of our wedding, here
-              are some causes that are meaningful to us:
+              you would like to make a donation in honor of our wedding, please consider these causes which are meaningful to us:
             </p>
             <v-container>
               <ul>
