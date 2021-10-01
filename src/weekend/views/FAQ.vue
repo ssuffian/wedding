@@ -304,7 +304,7 @@
                           href="https://www.stonycreekbeer.com/home"
                           target="_blank"
                           ><b>Stony Creek Brewery</b></a
-                        >, boat tours of <a href="https://en.wikipedia.org/wiki/Thimble_Islands"_blank"><b>Thimble Islands</b></a
+                        >, boat tours of <a href="https://en.wikipedia.org/wiki/Thimble_Islands" target="_blank"><b>Thimble Islands</b></a
                         >, restaurants, and gift
                         shops.
                       </li>
