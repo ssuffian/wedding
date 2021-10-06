@@ -55,7 +55,7 @@
                   imgFrontWidth="350"
                   headerFront="Guess that photo"
                   footerFront="Click to show answer"
-                  footerBack="These are Steve's wonderful parents who live in Pennsylvania (with their adorable dog, Sophie!)."
+                  footerBack="These are Steve's wonderful parents who live in Pennsylvania."
                   colorTextBack="black"
                 ></flashcard>
                 </v-col ><v-col>
