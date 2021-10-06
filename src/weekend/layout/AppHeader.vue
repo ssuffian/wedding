@@ -1,49 +1,11 @@
 <template>
   <header class="shape-container d-flex nav-padding">
-    <base-nav class="navbar-main" type=""  transparent expand>
-
+  <div v-if="expanded">
+    <base-nav class="navbar-main" transparent expand>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-        <li class="nav-item">
-          <router-link to="/home-w" class="nav-link">Home</router-link>
+        <li class="nav-item" v-for="(link,i) in  links" :key="i">
+          <router-link :to="link.to" class="nav-link">{{ link.text }}</router-link>
         </li>
-        <li class="nav-item">
-          <router-link to="/schedule-w" class="nav-link">Schedule</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/travel-w" class="nav-link">Travel</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/housing-w" class="nav-link"
-            >Where to Stay</router-link
-          >
-        </li>
-        <li class="nav-item">
-          <router-link to="/guess-that-photo-w" class="nav-link"
-            >Guess That Photo</router-link
-          >
-        </li>
-        <li class="nav-item">
-          <router-link to="/gifts-w" class="nav-link"
-            >Gifts/Donations</router-link
-          >
-        </li>
-        <li class="nav-item">
-          <router-link to="/faq-w" class="nav-link"
-            >FAQ/Covid-19</router-link
-          >
-        </li>
-        <!--
-                <base-dropdown tag="li" class="nav-item">
-                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Examples</span>
-                    </a>
-                    <router-link to="/landing" class="dropdown-item">Landing</router-link>
-                    <router-link to="/profile" class="dropdown-item">Profile</router-link>
-                    <router-link to="/login" class="dropdown-item">Login</router-link>
-                    <router-link to="/logout" class="dropdown-item">Logout</router-link>
-                </base-dropdown>
-                -->
         <li class="nav-item d-lg-block ml-lg-4">
           <router-link to="/rsvp-w">
             <span class="btn-inner--icon">
@@ -54,19 +16,80 @@
         </li>
       </ul>
     </base-nav>
+</div><div v-else>
+    <v-app-bar
+      dense
+      collapsible
+    >
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+            <v-toolbar-title @click.stop="drawer = !drawer">Click Here For Menu</v-toolbar-title>
+    </v-app-bar>
+    <v-navigation-drawer
+      v-model="drawer"
+      absolute
+      temporary
+    >
+      <v-list
+        nav
+        dense
+      >
+        <v-list-item-group
+          active-class="deep-purple--text text--accent-4"
+        >
+          <v-list-item v-for="(link,i) in links" :key="i">
+          <router-link :to="link.to" class="nav-link"
+            >{{ link.text }}</router-link
+          >
+          </v-list-item>
+          <v-list-item>
+          <router-link to="/rsvp-w">
+            <span class="btn-inner--icon">
+              <i class="ni ni-send mr-2"></i>
+            </span>
+            <span class="nav-link-inner--text"><b>RSVP</b></span>
+          </router-link>
+          </v-list-item>
+
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
+    </div>
   </header>
 </template>
 <script>
 import BaseNav from "@/components/BaseNav";
-import BaseDropdown from "@/components/BaseDropdown";
-import CloseButton from "@/components/CloseButton";
 
 export default {
   components: {
     BaseNav,
-    CloseButton,
-    BaseDropdown
-  }
+  },
+  data() {
+    return {
+      drawer: false,
+      windowWidth: window.innerWidth,
+      links: [
+        {'to': '/home-w', 'text': 'Home'},
+        {'to': '/schedule-w', 'text': 'Schedule'},
+        {'to': '/travel-w', 'text': 'Travel'},
+        {'to': '/housing-w', 'text': 'Where to Stay'},
+        {'to': '/guess-that-photo-w', 'text': 'Guess That Photo'},
+        {'to': '/gifts-w', 'text': 'Gifts/Donations'},
+        {'to': '/faq-w', 'text': 'FAQ/Covid-19'},
+      ] 
+    };
+  },
+  computed: {
+      expanded() {return this.windowWidth > 892}
+  },
+    methods: {
+    handleWindowResize(event) { this.windowWidth = event.currentTarget.innerWidth; },
+  },
+  beforeDestroy: function () {
+    window.removeEventListener('resize', this. handleWindowResize)
+  },
+  mounted() {
+    window.addEventListener('resize', this.handleWindowResize);
+  },
 };
 </script>
 <style>

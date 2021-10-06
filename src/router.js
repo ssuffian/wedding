@@ -2,7 +2,6 @@ import Vue from "vue";
 import App from "./App.vue";
 import Router from "vue-router";
 
-import Components from "./views/Components.vue";
 import Travel from "./views/Travel.vue";
 import GuessThatPhoto from "./views/GuessThatPhoto.vue";
 import Gifts from "./views/Gifts.vue";
