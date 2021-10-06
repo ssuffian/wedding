@@ -98,8 +98,16 @@
                 <b>Tell me about the food!</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  <p>As a Jewish camp, Camp Laurelwood's kitchen is kosher, and the vast majority of the food during our wedding weekend will be made by the camp. If we do serve any non-kosher items, they will not interact with the kitchen, and they will be explicitly labeled.</p> 
-                  <p>For guests staying in cabins, all your meals and snacks will be provided at camp (from Saturday lunch to Monday breakfast). For guests staying outside camp, the RSVP form asks which meals you plan to attend at camp. For more details about mealtimes, please visit the Schedule page.</p>
+                  <p>As a Jewish camp, Camp Laurelwood's kitchen is kosher, and the vast majority
+                  of the food during our wedding weekend will be made by the camp. 
+                  If we do serve any non-kosher items, they will not interact with the kitchen, and they will be explicitly labeled.</p> 
+                  <p>For guests staying in cabins, all your meals and snacks will be provided at camp
+                  (from Saturday lunch to Monday breakfast). For guests staying outside camp, 
+                  the RSVP form asks which meals you plan to attend at camp. For more details about mealtimes, please visit the Schedule page.</p>
+                  <p>The RSVP form also asks for your dietary restrictions. Please let us know your specific allergies, restrictions, and needs, so we 
+                  can do our absolute best to accomodate everyone. We will have vegetarian, vegan, gluten-free, and sesame-free options.
+                  We will also try to put the entire weekend menu (once it's formalized) on our website, so stay tuned!
+                  </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
