@@ -58,7 +58,6 @@
                   footerBack="These are Steve's wonderful parents who live in Pennsylvania."
                   colorTextBack="black"
                 ></flashcard>
-                </v-col ><v-col>
                 <flashcard
                   front="What happened here?"
                   imgFront="img/guess/isabella.jpeg"
@@ -71,6 +70,8 @@
                   footerBack="The Isabella Stewart Gardner Museum in Boston is where we proposed to each other in December 2019."
                   colorTextBack="black"
                 ></flashcard> 
+                <br><br>
+                </v-col ><v-col>
                 <flashcard
                   front="Why is this park bench important?"
                   imgFront="img/guess/bench.jpeg"
@@ -85,6 +86,19 @@
                 ></flashcard>
                 <flashcard
                   front="Who is this?"
+                  imgFront="img/guess/baby_stephen.jpeg"
+                  back="Steve!"
+                  imgBack="img/guess/baby_stephen.jpeg"
+                  imgBackWidth="350"
+                  imgFrontWidth="350"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="Steve doing some early karaoke!"
+                  colorTextBack="black"
+                ></flashcard> 
+              </v-col> <v-col>
+                <flashcard
+                  front="Who is this?"
                   imgFront="img/guess/baby_becky.jpeg"
                   back="Becky!"
                   imgBack="img/guess/baby_becky.jpeg"
@@ -95,7 +109,6 @@
                   footerBack="Becky in her finest ruffles!"
                   colorTextBack="black"
                 ></flashcard> 
-              </v-col> <v-col>
                 <flashcard
                   front="Where is this?"
                   imgFront="img/guess/beach.png"
@@ -106,18 +119,6 @@
                   headerFront="Guess that photo"
                   footerFront="Click to show answer"
                   footerBack="This photo shows the extent of our collective gymnastic abilities."
-                  colorTextBack="black"
-                ></flashcard> 
-                <flashcard
-                  front="Who is this?"
-                  imgFront="img/guess/baby_stephen.jpeg"
-                  back="Steve!"
-                  imgBack="img/guess/baby_stephen.jpeg"
-                  imgBackWidth="350"
-                  imgFrontWidth="350"
-                  headerFront="Guess that photo"
-                  footerFront="Click to show answer"
-                  footerBack="Steve doing some early karaoke!"
                   colorTextBack="black"
                 ></flashcard> 
                 </v-col>

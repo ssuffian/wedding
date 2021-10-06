@@ -53,3 +53,8 @@ export default {
   components: {}
 };
 </script>
+<style>
+.text {
+    text-align: center
+}
+</style>
