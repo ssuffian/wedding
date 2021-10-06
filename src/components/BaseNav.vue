@@ -3,52 +3,19 @@
     class="navbar"
     :class="[
       { 'navbar-expand-lg': expand },
-      { [`navbar-${effect}`]: effect },
       { 'navbar-transparent': transparent },
-      { [`bg-${type}`]: type },
+      { [`bg-${type}`]: '' },
       { rounded: round }
     ]"
   >
-    <div class="container">
-      <slot name="container-pre"></slot>
-      <slot name="brand">
-        <a class="navbar-brand" href="#" @click.prevent="onTitleClick">
-          {{ title }}
-        </a>
-      </slot>
-      <span class="toggle-text">Click for Menu --></span>
-      <navbar-toggle-button
-        :toggled="toggled"
-        :target="contentId"
-        @click.native.stop="toggled = !toggled"
-      >
-      </navbar-toggle-button>
-
-      <slot name="container-after"></slot>
-      <div
-        class="collapse navbar-collapse"
-        :class="{ show: toggled }"
-        :id="contentId"
-        v-click-outside="closeMenu"
-      >
-        <button style="float:right" class="toggle-text" @click="closeThisMenu">X</button>
-        <div class="navbar-collapse-header">
-          <slot name="content-header"></slot>
-        </div>
-        <slot></slot>
-      </div>
-    </div>
+  <slot></slot>
   </nav>
 </template>
 <script>
-import { FadeTransition } from "vue2-transitions";
-import NavbarToggleButton from "./NavbarToggleButton";
 
 export default {
   name: "base-nav",
   components: {
-    FadeTransition,
-    NavbarToggleButton
   },
   props: {
     type: {
@@ -105,9 +72,12 @@ export default {
 };
 </script>
 <style>
-@media (min-width:992px) {
+@media (min-width:892px) {
     .toggle-text {
         display: none;
     }
+}
+.navbar-nav {
+    margin: auto
 }
 </style>
