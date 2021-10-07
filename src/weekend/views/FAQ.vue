@@ -416,9 +416,8 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  components: {}
-};
-</script>
+<style>
+.v-expansion-panel-header > :not(.v-expansion-panel-header__icon) {
+   flex: 1 0 0 !important
+}
+</style>

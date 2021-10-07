@@ -10,7 +10,7 @@
           <v-expansion-panels>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              <h2>Option 1: Stay at Camp Laurelwood</h2>
+              <h2>Option 1</h2>: Stay at Camp Laurelwood
             </v-expansion-panel-header>
             <v-expansion-panel-content>
             <p>
@@ -69,7 +69,7 @@
             <p class="text-center">
               <br>
               <iframe
-                width="560"
+                width="80%"
                 height="315"
                 src="https://www.youtube.com/embed/neSfhTbFuGg"
                 frameborder="0"
@@ -81,7 +81,7 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-            <h2>Option 2: Stay Locally in Hotels, B&Bs, etc.</h2>
+            <h2>Option 2</h2>: Stay Locally in Hotels, B&Bs, etc.
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
