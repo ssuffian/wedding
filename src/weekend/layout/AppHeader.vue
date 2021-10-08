@@ -18,8 +18,7 @@
     </base-nav>
 </div><div v-else>
     <v-app-bar
-      dense
-      collapsible
+    absolute
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
             <v-toolbar-title @click.stop="drawer = !drawer">Click Here For Menu</v-toolbar-title>
