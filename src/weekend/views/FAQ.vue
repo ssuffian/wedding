@@ -397,7 +397,7 @@
                 <v-expansion-panel-content>
                   We are not planning to have a shuttle to/from the camp.
                   Regarding driving conditions at night, the roads to the camp
-                  are paved, wide, and in a residential area.
+                  are paved, wide, and in a residential area, but some areas are windy and poorly lit.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
