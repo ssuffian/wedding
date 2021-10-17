@@ -168,7 +168,7 @@
                   form asks which meals you plan to attend at camp.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel v=if="wholeWeekend">
+              <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>Can I receive or offer a ride to the wedding?</b>
                 </v-expansion-panel-header>
