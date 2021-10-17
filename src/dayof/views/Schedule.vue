@@ -6,47 +6,47 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
-            <p>Our wedding will be held on Sunday, May 30, 2021.</p>
+            <v-img src="img/pages/schedule.jpeg" max-height="300"></v-img><br />
+            <p>
+              Our wedding ceremony will be on <b>Sunday, May 29, 2022</b>.
+              As we get closer to the
+              wedding, this page will be updated with more details (times,
+              locations, etc.).
+            </p>
+            <h2>Sunday May 29, 2022</h2>
+            <p>Before the wedding ceremony, Sunday will likely include:</p>
+            <v-container>
+              <ul>
+                <li>Brunch at camp</li>
+                <li>Snacks and refreshments at camp</li>
+                <li>Lake activities, like canoeing and swimming</li>
+                <li>Hammocks and swing sets</li>
+                <li>Gaga courts and other games & sports</li>
+              </ul>
+            </v-container>
 
-            <h2>Sunday May 30, 2021</h2>
+            <b>
+              The wedding ceremony will begin mid-afternoon.</b> The wedding will
+              include:
+            <v-container
+              ><ul>
+                <li>
+                  Tisches (separate, joyful gatherings for Becky and Steve)
+                </li>
+                <li>Signing the ketubah (Jewish marriage contract)</li>
+                <li>A ceremony under the chuppah</li>
+                <li>A dinner reception, plus lots of dancing</li>
+              </ul>
+            </v-container>
 
             <p>
-              We are still figuring out exact timings, but the wedding will
-              start mid-afternoon. The celebration will go like this:
-            </p>
-            <ul>
-              <li>
-                Becky and Steve will host separate, joyful gatherings open to
-                all guests, modeled on traditional Jewish tisches
-              </li>
-              <li>
-                Both gatherings will come together, and we will sign our ketubah
-                (Jewish marriage contract)
-              </li>
-              <li>
-                We will transition to a meaningful wedding ceremony under a
-                chuppah
-              </li>
-              <li>
-                Party time! We’ll have dinner, dancing, and bonfires into the
-                night
-              </li>
-            </ul>
-            <p>
-              We will update this page with more details on the schedule. If you
-              want to learn more about our approach to our Jewish wedding, an
-              overview of wedding rituals and traditions, and other Jewish
-              practices throughout the weekend, please see our Jewish Wedding
-              page.
+              Later in the evening, there will be an
+              <b>after-party and bonfire.</b>
             </p>
 
-            <h2>Monday May 31, 2021</h2>
-
-            <p>
-              On the morning of Memorial Day, we will host a brunch at the camp.
-              We are figuring out the exact timing and will update this page,
-              but the timing will neither be very early nor very late.
-            </p>
+            <h2>Monday May 30, 2022</h2>
+              Monday will include a <b>goodbye breakfast</b> at camp, which will
+              conclude <b>at 11am.</b>
           </div>
         </div>
       </section>

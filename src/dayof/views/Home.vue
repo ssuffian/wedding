@@ -6,27 +6,39 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
+          <div class="row justify-content-center">
+              <v-img src="img/pages/home.jpeg" max-height="500"></v-img>
+            </div>
             <div class="row justify-content-center">
-              <img src="img/beckysteve.jpg" class="img-fluid" />
               <h1 class="display-3  text">
-                <span>Join us to celebrate our wedding!</span>
+                <span>Celebrate our wedding with us!</span>
               </h1>
             </div>
             <div class="row justify-content-center">
-              <p class="lead text">Becky Mer and Stephen Suffian</p>
+              <p class="text">Becky Mer and Stephen Suffian</p>
             </div>
             <div class="row justify-content-center">
               <p class="text">
-                Memorial Day Weekend 2021 (Saturday May 29 - Monday May 31,
-                2021)
+                Memorial Day Weekend 2022
+              </p>
+            </div>
+            <div class="row justify-content-center">
+              <p class="text">
+                Sunday May 29
               </p>
             </div>
             <div class="row justify-content-center">
               <p class="text">
                 <a href="https://www.camplaurelwood.org/" target="_blank"
-                  >Camp Laurelwood</a
+                  ><b>Camp Laurelwood</b></a
                 >
-                in Madison, Connecticut
+              </p>
+            </div>
+            <div class="row justify-content-center">
+              <p class="text">
+                <a href="https://goo.gl/maps/B2bvfrwipdtnTEDt6" target="_blank"
+                  ><b>463 Summer Hill Road, Madison, Connecticut 06443</b></a
+                >
               </p>
             </div>
           </div>
@@ -41,3 +53,8 @@ export default {
   components: {}
 };
 </script>
+<style>
+.text {
+    text-align: center
+}
+</style>

@@ -104,6 +104,15 @@ const router = new Router({
       }
     },
     {
+      path: "/faq-c",
+      name: "faq-c",
+      components: {
+        header: AppHeader_C,
+        default: FAQ_W,
+        footer: AppFooter_C
+      },
+    },
+    {
       path: "/guess-that-photo-w",
       name: "guess-that-photo-w",
       components: {
@@ -126,6 +135,15 @@ const router = new Router({
       meta: {
         wholeWeekend: true
       }
+    },
+    {
+      path: "/gifts-c",
+      name: "gifts-c",
+      components: {
+        header: AppHeader_C,
+        default: Gifts,
+        footer: AppFooter_C
+      },
     },
     {
       path: "/home-c",
