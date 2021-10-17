@@ -23,8 +23,11 @@
               </p>
             </div>
             <div class="row justify-content-center">
-              <p class="text">
+              <p v-if="wholeWeekend" class="text">
                 Saturday May 28 - Monday May 30, 2022
+              </p>
+              <p v-else class="text">
+                Sunday May 29 - Monday May 30, 2022
               </p>
             </div>
             <div class="row justify-content-center">
@@ -50,8 +53,12 @@
 
 <script>
 export default {
-  components: {}
-};
+    data() {
+        return {
+            wholeWeekend: localStorage.wholeWeekend === "true"
+        }
+    }
+}
 </script>
 <style>
 .text {

@@ -42,7 +42,7 @@
 
                   <p>Camp Laurelwood has free parking onsite.</p>
 
-                  <p>
+                  <p v-if="wholeWeekend">
                     To offer or find a ride to the wedding, please add your name
                     to our
                     <a
@@ -164,8 +164,12 @@
 
 <script>
 export default {
-  components: {}
-};
+    data() {
+        return {
+            wholeWeekend: localStorage.wholeWeekend === "true"
+        }
+    }
+}
 </script>
 <style>
 .v-expansion-panel-header > :not(.v-expansion-panel-header__icon) {

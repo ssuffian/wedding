@@ -10,7 +10,7 @@
               <v-expansion-panel>
                 <v-expansion-panel-header>
                   <b>What will be the COVID-19 mitigation measures during the
-                  wedding weekend?</b>
+                  wedding<span v-if="wholeWeekend"> weekend</span>?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>
@@ -133,14 +133,14 @@
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>As a Jewish camp, Camp Laurelwood's kitchen is kosher, and the vast majority
-                  of the food during our wedding weekend will be made by the camp. 
+                  of the food during our wedding<span v-if="wholeWeekend"> weekend</span> will be made by the camp. 
                   If we do serve any non-kosher items, they will not interact with the kitchen, and they will be explicitly labeled.</p> 
-                  <p>For guests staying in cabins, all your meals and snacks will be provided at camp
+                  <p v-if="wholeWeekend">For guests staying in cabins, all your meals and snacks will be provided at camp
                   (from Saturday lunch to Monday breakfast). For guests staying outside camp, 
                   the RSVP form asks which meals you plan to attend at camp. For more details about mealtimes, please visit the Schedule page.</p>
                   <p>The RSVP form also asks for your dietary restrictions. Please let us know your specific allergies, restrictions, and needs, so we 
                   can do our absolute best to accomodate everyone. We will have vegetarian, vegan, gluten-free, and sesame-free options.
-                  We will also try to put the entire weekend menu (once it's formalized) on our website, so stay tuned!
+                  We will also try to put the entire <span v-if="wholeWeekend">weekend</span> menu (once it's formalized) on our website, so stay tuned!
                   </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -157,7 +157,7 @@
                   guests’ accessibility needs.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel>
+              <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>If I'm not staying at camp, can I still participate in camp
                   activities and meals?</b>
@@ -181,9 +181,8 @@
                   <b>Is there parking at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Yes, the camp has free parking. Overnight guests can drive
-                  up directly to cabins and remain parked there. Daytime guests
-                  should park in the main parking lot at the entrance of camp
+                  Yes, the camp has free parking. <span v-if="wholeWeekend">Overnight guests can drive
+                  up directly to cabins and remain parked there. </span><span v-if="wholeWeekend">Daytime guests</span><span v-else>Guests</span> should park in the main parking lot at the entrance of camp
                   (or on the nearby field, if the lot is full).
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -196,7 +195,7 @@
                   <p>Make sure to wear practical shoes, since there will be lots of grass, gravel, and wooded trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets hot during the day, gets cold at night, or rains.</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel>
+              <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>I’m staying in a cabin. What should I pack?</b>
                 </v-expansion-panel-header>
@@ -233,8 +232,8 @@
                   <b>Is there WiFi at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  The camp has ample cell phone service. Only a few facilities at camp have WiFi, and the cabins do
-                  not have WiFi. But we can connect in
+                  The camp has ample cell phone service. Only a few facilities at camp have WiFi<span v-if="wholeWeekend">, and the cabins do
+                  not have WiFi</span>. But we can connect in
                   person! Luckily, our friends and family are pretty awesome.
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -248,7 +247,7 @@
                     mitigation measures, your invitation specifically states who
                     is invited. But if we forgot someone in your immediate party (like invited 2 of your kids but not the 3rd!), then please contact us so we can correct the mistake.
                   </p>
-                  <p>
+                  <p v-if="wholeWeekend">
                     Regarding kids, the entire weekend will be family-friendly,
                     and we’re hoping to book babysitters for parts of the
                     weekend (updates to come as we get closer to the wedding).
@@ -263,7 +262,7 @@
                   Nope! All camp activities are free for all guests.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel>
+              <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>Can I stay in my own tent at the camp?</b>
                 </v-expansion-panel-header>
@@ -416,6 +415,15 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            wholeWeekend: localStorage.wholeWeekend === "true"
+        }
+    }
+}
+</script>
 <style>
 .v-expansion-panel-header > :not(.v-expansion-panel-header__icon) {
    flex: 1 0 0 !important

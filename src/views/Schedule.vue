@@ -9,10 +9,11 @@
             <v-img src="img/pages/schedule.jpeg" max-height="300"></v-img><br />
             <p>
               Our wedding ceremony will be on <b>Sunday, May 29, 2022</b>.
-              Celebrate with us for the entire weekend! As we get closer to the
+              <span v-if="wholeWeekend">Celebrate with us for the entire weekend!</span> As we get closer to the
               wedding, this page will be updated with more details (times,
               locations, etc.).
             </p>
+            <div v-if="wholeWeekend">
             <h2>Saturday May 28, 2022</h2>
             <b>1 PM: Wedding weekend begins!</b><br><br>
             <p>Saturday will likely include:</p>
@@ -32,8 +33,10 @@
                 <li>Bonfire</li>
               </ul>
             </v-container>
+            </div>
 
             <h2>Sunday May 29, 2022</h2>
+            <div v-if="wholeWeekend">
             <p>Before the wedding ceremony, Sunday will likely include:</p>
             <v-container>
               <ul>
@@ -44,6 +47,7 @@
                 <li>Gaga courts and other games & sports</li>
               </ul>
             </v-container>
+            </div>
 
             <b>
               The wedding ceremony will begin mid-afternoon.</b> The wedding will
@@ -76,6 +80,10 @@
 
 <script>
 export default {
-  components: {}
+    data() { 
+        return { 
+        wholeWeekend: localStorage.wholeWeekend === 'true' 
+    }
+    }
 };
 </script>

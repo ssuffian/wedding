@@ -8,8 +8,8 @@
           <div class="col px-0">
             <v-img style="float:left; margin-right:10px" src="img/pages/rsvp.jpeg"></v-img>
               <b>Ready to RSVP?</b> Please review our "Schedule" and "Where to Stay"
-              pages. The RSVP form asks which camp meals you’ll be attending and
-              whether you plan to stay overnight in cabins.
+              pages. The RSVP form asks which camp meals you’ll be attending<span v-if="wholeWeekend"> and
+              whether you plan to stay overnight in cabins</span>.
               <br><br>
               <b>Not attending the wedding?</b> If you or anyone in your party
               are not able to attend, please RSVP to let us
@@ -65,6 +65,7 @@
 export default {
   data() {
     return {
+      wholeWeekend: localStorage.wholeWeekend === 'true',
       rsvpEmail: "",
       rsvps: null,
       rsvpsFound: true,
@@ -91,7 +92,7 @@ export default {
       const self = this;
       self.loading = true;
 
-      base("People")
+      base(this.wholeWeekend ? "People" : "People_Sunday")
         .select({
           maxRecords: 10,
           filterByFormula: "{RSVPs} = '" + rsvpEmail + "'",
