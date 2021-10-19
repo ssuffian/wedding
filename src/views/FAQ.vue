@@ -149,9 +149,9 @@
                   <b>What are accessibility supports at the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Camp Laurelwood is on 140 acres, and we understand some
+                  Camp Laurelwood is on 130 acres, and we understand some
                   guests will need support to reach events.
-                  We will rent several golf carts the entire weekend, and we
+                  We will rent golf carts the entire weekend, and we
                   will do our best to arrange golf cart rides for guests who
                   need support getting around. The RSVP form asks about
                   guests’ accessibility needs.
@@ -233,7 +233,7 @@
                   <b>Can I arrive earlier than 1 PM on Saturday?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                Yes you can, although there will not be any official events until 1 PM!
+                Yes, you can arrive earlier. Some overnight guests and out-of-town guests might But there won't be any official events or meals until 1 PM.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
