@@ -233,7 +233,8 @@
                   <b>Can I arrive earlier than 1 PM on Saturday?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                Yes, you can arrive earlier. Some overnight guests and out-of-town guests might But there won't be any official events or meals until 1 PM.
+                Yes, you can arrive earlier on Saturday. (For example, some overnight guests might want to get situated in their cabins early.) But there won't be any 
+                official events or meals until 1 PM.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
