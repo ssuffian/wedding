@@ -50,7 +50,7 @@
                   cabin.
                 </li>
                 <li>
-                  <b>PARKING:</b> Overnight guests can drive up directly to
+                  <b>PARKING:</b> Overnight guests should drive up directly to
                   cabins and remain parked there.
                 </li>
                 <li>
