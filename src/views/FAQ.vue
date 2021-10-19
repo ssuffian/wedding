@@ -228,6 +228,14 @@
                   they cannot bring.
                 </v-expansion-panel-content>
               </v-expansion-panel>
+              <v-expansion-panel v-if="wholeWeekend">
+                <v-expansion-panel-header>
+                  <b>Can I arrive earlier than 1 PM on Saturday?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                Yes you can, although there will not be any official events until 1 PM!
+                </v-expansion-panel-content>
+              </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
                   <b>Is there WiFi at camp?</b>
