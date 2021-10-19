@@ -196,6 +196,19 @@
                   <p>Make sure to wear practical shoes, since there will be lots of grass, gravel, and wooded trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets hot during the day, gets cold at night, or rains.</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
+               <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>Will the camp be buggy?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  It's a summer camp, so there will be bugs. But Camp Laurelwood sprays against insects, and we will provide bug repellent for guests. We also highly
+                  recommend that guests do <a
+                          href="https://www.cdc.gov/ticks/avoid/on_people.html"
+                          target="_blank"
+                          >daily tick checks</a
+                        >. 
+                </v-expansion-panel-content>
+              </v-expansion-panel>
               <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>I’m staying in a cabin. What should I pack?</b>
