@@ -11,7 +11,10 @@
               We are very privileged to have everything we need & more for our
               future together. We also recognize that many guests are taking on
               considerable expense and time to travel to our wedding. Thank you
-              so much for your presence and generosity!
+              so much for your presence and generosity! Our biggest wish for our wedding is for our family
+              and friends to connect and create a sense of community together. Your
+              openess to meeting strangers and active participation will be the most meaningful contributions.
+          
             </p>
 
             <p>
