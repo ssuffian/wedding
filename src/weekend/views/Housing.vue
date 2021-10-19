@@ -46,8 +46,7 @@
                   conditioning or heating.
                 </li>
                 <li>
-                  <b>SHOWERS:</b> Showers are located in separate, newly
-                  renovated shower buildings located a short walk from each
+                  <b>SHOWERS:</b> Showers are located in separate shower buildings, a short walk from each
                   cabin.
                 </li>
                 <li>
