@@ -149,7 +149,7 @@
                   <b>What are accessibility supports at the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Camp Laurelwood is on 130 acres, and we understand some
+                  Camp Laurelwood is located on 130 acres, and we understand some
                   guests will need support to reach events.
                   We will rent golf carts the entire weekend, and we
                   will do our best to arrange golf cart rides for guests who
