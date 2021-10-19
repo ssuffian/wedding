@@ -435,6 +435,7 @@ export default {
 </script>
 <style>
 .v-expansion-panel-header > :not(.v-expansion-panel-header__icon) {
-   flex: 1 0 0 !important
+   flex: 1 0 0 !important;
+   text-align: left;
 }
 </style>
