@@ -41,7 +41,6 @@
             <v-container>
               <ul>
                 <li>Brunch at camp</li>
-                <li>Snacks and refreshments at camp</li>
                 <li>Lake activities, like canoeing and swimming</li>
                 <li>Hammocks and swing sets</li>
                 <li>Gaga courts and other games & sports</li>
