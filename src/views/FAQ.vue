@@ -181,9 +181,10 @@
                   <b>Is there parking at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Yes, the camp has free parking. <span v-if="wholeWeekend">Overnight guests can drive
-                  up directly to cabins and remain parked there. </span><span v-if="wholeWeekend">Daytime guests</span><span v-else>Guests</span> should park in the main parking lot at the entrance of camp
-                  (or on the nearby field, if the lot is full).
+                  Yes, the camp has free parking. <span v-if="wholeWeekend">Overnight guests should drive
+                  up directly to cabins and remain parked there. </span><span v-if="wholeWeekend">Daytime guests</span><span v-else>Guests</span> should park in the main parking 
+                  lot at the entrance of camp
+                  (or on the field to the left of the lot, if the lot is full).
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
@@ -396,7 +397,7 @@
                 <v-expansion-panel-content>
                   We are not planning to have a shuttle to/from the camp.
                   Regarding driving conditions at night, the roads to the camp
-                  are paved, wide, and in a residential area, but some areas are windy and poorly lit.
+                  are paved, wide, and in a residential area, but some parts are windy and poorly lit.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
