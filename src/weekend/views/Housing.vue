@@ -10,7 +10,7 @@
           <v-expansion-panels>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              <h2>Option 1:</h2> Stay at Camp Laurelwood
+              <h2>Stay at Camp Laurelwood</h2>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
             <p>
@@ -80,7 +80,7 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-            <h2>Option 2:</h2> Stay Locally in Hotels, B&Bs, etc.
+            <h2>Stay Locally in Hotels, B&Bs, etc.</h2>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
             <HotelOptions/>
