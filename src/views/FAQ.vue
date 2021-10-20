@@ -7,6 +7,7 @@
         <div class="container shape-container d-flex">
           <div class="col px-0">
             <v-expansion-panels>
+              <h2>COVID-19</h2>
               <v-expansion-panel>
                 <v-expansion-panel-header>
                   <b>What will be the COVID-19 mitigation measures during the
@@ -80,6 +81,7 @@
                   >
                 </v-expansion-panel-content>
               </v-expansion-panel>
+              <h2>Ceremony</h2>
               <v-expansion-panel>
                 <v-expansion-panel-header>
                 <b>
@@ -129,6 +131,16 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
+                  <b>What’s the dress code?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  <p>The dress code most of the weekend will be casual, with the exception of the wedding itself. The wedding dress code is on a spectrum, ranging from nice jeans & a nice shirt all the way to a suit. Yes, nice jeans are totally fine at the wedding!  Blazers and ties are optional. Sundresses, cocktail dresses, and rompers are all great, but we don’t recommend super long dresses, in case the hem gets dirty. Please wear whatever makes you feel comfortable and special. You’re also welcome to look funky and weird! For example, funny hats, colorful clothing, or other surprises.</p> 
+                  <p>Make sure to wear practical shoes, since there will be lots of grass, gravel, and wooded trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets hot during the day, gets cold at night, or rains.</p>
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <h2>About the Camp</h2>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
                 <b>Tell me about the food!</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
@@ -168,32 +180,12 @@
                   form asks which meals you plan to attend at camp.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel v-if="wholeWeekend">
-                <v-expansion-panel-header>
-                  <b>Can I receive or offer a ride to the wedding?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                Yes! To offer or find a ride to the wedding, please add your name to our <a href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing" target="_blank">rideshare document</a>.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  <b>Is there parking at camp?</b>
+                  <b>Do I need to pay for specific camp activities?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Yes, the camp has free parking. <span v-if="wholeWeekend">Overnight guests should drive
-                  up directly to cabins and remain parked there. </span><span v-if="wholeWeekend">Daytime guests</span><span v-else>Guests</span> should park in the main parking 
-                  lot at the entrance of camp
-                  (or on the field to the left of the lot, if the lot is full).
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>What’s the dress code?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  <p>The dress code most of the weekend will be casual, with the exception of the wedding itself. The wedding dress code is on a spectrum, ranging from nice jeans & a nice shirt all the way to a suit. Yes, nice jeans are totally fine at the wedding!  Blazers and ties are optional. Sundresses, cocktail dresses, and rompers are all great, but we don’t recommend super long dresses, in case the hem gets dirty. Please wear whatever makes you feel comfortable and special. You’re also welcome to look funky and weird! For example, funny hats, colorful clothing, or other surprises.</p> 
-                  <p>Make sure to wear practical shoes, since there will be lots of grass, gravel, and wooded trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets hot during the day, gets cold at night, or rains.</p>
+                  Nope! All camp activities are free for all guests.
                 </v-expansion-panel-content>
               </v-expansion-panel>
                <v-expansion-panel>
@@ -207,6 +199,36 @@
                           target="_blank"
                           >daily tick checks</a
                         >. 
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>Is there WiFi at camp?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  The camp has ample cell phone service. Only a few facilities at camp have WiFi<span v-if="wholeWeekend">, and the cabins do
+                  not have WiFi</span>. But we can connect in
+                  person! Luckily, our friends and family are pretty awesome.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>Are pets allowed at the camp?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  Unfortunately, the camp does not allow pets.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <h2>Where to Stay</h2>
+              <v-expansion-panel v-if="wholeWeekend">
+                <v-expansion-panel-header>
+                  <b>Can I stay in my own tent at the camp?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  Yes, but it will still cost
+                  you $50 per person per night (the same cost as a cabin).
+                  Please consider staying in a cabin instead. But if you’re
+                  super interested in pitching a tent, contact us.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel v-if="wholeWeekend">
@@ -241,6 +263,46 @@
                   they cannot bring.
                 </v-expansion-panel-content>
               </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>Are there room blocks at certain hotels?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  No, we are not reserving room blocks. If you’d like to stay in
+                  a local hotel or B&B, please book wherever you’d like. The
+                  "Where to Stay" page lists some local options.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <h2>Transport</h2>
+              <v-expansion-panel v-if="wholeWeekend">
+                <v-expansion-panel-header>
+                  <b>Can I receive or offer a ride to the wedding?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                Yes! To offer or find a ride to the wedding, please add your name to our <a href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing" target="_blank">rideshare document</a>.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>Is there parking at camp?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  Yes, the camp has free parking. <span v-if="wholeWeekend">Overnight guests should drive
+                  up directly to cabins and remain parked there. </span><span v-if="wholeWeekend">Daytime guests</span><span v-else>Guests</span> should park in the main parking 
+                  lot at the entrance of camp
+                  (or on the field to the left of the lot, if the lot is full).
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>Will there be a shuttle to/from the camp?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  We are not planning to have a shuttle to/from the camp.
+                  Regarding driving conditions at night, the roads to the camp
+                  are paved, wide, and in a residential area, but some parts are windy and poorly lit.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
               <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>Can I arrive earlier than 1 PM on Saturday?</b>
@@ -250,60 +312,7 @@
                 official events or meals until 1 PM.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>Is there WiFi at camp?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  The camp has ample cell phone service. Only a few facilities at camp have WiFi<span v-if="wholeWeekend">, and the cabins do
-                  not have WiFi</span>. But we can connect in
-                  person! Luckily, our friends and family are pretty awesome.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>Can I bring my kids, a date, or a friend?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  <p>
-                    To best manage our numbers, costs, catering, and COVID-19
-                    mitigation measures, your RSVP form specifically states who
-                    is invited. But if we forgot someone in your immediate party (like invited 2 of your kids but not the 3rd!), then please contact us so we can correct the mistake.
-                  </p>
-                  <p v-if="wholeWeekend">
-                    Regarding kids, the entire weekend will be family-friendly,
-                    and we’re hoping to book babysitters for parts of the
-                    weekend (updates to come as we get closer to the wedding).
-                  </p>
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>Do I need to pay for specific camp activities?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  Nope! All camp activities are free for all guests.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel v-if="wholeWeekend">
-                <v-expansion-panel-header>
-                  <b>Can I stay in my own tent at the camp?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  Yes, but it will still cost
-                  you $50 per person per night (the same cost as a cabin).
-                  Please consider staying in a cabin instead. But if you’re
-                  super interested in pitching a tent, contact us.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>Are pets allowed at the camp?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  Unfortunately, the camp does not allow pets.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
+              <h2>Other</h2>
               <v-expansion-panel>
                 <v-expansion-panel-header>
                   <b>What are some other fun activities in the area, outside the
@@ -404,22 +413,19 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  <b>Are there room blocks at certain hotels?</b>
+                  <b>Can I bring my kids, a date, or a friend?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  No, we are not reserving room blocks. If you’d like to stay in
-                  a local hotel or B&B, please book wherever you’d like. The
-                  "Where to Stay" page lists some local options.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>Will there be a shuttle to/from the camp?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  We are not planning to have a shuttle to/from the camp.
-                  Regarding driving conditions at night, the roads to the camp
-                  are paved, wide, and in a residential area, but some parts are windy and poorly lit.
+                  <p>
+                    To best manage our numbers, costs, catering, and COVID-19
+                    mitigation measures, your RSVP form specifically states who
+                    is invited. But if we forgot someone in your immediate party (like invited 2 of your kids but not the 3rd!), then please contact us so we can correct the mistake.
+                  </p>
+                  <p v-if="wholeWeekend">
+                    Regarding kids, the entire weekend will be family-friendly,
+                    and we’re hoping to book babysitters for parts of the
+                    weekend (updates to come as we get closer to the wedding).
+                  </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
