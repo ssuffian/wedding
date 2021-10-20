@@ -273,7 +273,7 @@
                   "Where to Stay" page lists some local options.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <h2>Transport</h2>
+              <h2>Travel</h2>
               <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>Can I receive or offer a ride to the wedding?</b>
