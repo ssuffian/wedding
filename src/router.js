@@ -9,15 +9,14 @@ import RSVP from "./views/RSVP.vue";
 import FAQ from "./views/FAQ.vue";
 import Schedule from "./views/Schedule.vue";
 import Home from "./views/Home.vue";
+import AppFooter from "./layout/AppFooter";
 
 // Weekend
 import AppHeader_W from "./weekend/layout/AppHeader";
-import AppFooter_W from "./weekend/layout/AppFooter";
 import Housing_W from "./weekend/views/Housing.vue";
 
 // Day-Of
 import AppHeader_C from "./dayof/layout/AppHeader";
-import AppFooter_C from "./dayof/layout/AppFooter";
 import Housing_C from "./dayof/views/Housing.vue";
 
 import Login from "./views/Login.vue";
@@ -34,7 +33,7 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Home,
-        footer: AppFooter_W
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: true
@@ -46,7 +45,7 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Schedule,
-        footer: AppFooter_W
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: true
@@ -58,7 +57,7 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Travel,
-        footer: AppFooter_W
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: true
@@ -70,7 +69,7 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Housing_W,
-        footer: AppFooter_W
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: true
@@ -82,7 +81,7 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: RSVP,
-        footer: AppFooter_W
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: true
@@ -94,7 +93,7 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: FAQ,
-        footer: AppFooter_W
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: true
@@ -106,7 +105,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: FAQ,
-        footer: AppFooter_C
+        footer: AppFooter
       },
     },
     {
@@ -115,7 +114,7 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: GuessThatPhoto,
-        footer: AppFooter_W
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: true
@@ -127,7 +126,7 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Gifts,
-        footer: AppFooter_W
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: true
@@ -139,7 +138,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Gifts,
-        footer: AppFooter_C
+        footer: AppFooter
       },
     },
     {
@@ -148,7 +147,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Home,
-        footer: AppFooter_C
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: false
@@ -160,7 +159,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Schedule,
-        footer: AppFooter_C
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: false
@@ -172,7 +171,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Travel,
-        footer: AppFooter_C
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: false
@@ -184,7 +183,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Housing_C,
-        footer: AppFooter_C
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: false
@@ -196,7 +195,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: RSVP,
-        footer: AppFooter_C
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: false
@@ -208,7 +207,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: GuessThatPhoto,
-        footer: AppFooter_C
+        footer: AppFooter
       },
       meta: {
         wholeWeekend: false

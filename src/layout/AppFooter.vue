@@ -3,7 +3,14 @@
     <div class="container">
       <div class="row align-items-center justify-content-md-between">
         <div class="col-md-6">
-          <div class="copyright">&copy; {{ year }} Becky and Steve</div>
+          <div class="copyright">
+            &copy; {{ year }}
+            <a
+              href="mailto:celebratebeckysteve@gmail.com"
+              target="_blank"
+              >celebratebeckysteve@gmail.com</a
+            >
+          </div>
         </div>
         <div class="col-md-6">
           <ul class="nav nav-footer justify-content-end">
