@@ -21,7 +21,8 @@
             <b>Enter your email</b> below to RSVP. Please RSVP by February 1,
               2022. There is a separate RSVP form for each member of your party.
             <br><br>
-
+            <i>Tech Hint: We recommend filling out the RSVP form(s) from a computer rather than a mobile device.</i>
+            <br><br>
             <v-toolbar>
               <v-text-field
                 v-on:keyup.enter="getRSVP"

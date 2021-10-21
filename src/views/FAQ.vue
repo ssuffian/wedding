@@ -81,41 +81,6 @@
                   >
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <h2>Ceremony</h2>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                <b>
-                Tell me about your Jewish wedding!
-                </b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                <p>We’re having a Jewish wedding! This means that, in addition to getting a state-certified marriage license, we will have a wedding ceremony that follows Jewish customs and is recognized by the Jewish community.</p>
-<p>This is both exciting and….complicated. It’s exciting because it connects our wedding to thousands of years of Jewish tradition, including traditions that some of our ancestors participated in at their own weddings. It’s complicated because, just like civil marriage in the United States, Jewish marriage has traditionally not been inclusive of feminist and queer couples. (For more on this, read <a href="https://www.theatlantic.com/health/archive/2014/04/toward-a-feminist-lgbt-friendly-jewish-wedding/284613/" target="_blank">this article</a>.)</p>
-
-<p>We approach our Jewish wedding with a recognition of our privilege, a desire to be a small part of broader movements for social change that are making marriage accessible to all, and joy at the opportunity to create a participatory, justice-centered Jewish ceremony that weaves rituals, celebration, and our values.</p>
-
-<p>Our wedding will include these Jewish customs:</p>
-
-                  <v-container
-                    ><ul>
-                      <li>
-<b>Tisches:</b> These are joyous gatherings that typically involve sitting around a table with food and drinks, making toasts, singing, and telling jokes. Tisches are the first in a series of ceremonies leading up to the wedding itself. Please join Becky or Steve’s tisch - or float between them as you wish!
-                      </li>
-                      <li>
-<b>Ketubah (wedding contract):</b> After tisches, we will sign our ketubah. This document will be written in Hebrew and English, and it will outline our commitments to each other as partners. Our ketubah will have elements of traditional Jewish text as well as statements of our values and intentions for our marriage.
-                      </li>
-                      <li>
-<b>Chuppah (wedding ceremony):</b> Under the chuppah, we will have a wedding ceremony that includes blessings, Jewish rituals, and invitations for participation by you, our guests. The chuppah symbolizes many things, including the home we are building together that invites people in.
-                      </li>
-                      <li>
-<b>Joyous dancing:</b> After the ceremony, we will celebrate and dance the horah - woohoo!
-                      </li>
-                    </ul>
-                    </v-container>
-<p>Throughout these ceremonies, we will be encouraging and providing opportunities for active participation and community-building among our family and friends. Thank you for being a part of our wedding!</p>
-
-                </v-expansion-panel-content>
-              </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
                 <b>
@@ -310,6 +275,41 @@
                 <v-expansion-panel-content>
                 Yes, you can arrive earlier on Saturday. (For example, some overnight guests might want to get settled in their cabins.) But there won't be any 
                 official events or meals until 1 PM.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <h2>Ceremony</h2>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                <b>
+                Tell me about your Jewish wedding!
+                </b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                <p>We’re having a Jewish wedding! This means that, in addition to getting a state-certified marriage license, we will have a wedding ceremony that follows Jewish customs and is recognized by the Jewish community.</p>
+<p>This is both exciting and….complicated. It’s exciting because it connects our wedding to thousands of years of Jewish tradition, including traditions that some of our ancestors participated in at their own weddings. It’s complicated because, just like civil marriage in the United States, Jewish marriage has traditionally not been inclusive of feminist and queer couples. (For more on this, read <a href="https://www.theatlantic.com/health/archive/2014/04/toward-a-feminist-lgbt-friendly-jewish-wedding/284613/" target="_blank">this article</a>.)</p>
+
+<p>We approach our Jewish wedding with a recognition of our privilege, a desire to be a small part of broader movements for social change that are making marriage accessible to all, and joy at the opportunity to create a participatory, justice-centered Jewish ceremony that weaves rituals, celebration, and our values.</p>
+
+<p>Our wedding will include these Jewish customs:</p>
+
+                  <v-container
+                    ><ul>
+                      <li>
+<b>Tisches:</b> These are joyous gatherings that typically involve sitting around a table with food and drinks, making toasts, singing, and telling jokes. Tisches are the first in a series of ceremonies leading up to the wedding itself. Please join Becky or Steve’s tisch - or float between them as you wish!
+                      </li>
+                      <li>
+<b>Ketubah (wedding contract):</b> After tisches, we will sign our ketubah. This document will be written in Hebrew and English, and it will outline our commitments to each other as partners. Our ketubah will have elements of traditional Jewish text as well as statements of our values and intentions for our marriage.
+                      </li>
+                      <li>
+<b>Chuppah (wedding ceremony):</b> Under the chuppah, we will have a wedding ceremony that includes blessings, Jewish rituals, and invitations for participation by you, our guests. The chuppah symbolizes many things, including the home we are building together that invites people in.
+                      </li>
+                      <li>
+<b>Joyous dancing:</b> After the ceremony, we will celebrate and dance the horah - woohoo!
+                      </li>
+                    </ul>
+                    </v-container>
+<p>Throughout these ceremonies, we will be encouraging and providing opportunities for active participation and community-building among our family and friends. Thank you for being a part of our wedding!</p>
+
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <h2>Other</h2>

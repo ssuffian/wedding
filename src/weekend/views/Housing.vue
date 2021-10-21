@@ -63,7 +63,7 @@
               target="_blank"
               >Click here</a
             >
-            to see an interactive map of Camp Laurelwood. The video belows shows
+            to see an interactive map of Camp Laurelwood. The video below shows
             a typical cabin:
             <p class="text-center">
               <br>
