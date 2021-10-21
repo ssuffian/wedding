@@ -218,10 +218,10 @@
               <h2>Travel</h2>
               <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
-                  <b>Can I receive or offer a ride to the wedding?</b>
+                  <b>Can I request or offer a ride to the wedding?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                Yes! To offer or find a ride to the wedding, please add your name to our <a href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing" target="_blank">rideshare document</a>.
+                You're welcome to offer or request a ride to the wedding from fellow guests. Feel free to add your name to our <a href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing" target="_blank">rideshare document</a>.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
