@@ -25,7 +25,6 @@
                   </p>
 
                   <p>For now, there are a few things we know definitively:</p>
-
                   <v-container
                     ><ul>
                       <li>
@@ -79,28 +78,6 @@
                       </li>
                     </ul></v-container
                   >
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                <b>
-                  Will there be a virtual ceremony for people who cannot attend
-                  in-person?
-                </b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  No, we will not livestream our wedding ceremony. But we
-                  will take some video, which can be shared with guests after
-                  the wedding.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>What’s the dress code?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  <p>The dress code most of the weekend will be casual, with the exception of the wedding itself. The wedding dress code is on a spectrum, ranging from nice jeans & a nice shirt all the way to a suit. Yes, nice jeans are totally fine at the wedding!  Blazers and ties are optional. Sundresses, cocktail dresses, and rompers are all great, but we don’t recommend super long dresses, in case the hem gets dirty. Please wear whatever makes you feel comfortable and special. You’re also welcome to look funky and weird! For example, funny hats, colorful clothing, or other surprises.</p> 
-                  <p>Make sure to wear practical shoes, since there will be lots of grass, gravel, and wooded trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets hot during the day, gets cold at night, or rains.</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <h2>About the Camp</h2>
@@ -310,6 +287,28 @@
                     </v-container>
 <p>Throughout these ceremonies, we will be encouraging and providing opportunities for active participation and community-building among our family and friends. Thank you for being a part of our wedding!</p>
 
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                <b>
+                  Will there be a virtual ceremony for people who cannot attend
+                  in-person?
+                </b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  No, we will not livestream our wedding ceremony. But we
+                  will take some video, which can be shared with guests after
+                  the wedding.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>What’s the dress code?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  <p>The dress code most of the weekend will be casual, with the exception of the wedding itself. The wedding dress code is on a spectrum, ranging from nice jeans & a nice shirt all the way to a suit. Yes, nice jeans are totally fine at the wedding!  Blazers and ties are optional. Sundresses, cocktail dresses, and rompers are all great, but we don’t recommend super long dresses, in case the hem gets dirty. Please wear whatever makes you feel comfortable and special. You’re also welcome to look funky and weird! For example, funny hats, colorful clothing, or other surprises.</p> 
+                  <p>Make sure to wear practical shoes, since there will be lots of grass, gravel, and wooded trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets hot during the day, gets cold at night, or rains.</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <h2>Other</h2>
