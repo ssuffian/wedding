@@ -87,7 +87,17 @@ export default {
       var base = new Airtable({ apiKey: "key6efY0GWxTGk31K" }).base(
         "app6RU8GISA8nj0um"
       );
-      const rsvpEmail = this.rsvpEmail.toLowerCase().replace(/\s/g, '');
+      var rsvpEmail = this.rsvpEmail.toLowerCase().replace(/\s/g, '');
+
+      var emailSplit = rsvpEmail.split("@")
+      if(emailSplit.length > 1) {
+          var email = emailSplit[0]
+          var domain = emailSplit[1]
+          email = email.replace(/\./g,'')
+          rsvpEmail = email + "@" + domain
+      }
+      console.log(rsvpEmail)
+
       var rsvps = [];
       var loading = true;
       const self = this;
@@ -96,7 +106,7 @@ export default {
       base(this.wholeWeekend ? "People" : "People_Sunday")
         .select({
           maxRecords: 10,
-          filterByFormula: "{RSVPs} = '" + rsvpEmail + "'",
+          filterByFormula: "{RSVPs_Cleaned} = '" + rsvpEmail + "'",
           view: "Grid view"
         })
         .eachPage(
