@@ -96,7 +96,6 @@ export default {
           email = email.replace(/\./g,'')
           rsvpEmail = email + "@" + domain
       }
-      console.log(rsvpEmail)
 
       var rsvps = [];
       var loading = true;
