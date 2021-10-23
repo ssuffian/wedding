@@ -385,7 +385,7 @@
                           target="_blank"
                           ><b>Stony Creek Brewery</b></a
                         >, boat tours of <a href="https://en.wikipedia.org/wiki/Thimble_Islands" target="_blank"><b>Thimble Islands</b></a
-                        >, restaurants, and gift
+                        >(the 3 boat tour companies are: <a href="https://thimbleislandcruise.com/" target="_blank">Sea Mist</a>, <a href="https://thimbleislander.weebly.com/" target="_blank">The Islander</a>, and <a href="https://thimbleislands.com/" target="_blank">Volsunga IV</a>), restaurants, and gift
                         shops.
                       </li>
                       <li>

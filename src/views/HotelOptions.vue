@@ -12,7 +12,7 @@
                     target="_blank"
                     >Beech Tree Cottages</a
                   >
-                  is a collection of 8 seasonal cottages, and they're not yet taking 2022 bookings, to our knowledge.
+                  is a collection of 8 seasonal cottages. They're not yet taking 2022 bookings, but people can call them between now and January to get on a waiting list to make reservations.
                 </li>
                 <li>
                   <a
@@ -34,7 +34,7 @@
                   <a href="https://scrantonseahorseinn.com/" target="_blank"
                     >Scranton Seahorse Inn</a
                   >
-                  is a collection of 7 rooms and includes breakfast.
+                  is a collection of 8 rooms and includes breakfast.
                 </li>
                 <li>
                   <a href="https://www.homesteadmadison.com/" target="_blank"
@@ -46,7 +46,7 @@
                   <a href="http://towerinnandsuites.com/" target="_blank"
                     >Tower Inn & Suites</a
                   >
-                  is not yet taking 2022 bookings, to our knowledge.
+                  is a hotel which has some suites with kitchenettes.
                 </li>
               </ul>
             </v-container>
