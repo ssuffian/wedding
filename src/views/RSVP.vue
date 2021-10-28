@@ -8,8 +8,8 @@
           <div class="col px-0">
             <v-img style="float:left; margin-right:10px" src="img/pages/rsvp.jpeg"></v-img>
               <b>Ready to RSVP?</b> Please review our "Schedule" and "Where to Stay"
-              pages. The RSVP form asks which camp meals you’ll be attending<span v-if="wholeWeekend"> and
-              whether you plan to stay overnight in cabins</span>.
+              pages. The RSVP form asks <span v-if="wholeWeekend">which camp meals you’ll be attending and
+              whether you plan to stay overnight in cabins.</span><span v-else>if you will be attending the goodbye breakfast on Monday morning.</span>
               <br><br>
               <b>Not attending the wedding?</b> If you or anyone in your party
               are not able to attend, please RSVP to let us

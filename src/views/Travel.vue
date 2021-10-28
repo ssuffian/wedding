@@ -98,13 +98,13 @@
 
                   <p>
                     From the airport, you will need to travel by car to Camp
-                    Laurelwood. To offer or find a ride to camp, please add your
+                    Laurelwood.<span v-if="wholeWeekend">To offer or find a ride to camp, please add your
                     name to our
                     <a
                       href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing"
                       target="_blank"
                       >rideshare document.</a
-                    >
+                    ></span>
                   </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -116,17 +116,15 @@
                   <p>
                     There are a few options for train travel, but they all
                     require supplemental travel by car, since Camp Laurelwood is
-                    not in walking distance from any train stations. To offer or
+                    not in walking distance from any train stations.<span v-if="wholeWeekend">To offer or
                     find a ride to camp, please add your name to our
                     <a
                       href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing"
                       target="_blank"
                       >rideshare document.</a
-                    >
+                    ></span>
                   </p>
-
                   <b>Option 1: Travel to Madison Station</b>
-
                   <p>
                     Take either Amtrak or the MTA Metro-North Railroad New Haven
                     Line to New Haven Union Station. From New Haven Union

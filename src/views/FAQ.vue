@@ -122,7 +122,7 @@
                   form asks which meals you plan to attend at camp.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel>
+              <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>Do I need to pay for specific camp activities?</b>
                 </v-expansion-panel-header>
@@ -143,13 +143,13 @@
                         >. 
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel>
+              <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>Is there WiFi at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  The camp has ample cell phone service. Only a few facilities at camp have WiFi<span v-if="wholeWeekend">, and the cabins do
-                  not have WiFi</span>. But we can connect in
+                  The camp has ample cell phone service. Only a few facilities at camp have WiFi, and the cabins do
+                  not have WiFi. But we can connect in
                   person! Luckily, our friends and family are pretty awesome.
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -307,7 +307,7 @@
                   <b>What’s the dress code?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  <p>The dress code most of the weekend will be casual, with the exception of the wedding itself. The wedding dress code is on a spectrum, ranging from nice jeans & a nice shirt all the way to a suit. Yes, nice jeans are totally fine at the wedding!  Blazers and ties are optional. Sundresses, cocktail dresses, and rompers are all great, but we don’t recommend super long dresses, in case the hem gets dirty. Please wear whatever makes you feel comfortable and special. You’re also welcome to look funky and weird! For example, funny hats, colorful clothing, or other surprises.</p> 
+                  <p><span v-if="wholeWeekend">The dress code most of the weekend will be casual, with the exception of the wedding itself. </span>The wedding dress code is on a spectrum, ranging from nice jeans & a nice shirt all the way to a suit. Yes, nice jeans are totally fine at the wedding!  Blazers and ties are optional. Sundresses, cocktail dresses, and rompers are all great, but we don’t recommend super long dresses, in case the hem gets dirty. Please wear whatever makes you feel comfortable and special. You’re also welcome to look funky and weird! For example, funny hats, colorful clothing, or other surprises.</p> 
                   <p>Make sure to wear practical shoes, since there will be lots of grass, gravel, and wooded trails. When you're packing, check the weather in Madison, CT to prepare for what to wear. Bring layers, in case it gets hot during the day, gets cold at night, or rains.</p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
