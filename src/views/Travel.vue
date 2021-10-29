@@ -126,9 +126,9 @@
                   </p>
                   <b>Option 1: Travel to Madison Station</b>
                   <p>
-                    Take either Amtrak or the MTA Metro-North Railroad New Haven
-                    Line to New Haven Union Station. From New Haven Union
-                    Station, transfer to the Shore Line East commuter rail. Your
+                    Take either <a href="https://www.amtrak.com/home.html" target="_blank">Amtrak</a> or the <a href="https://new.mta.info/agency/metro-north-railroad/schedules" target="_blank">MTA Metro-North Railroad New Haven
+                    Line</a> to New Haven Union Station. From New Haven Union
+                    Station, transfer to the <a href="https://shorelineeast.com/" target="_blank">Shore Line East</a> commuter rail. Your
                     destination will be Madison Station (about 30 min journey).
                     Madison Station is located at 77 Bradley Road, Madison, CT.
                     It is a 10 minute drive from Camp Laurelwood.
