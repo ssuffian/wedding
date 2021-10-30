@@ -19,7 +19,9 @@
             <br><br><br><br><br>
             <br>
             <b>Enter your email</b> below to RSVP. Please RSVP by February 1,
-              2022. There is a separate RSVP form for each member of your party.
+              2022. 
+            <br><br>
+            <b>There is a separate RSVP form for each member of your party. After entering your email, you may see multiple guest names appear for all guests in your party. Please click each guest name and complete a separate form for each guest. </b>
             <br><br>
             <i>Tech Hint: We recommend filling out the RSVP form(s) from a computer rather than a mobile device.</i>
             <br><br>
