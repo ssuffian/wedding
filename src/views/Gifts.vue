@@ -93,7 +93,7 @@
               If you feel it’s important to give us a gift directly, you can
               send us a gift via Venmo <b>@beckymmer</b> or
               <b>@stephensuffian</b>. You can also mail a check (written to
-              both of us, “Rebecca Mer or Stephen Suffian”) at
+              both of us, “Rebecca Mer or Stephen Suffian”) to
               <b>1567 Gregory Drive, Warrington, PA 18976</b>. This is Steve’s
               parents’ address, where all gifts can be sent.
             </p>
