@@ -81,6 +81,18 @@
                   footerBack="The Isabella Stewart Gardner Museum in Boston is where we proposed to each other in December 2019."
                   colorTextBack="black"
                 ></flashcard> 
+                <flashcard
+                  front="Where are we now?"
+                  imgFront="img/guess/philly_skyline.jpeg"
+                  back="Philadelphia!"
+                  imgBack="img/guess/philly_skyline.jpeg"
+                  imgBackWidth="100%"
+                  imgFrontWidth="100%"
+                  headerFront="Guess that photo"
+                  footerFront="Click to show answer"
+                  footerBack="We moved to Philly in the summer of 2021, which is where we are now!"
+                  colorTextBack="black"
+                ></flashcard> 
                 </v-col ><v-col>
                 <flashcard
                   front="Who is this?"
