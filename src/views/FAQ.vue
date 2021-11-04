@@ -53,7 +53,6 @@
                       </li>
                     </ul></v-container
                   >
-
                   As we get closer to the wedding, we will confirm other
                   COVID-19 measures and update them on this website. Measures
                   may include:
