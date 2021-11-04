@@ -28,12 +28,12 @@
                   <v-container
                     ><ul>
                       <li>
-                        <b>Any guest age 12+ must be fully vaccinated to attend our
+                        <b>Any guest age 5+ must be fully vaccinated to attend our
                         wedding weekend.</b> This means that, at least 2 weeks
-                        before the wedding, guests over the age of 12 must have
-                        received 1 dose of a single-dose vaccine or 2 doses of a
-                        two-dose vaccine. We do not make this decision lightly, but we feel a responsibility to protect our guests, vendors, and camp
-                        employees from unnecessary risk, especially those with suppressed immune systems due to medical conditions and children who are unable to be vaccinated at this time.
+                        before the wedding, guests ages 5 and older must be fully vaccinated against COVID-19.
+                        We do not make this decision lightly, but we feel a responsibility to protect our guests, vendors, and camp
+                        employees from unnecessary risk, especially those with suppressed immune systems due to medical conditions and young 
+                        children who are unable to be vaccinated at this time.
                       </li>
                       <li>
                         The RSVP form asks for all guests’ vaccination status.
