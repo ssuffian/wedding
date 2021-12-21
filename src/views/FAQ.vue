@@ -39,6 +39,9 @@
                         The RSVP form asks for all guests’ vaccination status.
                       </li>
                       <li>
+                       We highly encourage guests who are eligible for vaccine boosters to get their boosters before the wedding.
+                      </li>
+                      <li>
                         This will be a large gathering. We are expecting
                         hundreds of guests.
                       </li>
