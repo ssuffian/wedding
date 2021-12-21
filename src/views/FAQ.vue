@@ -39,6 +39,9 @@
                         The RSVP form asks for all guests’ vaccination status.
                       </li>
                       <li>
+                        Weather permitting, we plan to host as many events outdoors as possible.
+                      </li>
+                      <li>
                        We highly encourage guests who are eligible for vaccine boosters to get their boosters before the wedding.
                       </li>
                       <li>
