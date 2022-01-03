@@ -10,8 +10,7 @@
             <p>
               Our wedding ceremony will be on <b>Sunday, May 29, 2022</b>.
               <span v-if="wholeWeekend">Celebrate with us for the entire weekend!</span> As we get closer to the
-              wedding, this page will be updated with more details (times,
-              locations, etc.).
+              wedding, this page will be updated with more details. All events take place at Camp Laurelwood.
             </p>
             <div v-if="wholeWeekend">
             <h2>Saturday May 28, 2022</h2>
