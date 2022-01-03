@@ -15,42 +15,18 @@
             </p>
             <div v-if="wholeWeekend">
             <h2>Saturday May 28, 2022</h2>
-            <b>1 PM: Wedding weekend begins!</b><br><br>
-            <p>Saturday will likely include:</p>
-            <v-container>
-              <ul>
-                <li>Lunch at camp</li>
-                <li>Snacks and refreshments at camp</li>
-                <li>Lake activities, like canoeing and swimming</li>
-                <li>Hammocks and swing sets</li>
-                <li>Gaga courts and other games & sports</li>
-                <li><b>Welcome Dinner</b> at camp</li>
-                <li>
-                  Family-friendly Talent Show in the evening featuring you, our
-                  guests!
-                </li>
-                <li>Karaoke</li>
-                <li>Bonfire</li>
-              </ul>
-            </v-container>
-            </div>
-
+            Wedding weekend begins!<br><br>
+            <b>1 PM - </b> Lunch at camp<br>
+            <b>After Lunch -</b> Optional camp activities (canoeing, swimming, hammocks, swingsets, gaga courts, games, sports)<br>
+            <b>4 PM -</b> Meet and Greet event<br>
+            <b>6 PM -</b> Welcome Dinner BBQ<br>
+            <b>8 PM - </b>Family-friendly talent show (featuring you, our guests)<br>
+            <b>9 PM - </b>Bonfire and Karaoke
+            </div><br>
             <h2>Sunday May 29, 2022</h2>
-            <div v-if="wholeWeekend">
-            <p>Before the wedding ceremony, Sunday will likely include:</p>
-            <v-container>
-              <ul>
-                <li>Brunch at camp</li>
-                <li>Lake activities, like canoeing and swimming</li>
-                <li>Hammocks and swing sets</li>
-                <li>Gaga courts and other games & sports</li>
-              </ul>
-            </v-container>
-            </div>
-
-            <b>
-              The wedding ceremony will begin mid-afternoon.</b> The wedding will
-              include:
+            <span v-if="wholeWeekend"><b>11 AM - </b> Brunch at camp<br></span>
+            <span v-if="wholeWeekend"><b>After Brunch -</b> Optional camp activities (canoeing, swimming, hammocks, swingsets, gaga courts, games, sports)<br></span>
+            <b>3:30 PM</b> Wedding ceremony begins! The wedding ceremony  will include:
             <v-container
               ><ul>
                 <li>
@@ -61,15 +37,10 @@
                 <li>A dinner reception, plus lots of dancing</li>
               </ul>
             </v-container>
-
-            <p>
-              Later in the evening, there will be an
-              <b>after-party and bonfire.</b>
-            </p>
+            Later in the evening, there will be an after-party and bonfire.<br><br>
 
             <h2>Monday May 30, 2022</h2>
-              Monday will include a <b>goodbye breakfast</b> at camp, which will
-              conclude <b>at 11am.</b>
+            <b>9:30 AM - 11 AM - </b> Goodbye Brunch at camp<br>
           </div>
         </div>
       </section>
