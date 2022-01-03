@@ -20,7 +20,7 @@
             <b>After Lunch -</b> Optional camp activities (canoeing, swimming, hammocks, swingsets, gaga courts, games, sports)<br>
             <b>4 PM -</b> Meet and Greet event<br>
             <b>6 PM -</b> Welcome Dinner BBQ<br>
-            <b>8 PM - </b>Family-friendly talent show (featuring you, our guests)<br>
+            <b>8 PM - </b>Family-friendly talent show (featuring you, our guests!)<br>
             <b>9 PM - </b>Bonfire and Karaoke
             </div><br>
             <h2>Sunday May 29, 2022</h2>
