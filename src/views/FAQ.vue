@@ -302,7 +302,7 @@
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   No, we will not livestream our wedding ceremony. But we
-                  will take some video, which can be shared with guests after
+                  will have a professional videographer taking video, which can be shared with guests after
                   the wedding.
                 </v-expansion-panel-content>
               </v-expansion-panel>
