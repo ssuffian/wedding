@@ -18,7 +18,7 @@
               <b>Need to make changes after RSVPing?</b> After you RSVP, you can change your responses anytime by re-entering your email address below.
             <br><br><br><br><br>
             <br>
-            <b>Enter your email</b> below to RSVP. <b>Please RSVP by February 1, 2022</b>. Please note, we are not mailing paper invitations or RSVPs. 
+            <b>Enter your email</b> below to RSVP. <b>Please RSVP by March 1, 2022</b>. Please note, we are not mailing paper invitations or RSVPs. 
             <br><br>
             <b>There is a separate RSVP form for each member of your party. After entering your email, you may see multiple guest names appear for all guests in your party. Please click each guest name and complete a separate form for each guest. </b>
             <br><br>
