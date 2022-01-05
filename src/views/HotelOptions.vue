@@ -12,7 +12,7 @@
                     target="_blank"
                     >Beech Tree Cottages</a
                   >
-                  is a collection of 8 seasonal cottages. They're not yet taking 2022 bookings, but people can call them between now and January to get on a waiting list to make reservations.
+                  is a collection of 8 seasonal cottages. 
                 </li>
                 <li>
                   <a
