@@ -39,7 +39,7 @@
             Later in the evening, there will be an after-party and bonfire.<br><br>
 
             <h2>Monday May 30, 2022</h2>
-            <b>9:30 AM - 11 AM - </b> Goodbye Brunch at camp<br>
+            <b>9:00 AM - 11 AM - </b> Goodbye Brunch at camp<br>
           </div>
         </div>
       </section>
