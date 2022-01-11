@@ -8,14 +8,6 @@
               ><ul>
                 <li>
                   <a
-                    href="https://www.beechtreecottages.com/cottagesandrates"
-                    target="_blank"
-                    >Beech Tree Cottages</a
-                  >
-                  is a collection of 8 seasonal cottages. 
-                </li>
-                <li>
-                  <a
                     href="https://www.choicehotels.com/connecticut/guilford/comfort-inn-hotels/ct051"
                     target="_blank"
                     >Comfort Inn Guilford</a
