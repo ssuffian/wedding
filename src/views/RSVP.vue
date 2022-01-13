@@ -21,6 +21,7 @@
             <b>Enter your email</b> below to RSVP. <b>Please RSVP by March 1, 2022</b>. Please note, we are not mailing paper invitations or RSVPs. 
             <br><br>
             <b>There is a separate RSVP form for each member of your party. After entering your email, you may see multiple guest names appear for all guests in your party. Please click each guest name and complete a separate form for each guest. </b>
+            If you need any tech support, please email us at <a href="mailto:celebratebeckysteve@gmail.com">celebratebeckysteve@gmail.com</a> and we can complete the RSVP form over the phone together.
             <br><br>
             <i>Tech Hint: We recommend filling out the RSVP form(s) from a computer rather than a mobile device.</i>
             <br><br>

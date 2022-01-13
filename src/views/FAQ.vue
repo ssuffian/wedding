@@ -85,6 +85,14 @@
                   >
                 </v-expansion-panel-content>
               </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>What are the chances the wedding will be cancelled or postponed?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                    We have absolutely no intention of cancelling or postponing the wedding. We are celebrating our wedding in May 2022 with COVID-19 mitigation measures in place. The only thing we can imagine that could possibly change our plans would be the unlikely return of state or federal requirements limiting large gatherings.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
               <h2>About the Camp</h2>
               <v-expansion-panel>
                 <v-expansion-panel-header>
