@@ -46,7 +46,7 @@
             <b>More than 15 min drive from camp:</b>
             <v-container>
             <ul>
-              <li>The nearby towns of Branford, Westbrook, Old Saybrook, and Essex
+              <li>The nearby towns of Branford, Westbrook, Wallingford, Old Saybrook, and Essex
               have a number of hotels, resorts, motels, and B&Bs.</li>
             <li>
               New Haven is a 30 min drive from camp and has a number of options.
