@@ -98,13 +98,15 @@
 
                   <p>
                     From the airport, you will need to travel by car to Camp
-                    Laurelwood.<span v-if="wholeWeekend">To offer or find a ride to camp, please add your
-                    name to our
-                    <a
-                      href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing"
-                      target="_blank"
-                      >rideshare document.</a
-                    ></span>
+                    Laurelwood.<span v-if="wholeWeekend">
+                      To offer or find a ride to camp, please add your name to
+                      our
+                      <a
+                        href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing"
+                        target="_blank"
+                        >rideshare document.</a
+                      ></span
+                    >
                   </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -116,22 +118,39 @@
                   <p>
                     There are a few options for train travel, but they all
                     require supplemental travel by car, since Camp Laurelwood is
-                    not in walking distance from any train stations.<span v-if="wholeWeekend">To offer or
-                    find a ride to camp, please add your name to our
-                    <a
-                      href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing"
-                      target="_blank"
-                      >rideshare document.</a
-                    ></span>
+                    not in walking distance from any train stations.<span
+                      v-if="wholeWeekend"
+                    >
+                      To offer or find a ride to camp, please add your name to
+                      our
+                      <a
+                        href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing"
+                        target="_blank"
+                        >rideshare document.</a
+                      ></span
+                    >
                   </p>
                   <b>Option 1: Travel to Madison Station</b>
                   <p>
-                    Take either <a href="https://www.amtrak.com/home.html" target="_blank">Amtrak</a> or the <a href="https://new.mta.info/agency/metro-north-railroad/schedules" target="_blank">MTA Metro-North Railroad New Haven
-                    Line</a> to New Haven Union Station. From New Haven Union
-                    Station, transfer to the <a href="https://shorelineeast.com/" target="_blank">Shore Line East</a> commuter rail. Your
-                    destination will be Madison Station (about 30 min journey).
-                    Madison Station is located at 77 Bradley Road, Madison, CT.
-                    It is a 10 minute drive from Camp Laurelwood.
+                    Take either
+                    <a href="https://www.amtrak.com/home.html" target="_blank"
+                      >Amtrak</a
+                    >
+                    or the
+                    <a
+                      href="https://new.mta.info/agency/metro-north-railroad/schedules"
+                      target="_blank"
+                      >MTA Metro-North Railroad New Haven Line</a
+                    >
+                    to New Haven Union Station. From New Haven Union Station,
+                    transfer to the
+                    <a href="https://shorelineeast.com/" target="_blank"
+                      >Shore Line East</a
+                    >
+                    commuter rail. Your destination will be Madison Station
+                    (about 30 min journey). Madison Station is located at 77
+                    Bradley Road, Madison, CT. It is a 10 minute drive from Camp
+                    Laurelwood.
                   </p>
 
                   <b>Option 2: Travel Only by Amtrak</b>
@@ -162,12 +181,12 @@
 
 <script>
 export default {
-    data() {
-        return {
-            wholeWeekend: localStorage.wholeWeekend === "true"
-        }
-    }
-}
+  data() {
+    return {
+      wholeWeekend: localStorage.wholeWeekend === "true",
+    };
+  },
+};
 </script>
 <style>
 .v-expansion-panel-header > :not(.v-expansion-panel-header__icon) {
