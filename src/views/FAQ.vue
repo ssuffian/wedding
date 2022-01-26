@@ -307,6 +307,16 @@
                   windy and poorly lit.
                 </v-expansion-panel-content>
               </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>How easy is it to get an Uber of Lyft to/from teh camp?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  Camp staff have told us that they frequently take Uber/Lyft to
+                  and from the camp and we've been told that guests at previous
+                  weddings have done it succesfully!
+                </v-expansion-panel-content>
+              </v-expansion-panel>
               <v-expansion-panel v-if="wholeWeekend">
                 <v-expansion-panel-header>
                   <b>Can I arrive earlier than 1 PM on Saturday?</b>
