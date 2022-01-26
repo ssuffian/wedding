@@ -309,7 +309,7 @@
               </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  <b>How easy is it to get an Uber of Lyft to/from teh camp?</b>
+                  <b>How easy is it to get an Uber or Lyft to/from the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   Camp staff have told us that they frequently take Uber/Lyft to
