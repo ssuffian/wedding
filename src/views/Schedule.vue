@@ -31,14 +31,14 @@
             </div>
             <br />
             <h2>Sunday May 29, 2022</h2>
-            <span v-if="wholeWeekend"
-              ><b>11 AM - </b> Brunch at camp (food served in Mess Hall, outdoor
-              seating available)<br
-            /></span>
-            <span v-if="wholeWeekend"
-              ><b>After Brunch -</b> Optional camp activities (canoeing,
-              swimming, hammocks, swingsets, gaga courts, games, sports)<br
-            /></span>
+            <span v-if="wholeWeekend">
+              <b>9:30 AM - </b> Collective Mikvah/Lake Swim<br />
+              <b>10:30 AM - </b> Coffee Demonstration (in Mess Hall)<br />
+              <b>11 AM - </b> Brunch at camp (food served in Mess Hall, outdoor
+              seating available)<br />
+              <b>After Brunch -</b> Optional camp activities (canoeing,
+              swimming, hammocks, swingsets, gaga courts, games, sports)<br />
+            </span>
             <b>3:30 PM</b> Wedding ceremony begins! The wedding ceremony will
             include:
             <v-container
