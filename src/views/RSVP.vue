@@ -6,25 +6,44 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
-            <v-img style="float:left; margin-right:10px" src="img/pages/rsvp.jpeg"></v-img>
-              <b>Ready to RSVP?</b> Please review our "Schedule" and "Where to Stay"
-              pages. The RSVP form asks <span v-if="wholeWeekend">which camp meals you’ll be attending and
-              whether you plan to stay overnight in cabins.</span><span v-else>if you will be attending the goodbye breakfast on Monday morning.</span>
-              <br><br>
-              <b>Not attending the wedding?</b> If you or anyone in your party
-              are not able to attend, please RSVP to let us
-              know.
-              <br><br>
-              <b>Need to make changes after RSVPing?</b> After you RSVP, you can change your responses anytime by re-entering your email address below.
-            <br><br><br><br><br>
-            <br>
-            <b>Enter your email</b> below to RSVP. <b>Please RSVP by March 1, 2022</b>. Please note, we are not mailing paper invitations or RSVPs. 
-            <br><br>
-            <b>There is a separate RSVP form for each member of your party. After entering your email, you may see multiple guest names appear for all guests in your party. Please click each guest name and complete a separate form for each guest. </b>
-            If you need any tech support, please email us at <a href="mailto:celebratebeckysteve@gmail.com">celebratebeckysteve@gmail.com</a> and we can help.
-            <br><br>
-            <i>Tech Hint: We recommend filling out the RSVP form(s) from a computer rather than a mobile device.</i>
-            <br><br>
+            <v-img
+              style="float:left; margin-right:10px"
+              src="img/pages/rsvp.jpeg"
+            ></v-img>
+            <b>Ready to RSVP?</b> Please review our "Schedule" and "Where to
+            Stay" pages. The RSVP form asks
+            <span v-if="wholeWeekend"
+              >which camp meals you’ll be attending and whether you plan to stay
+              overnight in cabins.</span
+            ><span v-else
+              >if you will be attending the goodbye breakfast on Monday
+              morning.</span
+            >
+            <br /><br />
+            <b>Not attending the wedding?</b> If you or anyone in your party are
+            not able to attend, please RSVP to let us know. <br /><br />
+            <b>Need to make changes after RSVPing?</b> After you RSVP, you can
+            change your responses anytime by re-entering your email address
+            below. <br /><br /><br /><br /><br />
+            <br />
+            <b>Enter your email</b> below to RSVP. Please note, we are not
+            mailing paper invitations or RSVPs. <br /><br />
+            <b
+              >There is a separate RSVP form for each member of your party.
+              After entering your email, you may see multiple guest names appear
+              for all guests in your party. Please click each guest name and
+              complete a separate form for each guest.
+            </b>
+            If you need any tech support, please email us at
+            <a href="mailto:celebratebeckysteve@gmail.com"
+              >celebratebeckysteve@gmail.com</a
+            >
+            and we can help. <br /><br />
+            <i
+              >Tech Hint: We recommend filling out the RSVP form(s) from a
+              computer rather than a mobile device.</i
+            >
+            <br /><br />
             <v-toolbar>
               <v-text-field
                 v-on:keyup.enter="getRSVP"
@@ -49,12 +68,13 @@
                 No RSVPS found for: '{{ rsvpEmail }}'
               </div>
               <div v-else>
-              Please make sure to complete an RSVP form for each guest in your immediate party.
-                  <div v-for="(rsvp, key) in rsvps" v-bind:key="key">
-                    <a :href="rsvp.fields['Edit Url']" target="_blank">{{
-                      rsvp.fields["Name"]
-                    }}</a>
-                  </div>
+                Please make sure to complete an RSVP form for each guest in your
+                immediate party.
+                <div v-for="(rsvp, key) in rsvps" v-bind:key="key">
+                  <a :href="rsvp.fields['Edit Url']" target="_blank">{{
+                    rsvp.fields["Name"]
+                  }}</a>
+                </div>
               </div>
             </div>
           </div>
@@ -68,35 +88,34 @@
 export default {
   data() {
     return {
-      wholeWeekend: localStorage.wholeWeekend === 'true',
+      wholeWeekend: localStorage.wholeWeekend === "true",
       rsvpEmail: "",
       rsvps: null,
       rsvpsFound: true,
-      loading: false
+      loading: false,
     };
   },
   components: {},
   watch: {
     rsvpEmail: function(val) {
       this.loading = true;
-    }
+    },
   },
 
   methods: {
     getRSVP() {
-
       var Airtable = require("airtable");
       var base = new Airtable({ apiKey: "key6efY0GWxTGk31K" }).base(
         "app6RU8GISA8nj0um"
       );
-      var rsvpEmail = this.rsvpEmail.toLowerCase().replace(/\s/g, '');
+      var rsvpEmail = this.rsvpEmail.toLowerCase().replace(/\s/g, "");
 
-      var emailSplit = rsvpEmail.split("@")
-      if(emailSplit.length > 1) {
-          var email = emailSplit[0]
-          var domain = emailSplit[1]
-          email = email.replace(/\./g,'')
-          rsvpEmail = email + "@" + domain
+      var emailSplit = rsvpEmail.split("@");
+      if (emailSplit.length > 1) {
+        var email = emailSplit[0];
+        var domain = emailSplit[1];
+        email = email.replace(/\./g, "");
+        rsvpEmail = email + "@" + domain;
       }
 
       var rsvps = [];
@@ -108,7 +127,7 @@ export default {
         .select({
           maxRecords: 10,
           filterByFormula: "{RSVPs_Cleaned} = '" + rsvpEmail + "'",
-          view: "Grid view"
+          view: "Grid view",
         })
         .eachPage(
           function page(records, fetchNextPage) {
@@ -134,7 +153,7 @@ export default {
         );
       this.rsvps = rsvps;
       // Need to add a "watch" so the change to the name in rsvp email for if no records are returned.
-    }
-  }
+    },
+  },
 };
 </script>
