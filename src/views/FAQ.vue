@@ -435,7 +435,8 @@
                     the hem gets dirty. Please wear whatever makes you feel
                     comfortable and special. You’re also welcome to look funky
                     and weird! For example, funny hats, feather boas, sparkly
-                    sneakers, colorful clothing, or other surprises.
+                    sneakers, pieces of flare, colorful clothing, or other
+                    surprises.
                   </p>
                   <p>
                     Make sure to wear practical shoes, since there will be lots

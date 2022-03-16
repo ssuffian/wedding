@@ -66,15 +66,13 @@
                   >
                 </li>
                 <li>
-                  <a href="https://blacklivesmatter.com/" target="_blank"
-                    ><b>The Movement for Black Lives</b></a
+                  <a href="http://www.blmphilly.com" target="_blank"
+                    ><b>The Movement for Black Lives (Philly Chapter)</b></a
                   >
                   is a global freedom and justice movement fighting to eradicate
                   white supremacy and build local power to intervene in
                   state-sanctioned violence inflicted on Black communities.
-                  <a
-                    href="https://secure.actblue.com/donate/ms_blm_homepage_2019"
-                    target="_blank"
+                  <a href="http://www.blmphilly.com/donate/" target="_blank"
                     >Click here to donate.</a
                   >
                 </li>
