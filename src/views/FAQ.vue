@@ -7,6 +7,113 @@
         <div class="container shape-container d-flex">
           <div class="col px-0">
             <v-expansion-panels>
+              <h2>Top Questions</h2>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>What’s the dress code?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  <p>
+                    <span v-if="wholeWeekend"
+                      >The dress code most of the weekend will be casual, with
+                      the exception of the wedding itself on Sunday.
+                    </span>
+                  </p>
+                  <p>
+                    The wedding dress code is on a spectrum, ranging from nice
+                    jeans & a nice shirt all the way to a suit. Yes, nice jeans
+                    are totally fine at the wedding! Blazers and ties are
+                    optional. Sundresses, cocktail dresses, and rompers are all
+                    great, but we don’t recommend super long dresses, in case
+                    the hem gets dirty. Please wear whatever makes you feel
+                    comfortable and special. You’re also welcome to look funky
+                    and weird! For example, funny hats, feather boas, sparkly
+                    sneakers, pieces of flare, colorful clothing, or other
+                    surprises are all encouraged.
+                  </p>
+                  <p>
+                    Make sure to wear practical shoes, since there will be lots
+                    of grass, gravel, and wooded trails. When you're packing,
+                    check the weather in Madison, CT to prepare for what to
+                    wear. Bring layers, in case it gets hot during the day, gets
+                    cold at night, or rains.
+                  </p>
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel v-if="wholeWeekend">
+                <v-expansion-panel-header>
+                  <b>What should I pack?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  <p>
+                    For guests who want to do lake activities, make sure to pack
+                    a bathing suit and a towel. The camp does not provide
+                    towels.
+                  </p>
+                  <p>
+                    We will provide some helpful items to guests, including bug
+                    spray, sunscreen, masks, hand sanitizer, etc.
+                  </p>
+                  For guests staying in cabins, here’s a suggested packing list:
+                  <v-container
+                    ><ul>
+                      <li>
+                        Twin bed sheets* and a blanket*, or a sleeping bag
+                      </li>
+                      <li>Pillow*</li>
+                      <li>Towel* and/or robe for showering</li>
+                      <li>Flip flops or shower shoes</li>
+                      <li>Swimsuit and towel for the lake</li>
+                      <li>Toiletries</li>
+                      <li>Flashlight or headlamp</li>
+                      <li>Bug spray</li>
+                      <li>Sunscreen</li>
+                      <li>Rain gear or light jacket, depending on forecast</li>
+                      <li>Reusable water bottle</li>
+                      <li>
+                        You may want to bring lawn chairs, a fan, and musical
+                        instruments.
+                      </li>
+                    </ul>
+                  </v-container>
+                  *unless you asked us in your RSVP form to provide these items
+                  for you.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel v-if="wholeWeekend">
+                <v-expansion-panel-header>
+                  <b>Can I request or offer a ride to the wedding?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  You're welcome to offer or request a ride to the wedding from
+                  fellow guests. Feel free to add your name to our
+                  <a
+                    href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing"
+                    target="_blank"
+                    >rideshare document</a
+                  >.
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              <v-expansion-panel>
+                <v-expansion-panel-header>
+                  <b>Is there parking at camp?</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  Yes, the camp has free parking.
+                  <span v-if="wholeWeekend"
+                    >Guests who are not staying in cabins</span
+                  ><span v-else>Guests</span> should park in the main parking
+                  lot at the entrance of camp (or on the field to the left of
+                  the lot, if the lot is full). The parking lots will be marked
+                  with signs.
+                  <span v-if="wholeWeekend"
+                    >Guests staying in cabins should drive into camp and will
+                    encounter the Welcome Area. After receiving ther cabin
+                    assignments, they can then drive to their cabins and remain
+                    parked there throughout the weekend.
+                  </span>
+                </v-expansion-panel-content>
+              </v-expansion-panel>
               <h2>COVID-19</h2>
               <v-expansion-panel>
                 <v-expansion-panel-header>
@@ -225,37 +332,6 @@
                   contact us.
                 </v-expansion-panel-content>
               </v-expansion-panel>
-              <v-expansion-panel v-if="wholeWeekend">
-                <v-expansion-panel-header>
-                  <b>I’m staying in a cabin. What should I pack?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  Here’s a suggested packing list:
-                  <v-container
-                    ><ul>
-                      <li>Twin bed sheets and a blanket, or a sleeping bag</li>
-                      <li>Pillow</li>
-                      <li>Towel and/or robe for showering</li>
-                      <li>Flip flops or shower shoes</li>
-                      <li>Swimsuit and towel for the lake</li>
-                      <li>Toiletries</li>
-                      <li>Flashlight or headlamp</li>
-                      <li>Bug spray</li>
-                      <li>Sunscreen</li>
-                      <li>Rain gear or light jacket, depending on forecast</li>
-                      <li>Reusable water bottle</li>
-                      <li>
-                        You may want to bring lawn chairs, a fan, and musical
-                        instruments.
-                      </li>
-                    </ul>
-                  </v-container>
-                  The RSVP form asks if you plan to bring bedding and/or towels,
-                  or if you will need any of these items. For example, guests
-                  traveling by airplane may not be able to pack bedding or
-                  towels and can request what they cannot bring.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
                   <b>Are there room blocks at certain hotels?</b>
@@ -267,35 +343,6 @@
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <h2>Travel</h2>
-              <v-expansion-panel v-if="wholeWeekend">
-                <v-expansion-panel-header>
-                  <b>Can I request or offer a ride to the wedding?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  You're welcome to offer or request a ride to the wedding from
-                  fellow guests. Feel free to add your name to our
-                  <a
-                    href="https://docs.google.com/spreadsheets/d/1MobInYhQcv22yMg27kHuq4a9AYrP9LwNMKorDvgG3pk/edit?usp=sharing"
-                    target="_blank"
-                    >rideshare document</a
-                  >.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>Is there parking at camp?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  Yes, the camp has free parking.
-                  <span v-if="wholeWeekend"
-                    >Overnight guests should drive up directly to cabins and
-                    remain parked there. </span
-                  ><span v-if="wholeWeekend">Daytime guests</span
-                  ><span v-else>Guests</span> should park in the main parking
-                  lot at the entrance of camp (or on the field to the left of
-                  the lot, if the lot is full).
-                </v-expansion-panel-content>
-              </v-expansion-panel>
               <v-expansion-panel>
                 <v-expansion-panel-header>
                   <b>Will there be a shuttle to/from the camp?</b>
@@ -416,35 +463,6 @@
                   No, we will not livestream our wedding ceremony. But we will
                   have a professional videographer taking video, which can be
                   shared with guests after the wedding.
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-              <v-expansion-panel>
-                <v-expansion-panel-header>
-                  <b>What’s the dress code?</b>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  <p>
-                    <span v-if="wholeWeekend"
-                      >The dress code most of the weekend will be casual, with
-                      the exception of the wedding itself. </span
-                    >The wedding dress code is on a spectrum, ranging from nice
-                    jeans & a nice shirt all the way to a suit. Yes, nice jeans
-                    are totally fine at the wedding! Blazers and ties are
-                    optional. Sundresses, cocktail dresses, and rompers are all
-                    great, but we don’t recommend super long dresses, in case
-                    the hem gets dirty. Please wear whatever makes you feel
-                    comfortable and special. You’re also welcome to look funky
-                    and weird! For example, funny hats, feather boas, sparkly
-                    sneakers, pieces of flare, colorful clothing, or other
-                    surprises.
-                  </p>
-                  <p>
-                    Make sure to wear practical shoes, since there will be lots
-                    of grass, gravel, and wooded trails. When you're packing,
-                    check the weather in Madison, CT to prepare for what to
-                    wear. Bring layers, in case it gets hot during the day, gets
-                    cold at night, or rains.
-                  </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <h2>Other</h2>
