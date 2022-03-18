@@ -58,7 +58,7 @@
                   <v-container
                     ><ul>
                       <li>
-                        Twin bed sheets* and a blanket*, or a sleeping bag
+                        Twin bed sheets* and a blanket* (or a sleeping bag)
                       </li>
                       <li>Pillow*</li>
                       <li>Towel* and/or robe for showering</li>
@@ -99,18 +99,24 @@
                   <b>Is there parking at camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  Yes, the camp has free parking.
+                  <p>
+                    Yes, the camp has free parking.
+                  </p>
+                  <p>
+                    <span v-if="wholeWeekend"
+                      >Guests who are not staying in cabins</span
+                    ><span v-else>Guests</span> should park in the main parking
+                    lot at the entrance of camp (or on the field to the left of
+                    the lot, if the lot is full). The parking lots will be
+                    marked with signs.
+                  </p>
                   <span v-if="wholeWeekend"
-                    >Guests who are not staying in cabins</span
-                  ><span v-else>Guests</span> should park in the main parking
-                  lot at the entrance of camp (or on the field to the left of
-                  the lot, if the lot is full). The parking lots will be marked
-                  with signs.
-                  <span v-if="wholeWeekend"
-                    >Guests staying in cabins should drive into camp and will
-                    encounter the Welcome Area. After receiving ther cabin
-                    assignments, they can then drive to their cabins and remain
-                    parked there throughout the weekend.
+                    ><p>
+                      Guests staying in cabins should drive into camp and will
+                      encounter the Welcome Area. After receiving ther cabin
+                      assignments, they can then drive to their cabins and
+                      remain parked there throughout the weekend.
+                    </p>
                   </span>
                 </v-expansion-panel-content>
               </v-expansion-panel>
