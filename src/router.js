@@ -214,13 +214,6 @@ const router = new Router({
       },
     },
     {
-      path: "/upload",
-      name: "upload",
-      meta: {
-        redirect: "https://photos.app.goo.gl/jASbG1519mW8NBHMA",
-      },
-    },
-    {
       path: "/login",
       name: "login",
       components: {
@@ -245,9 +238,7 @@ const router = new Router({
 });
 
 router.beforeEach((to, from, next) => {
-  if (to.meta.redirect) {
-    window.location = to.meta.redirect;
-  } else if (to.name !== "login") {
+  if (to.name !== "login") {
     if (
       localStorage.loggedIn !== "true" ||
       to.name === null ||
