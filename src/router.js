@@ -26,6 +26,7 @@ Vue.use(Router);
 
 const router = new Router({
   linkExactActiveClass: "active",
+  mode: "history",
   routes: [
     {
       path: "/home-w",
@@ -33,11 +34,11 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Home,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: true
-      }
+        wholeWeekend: true,
+      },
     },
     {
       path: "/schedule-w",
@@ -45,11 +46,11 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Schedule,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: true
-      }
+        wholeWeekend: true,
+      },
     },
     {
       path: "/travel-w",
@@ -57,11 +58,11 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Travel,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: true
-      }
+        wholeWeekend: true,
+      },
     },
     {
       path: "/housing-w",
@@ -69,11 +70,11 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Housing_W,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: true
-      }
+        wholeWeekend: true,
+      },
     },
     {
       path: "/rsvp-w",
@@ -81,11 +82,11 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: RSVP,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: true
-      }
+        wholeWeekend: true,
+      },
     },
     {
       path: "/faq-w",
@@ -93,11 +94,11 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: FAQ,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: true
-      }
+        wholeWeekend: true,
+      },
     },
     {
       path: "/faq-c",
@@ -105,7 +106,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: FAQ,
-        footer: AppFooter
+        footer: AppFooter,
       },
     },
     {
@@ -114,11 +115,11 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: GuessThatPhoto,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: true
-      }
+        wholeWeekend: true,
+      },
     },
     {
       path: "/gifts-w",
@@ -126,11 +127,11 @@ const router = new Router({
       components: {
         header: AppHeader_W,
         default: Gifts,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: true
-      }
+        wholeWeekend: true,
+      },
     },
     {
       path: "/gifts-c",
@@ -138,7 +139,7 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Gifts,
-        footer: AppFooter
+        footer: AppFooter,
       },
     },
     {
@@ -147,11 +148,11 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Home,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: false
-      }
+        wholeWeekend: false,
+      },
     },
     {
       path: "/schedule-c",
@@ -159,11 +160,11 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Schedule,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: false
-      }
+        wholeWeekend: false,
+      },
     },
     {
       path: "/travel-c",
@@ -171,11 +172,11 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Travel,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: false
-      }
+        wholeWeekend: false,
+      },
     },
     {
       path: "/housing-c",
@@ -183,11 +184,11 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: Housing_C,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: false
-      }
+        wholeWeekend: false,
+      },
     },
     {
       path: "/rsvp-c",
@@ -195,11 +196,11 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: RSVP,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: false
-      }
+        wholeWeekend: false,
+      },
     },
     {
       path: "/guess-that-photo-c",
@@ -207,37 +208,47 @@ const router = new Router({
       components: {
         header: AppHeader_C,
         default: GuessThatPhoto,
-        footer: AppFooter
+        footer: AppFooter,
       },
       meta: {
-        wholeWeekend: false
-      }
+        wholeWeekend: false,
+      },
+    },
+    {
+      path: "/upload",
+      name: "upload",
+      meta: {
+        redirect: "https://photos.app.goo.gl/jASbG1519mW8NBHMA",
+      },
     },
     {
       path: "/login",
       name: "login",
       components: {
-        default: Login
-      }
+        default: Login,
+      },
     },
     {
       path: "/logout",
       name: "logout",
       components: {
-        default: Logout
-      }
-    }
+        default: Logout,
+      },
+    },
   ],
-  scrollBehavior: to => {
+  scrollBehavior: (to) => {
     if (to.hash) {
       return { selector: to.hash };
     } else {
       return { x: 0, y: 0 };
     }
-  }
+  },
 });
 
 router.beforeEach((to, from, next) => {
+  if (to.meta.redirect) {
+    window.location = to.meta.redirect;
+  }
   if (to.name !== "login") {
     if (
       localStorage.loggedIn !== "true" ||
