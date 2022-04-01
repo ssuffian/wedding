@@ -247,8 +247,7 @@ const router = new Router({
 router.beforeEach((to, from, next) => {
   if (to.meta.redirect) {
     window.location = to.meta.redirect;
-  }
-  if (to.name !== "login") {
+  } else if (to.name !== "login") {
     if (
       localStorage.loggedIn !== "true" ||
       to.name === null ||
