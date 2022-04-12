@@ -50,10 +50,6 @@
                     a bathing suit and a towel. The camp does not provide
                     towels.
                   </p>
-                  <p>
-                    We will provide some helpful items to guests, including bug
-                    spray, sunscreen, masks, hand sanitizer, etc.
-                  </p>
                   For guests staying in cabins, here’s a suggested packing list:
                   <v-container
                     ><ul>
@@ -64,7 +60,7 @@
                       <li>Towel* and/or robe for showering</li>
                       <li>Flip flops or shower shoes</li>
                       <li>Swimsuit and towel for the lake</li>
-                      <li>Toiletries</li>
+                      <li>Toiletries (soap, conditioner, shampoo)</li>
                       <li>Flashlight or headlamp</li>
                       <li>Bug spray</li>
                       <li>Sunscreen</li>
