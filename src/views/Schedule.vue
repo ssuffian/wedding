@@ -18,53 +18,67 @@
             <div v-if="wholeWeekend">
               <h2>Saturday May 28, 2022</h2>
               Wedding weekend begins!<br /><br />
-              <b>1 PM - </b> Lunch at camp (food served in Mess Hall, outdoor
-              seating available)<br />
-              <b>After Lunch -</b> Optional camp activities (canoeing, swimming,
-              hammocks, swingsets, gaga courts, games, sports)<br />
-              <b>4 PM -</b> Meet and Greet event (outside,
-              weather-permitting)<br />
-              <b>6 PM -</b> Welcome Dinner BBQ (outside, weather-permitting)<br />
-              <b>8 PM - </b>Family-friendly talent show (featuring you, our
-              guests!) (outside, weather-permitting)<br />
+              <b>1 PM - Lunch</b>
+              <i> (food served in Mess Hall, outdoor seating available)</i
+              ><br />
+              <b>2 PM -</b> Camp tour<br />
+              <b>2-4 PM -</b> Lake hours <i>(swim, canoe, kayak, paddleboard)</i
+              ><br />
+              <b>3-6 PM -</b> Babysitting + Arts & Crafts<br />
+              <b>3-4 PM -</b> Archery<br />
+              <b>4 PM -</b> Meet and Greet event
+              <i> (outside, weather-permitting)</i><br />
+              <b>6 PM - Welcome Dinner BBQ</b>
+              <i> (outside, weather-permitting)</i><br />
+              <b>8 PM - </b>Talent show<i> (outside, weather-permitting)</i>.
+              <a
+                href="https://docs.google.com/spreadsheets/d/1j4lZV38hfLajJQT5hIJpp7oOfKGJwRMitj6pcoPIiWg/edit?usp=sharing"
+                target="_blank"
+                >Click Here to Sign up!</a
+              ><br />
               <b>9 PM - </b>Bonfire and Karaoke
             </div>
             <br />
             <h2>Sunday May 29, 2022</h2>
             <span v-if="wholeWeekend">
               <b>9:30 AM - </b> Collective Mikvah/Lake Swim<br />
-              <b>10:30 AM - </b> Coffee Demonstration (in Mess Hall)<br />
-              <b>11 AM - </b> Brunch at camp (food served in Mess Hall, outdoor
-              seating available)<br />
-              <b>After Brunch -</b> Optional camp activities (canoeing, arts and
-              crafts, hammocks, swingsets, gaga courts, games, sports)<br />
+              <b>9:30-11 AM -</b> Lake hours
+              <i>(swim, canoe, kayak, paddleboard)</i><br />
+              <b>10:30 AM - </b> Coffee Demonstration <i>(in Mess Hall)</i
+              ><br />
+              <b>11 AM - Brunch</b>
+              <i> (in Mess Hall, outdoor seating available)</i><br />
+              <b>12-1 PM -</b> Archery<br />
+              <b>12-2 PM -</b> Babysitting + Arts & Crafts<br />
             </span>
-            <b>3:30 PM</b> Wedding ceremony begins! The wedding ceremony will
+            <b>3:30 PM - Wedding ceremony begins!</b> The wedding ceremony will
             include:
             <v-container
               ><ul>
                 <li>
-                  Tisches: separate, joyful gatherings for Becky (outside,
-                  weather-permitting) and Steve (in Mess Hall)
+                  Tisches: separate, joyful gatherings for Becky
+                  <i>(outside, weather-permitting)</i> and Steve
+                  <i>(in Mess Hall)</i>
                 </li>
                 <li>
-                  Signing the ketubah (Jewish marriage contract) (outside,
-                  weather-permitting)
+                  Signing the ketubah (Jewish marriage contract)
+                  <i>(outside, weather-permitting)</i>
                 </li>
                 <li>
-                  A ceremony under the chuppah (outside, weather-permitting)
+                  A ceremony under the chuppah
+                  <i>(outside, weather-permitting)</i>
                 </li>
                 <li>
-                  A dinner reception, plus lots of dancing (outside,
-                  weather-permitting)
+                  A dinner reception, plus lots of dancing
+                  <i>(outside, weather-permitting)</i>
                 </li>
               </ul>
             </v-container>
             Later in the evening, there will be an after-party and bonfire.<br /><br />
 
             <h2>Monday May 30, 2022</h2>
-            <b>9:00 AM - 11 AM - </b> Goodbye Brunch at camp (food served in
-            Mess Hall, outdoor seating available)<br />
+            <b>9-11 AM - Goodbye Brunch</b
+            ><i> (food served in Mess Hall, outdoor seating available)</i><br />
           </div>
         </div>
       </section>
