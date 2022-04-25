@@ -26,7 +26,7 @@
               ><br />
               <b>3-6 PM -</b> Babysitting + Arts & Crafts<br />
               <b>3-4 PM -</b> Archery<br />
-              <b>4 PM -</b> Meet and Greet event
+              <b>4 PM -</b> Social Mixer event
               <i> (outside, weather-permitting)</i><br />
               <b>6 PM - Welcome Dinner BBQ</b>
               <i> (outside, weather-permitting)</i><br />
