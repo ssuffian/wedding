@@ -10,14 +10,23 @@
               style="float:left; margin-right:10px"
               src="img/pages/rsvp.jpeg"
             ></v-img>
-            <b>Ready to RSVP?</b> Please review our "Schedule" and "Where to
-            Stay" pages. The RSVP form asks
-            <span v-if="wholeWeekend"
-              >which camp meals you’ll be attending and whether you plan to stay
-              overnight in cabins.</span
-            ><span v-else
-              >if you will be attending the goodbye breakfast on Monday
-              morning.</span
+            RSVPs are now closed. If you need to change your RSVP, please email
+            us directly at
+            <a href="mailto:celebratebeckysteve@gmail.com" target="_blank"
+              >celebratebeckysteve@gmail.com</a
+            >. You can also call or text us!
+            <!--
+            <b>Ready to RSVP?</b
+            ><strike>
+              Please review our "Schedule" and "Where to Stay" pages. The RSVP
+              form asks
+              <span v-if="wholeWeekend"
+                >which camp meals you’ll be attending and whether you plan to
+                stay overnight in cabins.</span
+              ><span v-else
+                >if you will be attending the goodbye breakfast on Monday
+                morning.</span
+              ></strike
             >
             <br /><br />
             <b>Not attending the wedding?</b> If you or anyone in your party are
@@ -77,6 +86,7 @@
                 </div>
               </div>
             </div>
+              -->
           </div>
         </div>
       </section>
