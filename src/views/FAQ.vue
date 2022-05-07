@@ -33,10 +33,11 @@
                   </p>
                   <p>
                     Make sure to wear practical shoes, since there will be lots
-                    of grass, gravel, and wooded trails. When you're packing,
-                    check the weather in Madison, CT to prepare for what to
-                    wear. Bring layers, in case it gets hot during the day, gets
-                    cold at night, or rains.
+                    of grass, gravel, and wooded trails. This includes a
+                    10-minute trail hike from the ceremony to the reception.
+                    When you're packing, check the weather in Madison, CT to
+                    prepare for what to wear. Bring layers, in case it gets hot
+                    during the day, gets cold at night, or rains.
                   </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
