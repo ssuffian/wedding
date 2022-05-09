@@ -121,22 +121,16 @@
               <v-expansion-panel>
                 <v-expansion-panel-header>
                   <b
-                    >What will be the COVID-19 mitigation measures during the
-                    wedding<span v-if="wholeWeekend"> weekend</span>?</b
+                    >What will be the COVID-19 mitigation measures? Do I need to
+                    get tested?</b
                   >
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>
                     Your health and well-being during our wedding weekend is our
-                    highest concern. We understand that COVID-19 mitigation
-                    measures are a personal and emotional topic for many people.
-                    We also recognize that pandemic conditions, CDC guidelines,
-                    and state regulations will likely change between now and our
-                    wedding. We don’t know what May 2022 will bring, but we will
-                    monitor updates closely and keep this website updated.
+                    highest concern.
                   </p>
 
-                  <p>For now, there are a few things we know definitively:</p>
                   <v-container
                     ><ul>
                       <li>
@@ -154,15 +148,15 @@
                         vaccinated at this time.
                       </li>
                       <li>
-                        The RSVP form asks for all guests’ vaccination status.
-                      </li>
-                      <li>
                         Weather permitting, we plan to host as many events
                         outdoors as possible.
                       </li>
                       <li>
-                        We highly encourage guests who are eligible for vaccine
-                        boosters to get their boosters before the wedding.
+                        <b
+                          >We highly encourage guests who are eligible for
+                          vaccine boosters to get their boosters before the
+                          wedding.</b
+                        >
                       </li>
                       <li>
                         This will be a large gathering. We are expecting
@@ -179,27 +173,33 @@
                       </li>
                     </ul></v-container
                   >
-                  As we get closer to the wedding, we will confirm other
-                  COVID-19 measures and update them on this website. Measures
-                  may include:
+                  Regarding COVID-19 Testing:
                   <v-container
                     ><ul>
                       <li>
-                        If vaccinations are authorized for younger ages, we may
-                        require younger guests to be fully vaccinated.
+                        Testing is not required before the wedding. But please,
+                        if you have any of these symptoms
+                        <i
+                          >(fever, chills, cough, congestion, runny nose,
+                          shortness of breath, fatigue, muscle aches, headache,
+                          loss of taste or smell, sore throat, nausea,
+                          vomiting)</i
+                        >
+                        make sure to get a negative PCR test result before
+                        traveling to the wedding.
                       </li>
                       <li>
-                        We may require guests to show proof of vaccination
-                        and/or boosters.
+                        If you test positive for COVID-19 before the wedding,
+                        isolate for at least 5 days from the date of your
+                        positive test (if you do not have symptoms). If you do
+                        develop symptoms, isolate for at least 5 days from the
+                        date your symptoms began (the date the symptoms started
+                        is day 0).
                       </li>
                       <li>
-                        We may require guests to be tested before the wedding
-                        and/or upon arrival.
-                      </li>
-                      <li>We may hold all wedding events outdoors.</li>
-                      <li>
-                        If we hold indoor events, we may require guests to wear
-                        a mask.
+                        We will have 80+ rapid tests freely available at the
+                        wedding for anyone who may experience symptoms at any
+                        point during the weekend.
                       </li>
                     </ul></v-container
                   >
