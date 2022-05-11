@@ -66,7 +66,7 @@
                 </li>
                 <li>
                   A ceremony under the chuppah
-                  <i>(outside, weather-permitting)</i>
+                  <i>(outside on a beach, weather-permitting)</i>
                 </li>
                 <li>
                   A dinner reception, plus lots of dancing
