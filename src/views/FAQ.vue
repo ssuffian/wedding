@@ -177,8 +177,11 @@
                   <v-container
                     ><ul>
                       <li>
-                        Testing is not required before the wedding. But please,
-                        if you have any of these symptoms
+                        We highly encourage everyone to get tested before coming
+                        to the wedding.
+                      </li>
+                      <li>
+                        In particular, if you have any of these symptoms
                         <i
                           >(fever, chills, cough, congestion, runny nose,
                           shortness of breath, fatigue, muscle aches, headache,
