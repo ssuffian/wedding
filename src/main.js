@@ -23,6 +23,25 @@ import vuetify from "./plugins/vuetify";
 
 Vue.config.productionTip = false;
 Vue.use(Argon);
+
+navigator.serviceWorker.getRegistration().then(function(registration) {
+  if (registration) {
+    registration.unregister().then(function(success) {
+      // if success = true, unregister was successful
+    });
+  }
+});
+
+if ("caches" in window) {
+  caches.keys().then(function(keyList) {
+    return Promise.all(
+      keyList.map(function(key) {
+        return caches.delete(key);
+      })
+    );
+  });
+}
+
 new Vue({
   router,
   vuetify,
