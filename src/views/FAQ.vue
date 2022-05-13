@@ -189,7 +189,7 @@
                           vomiting)</i
                         >
                         make sure to get a negative PCR test result before
-                        traveling to the wedding.
+                        arriving at the wedding.
                       </li>
                       <li>
                         If you test positive for COVID-19 before the wedding,
