@@ -10,7 +10,7 @@
               <h2>Top Questions</h2>
               <v-expansion-panel>
                 <v-expansion-panel-header>
-                  <b>What should I wear A?</b>
+                  <b>What should I wear?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>
