@@ -173,23 +173,27 @@
                       </li>
                     </ul></v-container
                   >
-                  Regarding COVID-19 Testing:
+                  <b>Regarding COVID-19 Testing:</b>
                   <v-container
                     ><ul>
                       <li>
-                        We highly encourage everyone to get tested before coming
-                        to the wedding.
+                        <b
+                          >We highly encourage everyone to get tested before
+                          coming to the wedding.</b
+                        >
                       </li>
                       <li>
-                        In particular, if you have any of these symptoms
+                        In particular, <b>if you have any of these symptoms</b>
                         <i
                           >(fever, chills, cough, congestion, runny nose,
                           shortness of breath, fatigue, muscle aches, headache,
                           loss of taste or smell, sore throat, nausea,
                           vomiting)</i
                         >
-                        make sure to get a negative PCR test result before
-                        arriving at the wedding.
+                        <b
+                          >make sure to get a negative PCR test result before
+                          arriving at the wedding.</b
+                        >
                       </li>
                       <li>
                         If you test positive for COVID-19 before the wedding,
@@ -253,9 +257,7 @@
                     Please let us know your specific allergies, restrictions,
                     and needs, so we can do our absolute best to accomodate
                     everyone. We will have vegetarian, vegan, gluten-free,
-                    nut-free, and sesame-free options. We will also try to put
-                    the entire <span v-if="wholeWeekend">weekend</span> menu
-                    (once it's formalized) on our website, so stay tuned!
+                    nut-free, and sesame-free options.
                   </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -354,10 +356,10 @@
                   <b>Will there be a shuttle to/from the camp?</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  We are not planning to have a shuttle to/from the camp.
-                  Regarding driving conditions at night, the roads to the camp
-                  are paved, wide, and in a residential area, but some parts are
-                  windy and poorly lit.
+                  We are not providing a shuttle to/from the camp. Regarding
+                  driving conditions at night, the roads to the camp are paved,
+                  wide, and in a residential area, but some parts are windy and
+                  poorly lit.
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel>
@@ -602,8 +604,7 @@
                   </p>
                   <p v-if="wholeWeekend">
                     Regarding kids, the entire weekend will be family-friendly,
-                    and we’re hoping to book babysitters for parts of the
-                    weekend (updates to come as we get closer to the wedding).
+                    and we’ve booked babysitters for parts of the weekend.
                   </p>
                 </v-expansion-panel-content>
               </v-expansion-panel>
