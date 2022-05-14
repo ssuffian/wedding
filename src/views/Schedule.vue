@@ -34,7 +34,7 @@
                 target="_blank"
                 >Click Here to Sign up!</a
               ><br />
-              <b>9 PM - </b>Bonfire and Karaoke
+              <b>9 PM - </b>Havdalah Ceremony, Bonfire and Karaoke
             </div>
             <br />
             <h2>Sunday May 29, 2022</h2>
