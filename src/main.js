@@ -24,14 +24,6 @@ import vuetify from "./plugins/vuetify";
 Vue.config.productionTip = false;
 Vue.use(Argon);
 
-navigator.serviceWorker.getRegistration().then(function(registration) {
-  if (registration) {
-    registration.unregister().then(function(success) {
-      // if success = true, unregister was successful
-    });
-  }
-});
-
 new Vue({
   router,
   vuetify,
