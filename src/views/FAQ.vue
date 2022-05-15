@@ -190,8 +190,8 @@
                           loss of taste or smell, sore throat, nausea,
                           vomiting)</i
                         >
-                        <b
-                          >make sure to get a negative PCR test result before
+                        <b>
+                          make sure to get a negative PCR test result before
                           arriving at the wedding.</b
                         >
                       </li>
