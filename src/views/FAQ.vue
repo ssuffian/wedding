@@ -183,7 +183,7 @@
                         >
                       </li>
                       <li>
-                        In particular, <b>if you have any of these symptoms</b>
+                        In particular, <b>if you have any of these symptoms </b>
                         <i
                           >(fever, chills, cough, congestion, runny nose,
                           shortness of breath, fatigue, muscle aches, headache,
