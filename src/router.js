@@ -214,7 +214,7 @@ const router = new Router({
       },
     },
     {
-      path: "/login2",
+      path: "/login",
       name: "login",
       components: {
         default: Login,
@@ -238,13 +238,13 @@ const router = new Router({
 });
 
 router.beforeEach((to, from, next) => {
-  if (to.name !== "login2") {
+  if (to.name !== "login") {
     if (
       localStorage.loggedIn !== "true" ||
       to.name === null ||
       (to.meta.wholeWeekend === true && localStorage.wholeWeekend === "false")
     ) {
-      next("/login2");
+      next("/login");
     } else next();
   } else next();
 });
