@@ -32,7 +32,6 @@ navigator.serviceWorker.getRegistration().then(function(registration) {
   }
 });
 
-console.log(process.env.PACKAGE_VERSION);
 new Vue({
   router,
   vuetify,
