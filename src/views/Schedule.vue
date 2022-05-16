@@ -20,8 +20,8 @@
               <i> (food served in Mess Hall, outdoor seating available)</i
               ><br />
               <b>2 PM -</b> Camp tour<br />
-              <b>2-4 PM -</b> Lake hours <i>(swim, canoe, kayak, paddleboard)</i
-              ><br />
+              <b>2-4 PM -</b> Games, activities, and lake hours
+              <i>(swim, canoe, kayak, paddleboard)</i><br />
               <b>3-6 PM -</b> Babysitting + Arts & Crafts<br />
               <b>3-4 PM -</b> Archery<br />
               <b>4 PM -</b> Social Mixer event
