@@ -48,6 +48,7 @@
               <i> (in Mess Hall, outdoor seating available)</i><br />
               <b>12-1 PM -</b> Archery<br />
               <b>12-2 PM -</b> Babysitting + Arts & Crafts<br />
+              <b>12-2 PM -</b> Games and activities<br />
             </span>
             <b>3:30 PM - Wedding ceremony begins!</b> The wedding ceremony will
             include:
