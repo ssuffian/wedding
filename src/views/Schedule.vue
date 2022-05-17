@@ -13,6 +13,15 @@
                 >Celebrate with us for the entire weekend!</span
               >
             </p>
+            <p v-if="wholeWeekend">
+              <a
+                href="https://docs.google.com/document/d/e/2PACX-1vTUTPGa_d-zYreZLziB2mL3IlPW1TWRQhKs6xF4K-RXihPtBpYx1xmByL3hhYwponmJ09szi49xVDOV/pub"
+                target="_blank"
+              >
+                Here is a guide</a
+              >
+              to Jewish traditions and ceremonies during our wedding weekend.
+            </p>
             <div v-if="wholeWeekend">
               <h2>Saturday May 28, 2022</h2>
               Wedding weekend begins!<br /><br />
