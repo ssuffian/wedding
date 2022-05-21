@@ -109,10 +109,11 @@
                   </p>
                   <span v-if="wholeWeekend"
                     ><p>
-                      Guests staying in cabins should drive into camp and will
-                      encounter the Welcome Area. After receiving ther cabin
-                      assignments, they can then drive to their cabins and
-                      remain parked there throughout the weekend.
+                      Guests staying in cabins should drive into camp (SLOWLY
+                      please!) and will encounter the Welcome Area. After
+                      receiving ther cabin assignments, they can then drive to
+                      their cabins and remain parked there throughout the
+                      weekend.
                     </p>
                   </span>
                 </v-expansion-panel-content>
