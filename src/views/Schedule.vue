@@ -37,12 +37,8 @@
               <i> (outside, weather-permitting)</i><br />
               <b>6 PM - Welcome Dinner BBQ</b>
               <i> (outside, weather-permitting)</i><br />
-              <b>8 PM - </b>Talent show<i> (outside, weather-permitting)</i>.
-              <a
-                href="https://docs.google.com/spreadsheets/d/1j4lZV38hfLajJQT5hIJpp7oOfKGJwRMitj6pcoPIiWg/edit?usp=sharing"
-                target="_blank"
-                >Click Here to Sign up!</a
-              ><br />
+              <b>8 PM - </b>Talent show<i> (outside, weather-permitting)</i>
+              (sign-up sheet will be available at the welcome area!)<br />
               <b>9 PM - </b>Havdalah Ceremony, Bonfire and Karaoke
             </div>
             <br />
