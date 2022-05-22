@@ -94,7 +94,7 @@
                     >Click here to donate.</a
                   >
                 </li>
-                <li>
+                <!--<li>
                   <a href="https://www.why-not-prosper.org/" target="_blank"
                     ><b>Why Not Prosper</b></a
                   >
@@ -106,6 +106,7 @@
                     >Click here to donate</a
                   >.
                 </li>
+                -->
               </ul>
             </v-container>
             Second, for those interested in giving us a monetary gift, you are
