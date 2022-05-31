@@ -6,14 +6,31 @@
         <div class="shape shape-style-1 shape-default shape-skew"></div>
         <div class="container shape-container d-flex">
           <div class="col px-0">
-          <div class="row justify-content-center">
-              <v-img src="img/pages/home.jpeg" max-height="500"></v-img>
+            <div class="row justify-content-center">
+              <v-img src="img/pages/home_post.jpeg" max-height="500"></v-img>
             </div>
             <div class="row justify-content-center">
               <h1 class="display-3  text">
-                <span>Celebrate our wedding with us!</span>
+                <span
+                  >Thank you so much for celebrating our wedding with us!</span
+                >
+                <br />
+                <span
+                  >If you want to share some photos, or see what photos others
+                  have shared, head over to
+                  <a
+                    target="_blank"
+                    href="http://photos.celebrateourweddingwith.us"
+                    >this google photo album</a
+                  >!</span
+                ><br />
+                <span>Professional photos and video will be shared later!</span>
               </h1>
             </div>
+            <div class="row justify-content-center">
+              <p class="text"></p>
+            </div>
+            <!--
             <div class="row justify-content-center">
               <p class="text">Becky Mer and Stephen Suffian</p>
             </div>
@@ -44,6 +61,7 @@
                 >
               </p>
             </div>
+            -->
           </div>
         </div>
       </section>
@@ -53,15 +71,15 @@
 
 <script>
 export default {
-    data() {
-        return {
-            wholeWeekend: localStorage.wholeWeekend === "true"
-        }
-    }
-}
+  data() {
+    return {
+      wholeWeekend: localStorage.wholeWeekend === "true",
+    };
+  },
+};
 </script>
 <style>
 .text {
-    text-align: center
+  text-align: center;
 }
 </style>
