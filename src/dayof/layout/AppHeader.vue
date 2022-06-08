@@ -8,14 +8,6 @@
               link.text
             }}</router-link>
           </li>
-          <li class="nav-item d-lg-block ml-lg-4">
-            <router-link to="/rsvp-c">
-              <span class="btn-inner--icon">
-                <i class="ni ni-send mr-2"></i>
-              </span>
-              <span class="nav-link-inner--text"><b>RSVP</b></span>
-            </router-link>
-          </li>
         </ul>
       </base-nav>
     </div>
@@ -68,7 +60,7 @@ export default {
         //{'to': '/housing-c', 'text': 'Where to Stay'},
         { to: "/guess-that-photo-c", text: "Guess That Photo" },
         { to: "/gifts-c", text: "Gifts/Donations" },
-        { to: "/faq-c", text: "FAQ/Covid-19" },
+        { to: "/faq-c", text: "FAQ" },
       ],
     };
   },

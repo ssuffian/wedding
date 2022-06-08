@@ -68,7 +68,7 @@ export default {
         //{'to': '/housing-w', 'text': 'Where to Stay'},
         { to: "/guess-that-photo-w", text: "Guess That Photo" },
         { to: "/gifts-w", text: "Gifts/Donations" },
-        { to: "/faq-w", text: "FAQ/Covid-19" },
+        { to: "/faq-w", text: "FAQ" },
       ],
     };
   },
